@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Nicéphore Botaneiatès, proèdre et duc</title>
+                <title xml:lang="en">Seal of Nikephoros Botaneiates, proedros and doukas</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-08">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-63</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil"> 
+                        <persName xml:lang="grc">
+                            <forename>Νικηφόρος</forename>
+                            <surname>Βοτανειάτης</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Nicéphore</forename>
+                            <surname>Botaneiatès</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Nikephoros</forename>
+                            <surname>Botaneiates</surname>
+                        </persName> 
+                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/107947/">Nikephoros 3</idno>
+                        </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">1037</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">30</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">19,82</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend=" worn-edge">  
+                                    <p xml:lang="fr">A peine échancré à l’orifice inférieur du canal ; pressé sur les deux faces.</p>
+                                    <p xml:lang="en">Barely indented at the bottom of the canal; pressed on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW" corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/3006/">3006</idno>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1062" notAfter="1068" evidence="epigraphy" cert="high" resp="#JCC"> 
+                                <seg xml:lang="fr">XIe siècle</seg>
+                                <seg xml:lang="en">11th C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">30</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p>                       
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Saint Dèmètrios de face, en pied, en sa tenue militaire accoutumée,
+                                            armé de la lance en main droite et du petit bouclier rond bordé de perles</figDesc>
+                                        <figDesc n="r" xml:lang="en">Saint Demetrios standing, in his customary military garb, 
+                                            armed with a spear in his right hand and a small round shield adorned with pearls</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc> 
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">30</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                                        <p xml:lang="en">Linear legend of 6 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de perles ; légende précédée d’une croisette</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of pearls; legend preceded by a cross</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+               
+                <glyph xml:id="ho_hagios">
+                    <mapping type="standard"></mapping>
+                    <mapping type="simplified">(ho_hagios)</mapping> 
+                </glyph>
+                <glyph xml:id="alpha">
+                    <mapping type="standard">A</mapping>
+                    <mapping type="simplified">(pro)</mapping>
+                </glyph>            
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-08" who="#SM">Filled in metadata in new template</change>
+            <change when="2024-06-13" who="#SM">Corrections on metadata</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab> 
+                           <cb n="a"/><supplied reason="lost"><expan><ex>Ὁ ἅγιος</ex></expan></supplied> <supplied reason="lost">Δημή</supplied>
+                          <cb n="b"/>τριος
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                        <lb n="1"/>+ <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                          <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan> 
+                          <lb n="3"/><expan><abbr>Νηκηφ</abbr><supplied reason="lost"><abbr>όρ</abbr><ex>ῳ</ex></supplied></expan> 
+                          <lb n="4"/><expan><abbr><am><g ref="#alpha"></g></am></abbr><ex>προ</ex></expan>έδρο <!-- ι cannot be added to o --> <supplied reason="lost">καὶ</supplied>
+                          <lb n="5"/><supplied reason="lost">δ</supplied>οὺξ ὁ <expan><abbr>Β</abbr><supplied reason="lost"><abbr>οτα</abbr></supplied>
+                          <lb n="6" break="no"/><abbr>ν</abbr><ex>ε</ex><abbr>ιάτι</abbr><supplied reason="lost"><abbr>ς</abbr></supplied></expan>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                           <cb n="a"/>.....
+                           <cb n="b"/>Τ|ΡΙ|ΟΣ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                          <lb n="1"/>Κ̅Ε̅Θ 
+                          <lb n="2"/>ΤΣΔ 
+                          <lb n="3"/>ΝΗΚΗ.. 
+                          <lb n="4"/>ΑΕΔΡΟ... 
+                          <lb n="5"/>.ΞΟ... 
+                          <lb n="6"/>ΝΙΑΤΙ. 
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Δημήτριος / + Κύριε βοήθει τῷ σῷ δούλῳ Νηκηφόρῳ προέδρǫ καὶ δουξ ὁ Βοτανειάτις.</p>
+                  <p xml:lang="en">Saint Demetrios. Lord help your servant Nikephoros Botaneiates, proedros and doukas.</p>
+                  <p xml:lang="fr">Saint Dèmètrios. Seigneur aide ton serviteur Nicéphore Botaneiatès, proèdre et duc.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">La légende présente une rupture de construction entre la dignité et la
+                      fonction.
+                      Nicéphore Botaneiatès devint empereur en 1078 jusqu’à ce qu’il fût chassé du pouvoir en 1081.
+                      Auparavant, il avait accompli une carrière militaire de plus de trente ans, dont les étapes ont été minutieusement
+                      retracées par Olga Karagiorgou [1]. En 1062, Nicéphore était proèdre et duc de Thessalonique et, en 1068,
+                      proèdre et duc d’Antioche, ce qui suggère une datation assez contemporaine pour notre sceau.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Ol. Karageorgiou, « ἀπὸ Λάμπης λαμπτῆρα φωσφόρον ἐπιδημῆσαι τοῖς βασιλείοις προεσήμανον » (Attaleiates XII 9-10, p. 175).
+                      On the way to the throne: the career of Nikephoros III Botaneiates before 1078, <hi rend="italic">Hypermachos</hi>, p. 105-132 ; Eadem, Mολυβδόβουλλα
+                      του Βοτανειάτη, p. 77-122.
+                  </p>  
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">82-83</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> <!-- // : Anc. coll. Zacos.
+Éd. du // : ZACos – veglery, no 2687 ; mention dans kArAgiorgou, Mολυβδόβουλλα του Βοτανειάτη, p. 82 et p. 109, no 8. -->
+                  <p>
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+                  </p>
+              </div>
+          </body>
+      </text>
+</TEI>             

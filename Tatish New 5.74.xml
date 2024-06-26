@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Sympatios, patrice anthypatos</title>
+                <title xml:lang="en">Seal of Sympatios, patrikios anthypatos</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-05-30">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_5-74</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Συμπάτιος</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Sympatios</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Sympatios</forename>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">3026</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Dignitaries</seg>
+                            <seg xml:lang="fr">Dignitaires</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">23</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">10,58</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend=" blank-too-small crushed"> 
+                                    <p xml:lang="fr">Flan légèrement trop petit et peu échancré aux orifices du canal ; quelques lettres écrasées.</p>
+                                    <p xml:lang="en">Blank slightly too small and slightly indented at the channel openings; some letters crushed.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/> 
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0901" notAfter="1100" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">Xe/XIe siècle</seg>
+                                <seg xml:lang="en">10th/11th C.</seg>
+                            </origDate>       
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/511384" xml:lang="fr">Pruse</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/511384" xml:lang="en">Prusa</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/750269/bursa.html" xml:lang="fr">Bursa</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/750269/bursa.html" xml:lang="en">Bursa</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">23</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende metrique linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang=""/>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">23</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende metrique linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de perles ; légende précédée d’une croisette et s’achève par une fleur</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of pearls; legend preceded by a cross and followed by a flower</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-30" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                        <lg type="metrical" met="decapentasyllabic" subtype="true">
+                              <l>
+                          <lb n="1"/><supplied reason="lost">+</supplied> Συμπ<supplied reason="lost">ά</supplied>
+                          <lb n="2" break="no"/>τιον πα
+                          <lb n="3" break="no"/><supplied reason="lost">τ</supplied>ρίκιον σκ
+                          <lb n="4" break="no"/>έπε Λόγε 
+                          <lb n="5"/><supplied reason="lost">Θ</supplied>εοῖο
+                                  </l>
+                              </lg>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllabic" subtype="true">
+                              <l>
+                          <lb n="6"/>+ Ἡ Παρ
+                          <lb n="7" break="no"/><supplied reason="lost">θ</supplied>ένος σοι 
+                          <lb n="8"/>τῷ ἀνθυ
+                          <lb n="9" break="no"/>πάτῳ φύ
+                          <lb n="10" break="no"/>λαξ
+                                  </l>
+                              </lg>
+                          </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                       <ab>
+                           <lb n="1"/>.ΣΥΠ.
+                           <lb n="2"/>ΤΙΟΝΠΑ
+                           <lb n="3"/>.ΡΙΚΙΟΝΣΚ
+                           <lb n="4"/>ΕΠΕΛΟΓΕ
+                           <lb n="5"/>.ΕΟΙΟ
+                       </ab>
+                   </div>                  
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                       <ab>  
+                           <lb n="6"/>ΗΠΑΡ
+                           <lb n="7"/>.ΕΝΟΣΣΟΙ
+                           <lb n="8"/>ΤΑΝΘΥ
+                           <lb n="9"/>ΠΑΤΦΥ
+                           <lb n="10"/>ΛΑ
+                       </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>+ Συμπάτιον πατρίκιον σκέπε Λόγε Θεοῖο / + Ἡ Παρθένος σοι τῷ ἀνθυπάτῳ φύλαξ.</p>
+                  <p xml:lang="en">Word of God protect Sympatios, patrikios. Virgin you guard the anthypatos.</p>
+                  <p xml:lang="fr">Parole de Dieu protège Sympatios, patrice. Vierge, tu gardes l'anthypatos.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">La pièce parallèle inédite de la collection Zacos s’achève au revers par une ligne de
+                      fleurons affrontés , détruite ici par le passage du canal, mais cet ornement se devinerait peut-être sur notre
+                      exemplaire aussi, au sommet du champ. Chaque invocation forme une phrase complète, indépendante de
+                      l’autre, ce que souligne la rupture grammaticale. La croisette initiale subsiste au revers, qui pourrait marquer
+                      le début de la double légende, plaçant en tête la Vierge. Cependant, cette face a porté une riche ornementation,
+                      absente du droit, qui a pu aussi débuter par une simple croisette.
+                      Les lettres rondes sont nettement bouletées. La forme ancienne Θεοῖο pour le génitif Θεοῦ se justifie
+                      pour des raisons de métrique. On note également, sur l’autre face, le rare Ϊ indiquant le <hi rend="italic">iota</hi> souscrit de la lettre
+                      précédente (ῳ).
+                      Il faut comprendre que Symbatios se plaçait simultanément sous la protection du Christ, « Verbe de
+                      Dieu » et de la Vierge. Ce personnage, d’origine arménienne d’après son nom, servait au temps de Basile II à
+                      un très haut niveau, compte tenu des dignités que l’empereur lui avait octroyées. Le nom est assez banal dans
+                      le Caucase. Toutefois, en 998, un Symbatios magistre, fils de Vahram Bahlavouni, est mentionné comme l’un
+                      des chefs de l’armée envoyée par Kakikios (Gagik) d’Ani pour seconder les troupes de David le curopalate,
+                      attaquées par l’émir d’Azerbaïdjan [1]. Le sceau aura pu appartenir à ce noble arménien avant qu’il ne fût élevé
+                      à la dignité immédiatement supérieure de magistre. Cette remarque reste une hypothèse.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Étienne Asolik de Taron, <hi rend="italic">Histoire Universelle</hi>, traduite de l’arménien et annotée par F. Macler, Paris 1917, p. 156.
+                  </p> 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">239-240</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> <!-- // : Zacos (BnF) 1120.
+Mention dans WAssiliou-seibt, Metrische Legenden I, no 245 (lecture à corriger). -->
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

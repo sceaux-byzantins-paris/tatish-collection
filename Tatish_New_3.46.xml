@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Théodore Ophrydas, spatharocandidat et juge de Séleucie</title>
+                <title xml:lang="en">Seal of Theodore Ophrydas, spatharokandidatos and judge of Seleukeia</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-07">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_3-46</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Θεόδωρος</forename>
+                            <surname>Όφρυδᾶς</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Théodore</forename>
+                            <surname>Ophrydas</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Theodore</forename>
+                            <surname>Ophrydas</surname>
+                        </persName>                 
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2941</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">23</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">6,75</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge"> 
+                                    <p xml:lang="fr">Echancré à l’orifice supérieur du canal ; usé sur les deux faces.</p>
+                                    <p xml:lang="en">Notched at the upper orifice of the canal; worn on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0901" notAfter="1100" evidence="epigraphy titulature" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">Xe-XIe s.</seg>
+                                <seg xml:lang="en">10th-11th C.</seg>
+                            </origDate>    
+                            
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Buste d’un saint de face, barbu, revêtu de la chlamyde retenue à
+                                            l’épaule par une fibule, et tenant en main droite la croisette des martyrs. Dans le champ, de part et d’autre du
+                                            nimbe de perles, épigraphe perdue, mais la pièce parallèle atteste qu’il s’agit de saint Théodore.</figDesc>
+                                        <figDesc n="r" xml:lang="en">Bust of a bearded saint facing front, wearing a chlamydia held at the shoulder by a fibula and holding the martyrs' cross in his right hand.
+                                            In the field, on either side of the nimbus of pearls nimbus of pearls, epigraph lost, but the parallel piece attests that it refers to Saint Theodoros.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of grenetis</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                                        <p xml:lang="en">Linear legend of 6 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-07" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc"><!-- on devrait restaurer d'après le // -->
+                      <ab>
+                          <cb n="a"/><gap reason="lost" extent="unknown" unit="character"/>
+                      <cb n="b"/><gap reason="lost" extent="unknown" unit="character"/>
+                      </ab>
+                      </div>
+
+                  <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                    <ab>         
+                      <lb n="1"/>+ <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> β<supplied reason="lost">οήθει</supplied> τῷ σ<supplied reason="lost">ῷ</supplied> <supplied reason="lost">δούλῳ</supplied>
+                    </ab> 
+                  </div>
+
+                    <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/><expan><supplied reason="lost"><abbr>Θεο</abbr></supplied>
+                          <lb n="2" break="no"/><supplied reason="lost"><abbr>δώ</abbr></supplied><abbr>ρ</abbr><ex>ῳ</ex></expan> <expan><abbr>σπαθ</abbr><ex>αρο</ex>
+                          <lb n="3" break="no"/><abbr>κ</abbr><ex>αν</ex><abbr>δ</abbr><ex>ι</ex><abbr>δ</abbr><ex>άτῳ</ex></expan> <expan><abbr><am><g type="kai1"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>κρ</abbr><supplied reason="lost"><abbr>ιτ</abbr><ex>ῇ</ex></supplied></expan> 
+                          <lb n="4"/><supplied reason="lost">Σε</supplied>λευκείας 
+                          <lb n="5"/><supplied reason="lost">τῷ</supplied> Ὀφρυ
+                          <lb n="6" break="no"/>δ<supplied reason="lost">ᾷ</supplied>
+                               </ab>
+                  </div>
+
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="face" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <lb n="0"/>
+                       </ab>
+                   </div>   
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                          <lb n="1"/>...
+                          <lb n="2"/>..Ρ/ΣΠΑΘ
+                          <lb n="3"/>Κ//ϗΚΡ..
+                          <lb n="4"/>..ΛΕΥΚΕΙΑΣ
+                         <lb n="5"/>..ΟΦΡΥ
+                         <lb n="6"/>Δ
+                        
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>/ Θεοδώρῳ σπαθαροκανδιδάτῳ καὶ κριτῇ Σελευκείας τῷ Ὀφρυδᾷ.</p>
+                  <p xml:lang="en">Theodoros Ophrydas, spatharokandidatos and judge of Seleukeia.</p>
+                  <p xml:lang="fr">Théodore Ophrydas, spatharocandidat et juge de Séleucie.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">La région de Séleucie d’Isaurie fut placée en première ligne lors de l’assaut des Arabes,
+                      notamment après leur prise de la Cilicie. Elle était réputée pour ses soldats, les Isauriens, dont l’un d’eux, Zénon,
+                      était monté sur le trône au Ve siècle. D’abord une clisure gardant des passages du Taurus, Séleucie fut promue sous
+                      Romain Lécapène au rang de thème[1].
+                      La légende est peut-être à transcrire au datif si la première ligne comportait
+                      une formule d’invocation. D’après la pièce parallèle, le prénom se termine par
+                      VR2 et, si l’on tient compte de l’image au droit, on peut raisonnablement penser
+                      que le sigillant s’appelait Théodore. Le nom d’Ophrydas est connu par la <hi rend="italic">Peira</hi>
+                      qui mentionne un juge homonyme, adversaire des interprétations d’Eustathe
+                      Rhômaios[2]. Les informations données par les sceaux sont plus larges. Michel
+                      Ophrydas fut vestès, juge du Velum et protonotaire de l’éphore dans le troisième
+                      quart du XIe siècle[3]. Théodore fut protospathaire et juge de l’Hippodrome[4]. Un
+                      sceau conservé à DO (55.1.3254) est lu dans la base de données comme Basile
+                      Phrydas ; mais le O de la dernière ligne, seconde lettre de l’article introduisant le nom,
+                      sert sans doute en même temps de première lettre pour ce dernier, à moins qu’il n’y
+                      ait une marque d’abréviation après le T ; il faut probablement lire Basile Ophrydas.
+                      Un sceau inédit mentionne un Grégoire, notaire d’un Ophridas, contemporain de
+                      notre bulle : +GRH|GOR2NO|9TAR2TW9O|FRID2[5]. Cette lignée a donc fourni des juges
+                      pendant près d’un siècle. Un Michel Ophrydas, contemporain d’Alexis Comnène,
+                            n’a pas donné ses titres et fonctions[6]. Un seul Ophrydas est mentionné au XIIe
+                      siècle, servant comme diacre de Sainte-Sophie[7]. On ne sait si les porteurs du nom
+                      apparenté Ophryditzès étaient de la même lignée, utilisant un diminutif, ou s’il
+                      s’agit d’une famille indépendante[8].
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]  Pour plus de détails, cf. Hellenkemper –Hild, <hi rend="italic">Kilikien-Isaurien</hi>, p. 402-406.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]  <hi rend="italic">Peira</hi>, p. 57, 214 ; un procès a opposé Ophrydas et son neveu (p. 70).
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3] Lichačev, <hi rend="italic">Molivdovuly</hi>, pl. LXVIII, no 15. Au revers, le rare motif de la Vierge <hi rend="italic">Galaktotrophoussa</hi>.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-4">
+                      [4] Sceau de l’ancienne coll. Zacos (BnF 463). Au revers saint Théodore (première moitié du XIe siècle).
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-5">
+                      [5] Sceau de l’ancienne coll. Zacos (BnF 4765), mentionné dans Cheynet – Theodoridis, <hi rend="italic">Sceaux patronymiques</hi>, p. 165. J’avais
+                      considéré Grégoire comme un Ophrydas, selon la formule ὁ τοῦ, mais il était plutôt le notaire d’un personnage assez important pour être
+                      identifié par son seul nom transmissible. Peut-être s’agissait-il de l’Ophrydas mentionné dans la <hi rend="italic">Peira</hi>.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-6">
+                      [6] Cheynet – Theodoridis, <hi rend="italic">Sceaux patronymiques</hi>, no 155.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-7">
+                      [7] S. Eutratiades, Τυπικὸν τῆς ἐν Κωνσταντινουπόλει μονῆς τοῦ ἁγίου μεγαλομάρτυρος Μάμαντος, <hi rend="italic">Hellenika</hi> 1, 1928, p. 310.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-8">
+                      [8] Wassiliou-Seibt, <hi rend="italic">Metrische Legenden</hi> I, no 1069.
+                  </p> 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">154-155</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                        <!--  Musée d’Ankara, inédit.-->
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau des prêtres et <hi rend="italic">ekklèsiekdikoi</hi> de Sainte-Sophie</title>
+                <title xml:lang="en">Seal of the priests and the <hi rend="italic">ekklesiekdikoi</hi> of Hagia Sophia</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-24">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_6-7</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="secular-church"><!--J'ai un doute sur l'attribution,-->
+                        <persName xml:lang="grc">
+                            <forename>πρεσβυτέροι καὶ ἐκκλησεκδίκοι</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>prêtres et ekklèsiekdikoi</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>priests and ekklesiekdikoi</forename>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2387</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Secular Church</seg>
+                            <seg xml:lang="fr">Église séculière</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">45</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">71,5</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="blank-too-small"> 
+                                    <p xml:lang="fr">Le flan est de taille et poids exceptionnels, comme pour tous les sceaux des ekklèsiekdikoi, mais il était
+                                        encore trop petit ; échancré aux orifices du canal ; écrasé au pourtour du revers ; belle gravure.</p>
+                                    <p xml:lang="en">The blank is of exceptional size and weight, as with all the ekklesiekdikoi seals, 
+                                        but it was still too small; indented at the orifi ces of the channel; crushed around the reverse; beautiful engraving.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1251" notAfter="1300" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIIIe siècle (deuxième moitié)</seg>
+                                <seg xml:lang="en">13th C. (second half)</seg>
+                            </origDate>    
+                        </origin> 
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599905" xml:lang="fr">Annaea</placeName><!--C'est le point le plus proche que j'ai trouvé-->
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/599905" xml:lang="en">Annaea</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/300399/soeke.html" xml:lang="fr">Söke</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/300399/soeke.html" xml:lang="en">Söke</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">71,5</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Scène à deux personnages en pied. A gauche dans
+                                            le champ, l’empereur Justinien, debout de face sur un souppédion ovale bordé de perles, présente à la Vierge, à
+                                            droite, un modèle de l’église Sainte-Sophie, au centre. L’empereur, non nimbé, coiffé d’une couronne à pendilia,
+                                            est revêtu du lôros droit orné de croisillons de perles, dont le pan, terminé par des franges, repose sur le bras gauche
+                                            levé, qui soutient l’édifice. La main droite est ramenée devant la poitrine, à demi ouverte en geste d’adoration.
+                                            La Vierge, debout sur un souppédion ovale, regarde de face et se présente tournée de trois quarts vers la gauche,
+                                            portant la maquette sur ses deux mains tendues. Le dôme repose sur trois arcatures, portées par quatre colonnes,
+                                            fermées à mi-hauteur par des panneaux cloisonnés, mais le portail royal, ouvert, laisse voir la croix patriarcale
+                                            sur l’autel</figDesc>
+                                        <figDesc n="r" xml:lang="en">Scene with two full-length figures. To the left in the field, the Emperor Justinian, 
+                                            standing frontally on an oval souppedion bordered with pearls, presents the Virgin, to the right, a model of the church of Saint Sophia, in the centre. 
+                                            The unnimbed emperor, wearing a crown with pendilia, is clad in the right lôros decorated with pearl crosses, the flap of which, finished with fringes, 
+                                            rests on his raised left arm, supporting the edifice. The right hand is brought before the chest, half open in a gesture of adoration.
+                                            The Virgin, standing on an oval base, looks out from the front, facing three quarters to the left, carrying the model on her two outstretched hands. 
+                                            The dome rests on three arches, supported by four columns, closed at mid-height by cloisonné panels, but the open royal portal reveals the patriarchal cross on the altar.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">71,5</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="fr"></figDesc>
+                                        <figDesc n="v" xml:lang="en"></figDesc>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-24" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc"><!--la légende est présentée sur cinq colonnes-->
+                       <ab>
+                          <cb n="a"/>Ἡ ἁ
+                        <cb n="b" break="no"/>γία 
+                             <cb n="c"/>Σο  <!--Σοφία se trouve entre les deux figures--> <!--j'ai essayé d'augmenter le nombre de colonnes avec c,d et e mais avec la lettre e la série s'arrête qui isole le α.-->
+                        <cb n="d" break="no"/>φί
+                        <cb n="e" break="no"/>α
+                      </ab>
+                  </div>
+                 <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan> 
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan> 
+                          <cb n="c"/>Ἡ Βοήθηα
+                        <cb n="d"/>Ἰουστινιανὸν δεσπότην
+                      </ab>
+                  </div>
+               
+                      <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>Τοῖς θε
+                             <lb n="2" break="no"/><supplied reason="lost">ο</supplied>σεβεστάτοις 
+                             <lb n="3"/>πρεσβυτέροι<supplied reason="lost">ς</supplied>
+                          <lb n="4"/>καὶ ἐκκλη<supplied reason="lost">σ</supplied>
+                           <lb n="5" break="no"/>εκδίκοις
+ 
+                               </ab>
+
+                          </div>
+
+
+            </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                      <lb n="0"/>Η
+                            <lb n="1"/>ΣΟ|ΦΙ|
+                            <lb n="2"/>|Θ̅Υ̅|ΗΒΟ|Η̣Θ|Η|̣
+                            <lb n="3"/>Ι|ΟΥ|Ι|ΝΙ||ΝΟΝ|ΔΕΣ|ΠΟΤ|
+                       </ab>
+                     </div>   
+                      
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                           <lb n="4"/>
+                             <lb n="5"/>ΤΟΙΣΘΕ
+                           <lb n="6"/>.ΣΕΒΕΤΟΙΣ
+                           <lb n="7"/>ΓΡΕΣΒΥΤΕΡΟΙ.
+                         <lb n="8"/>ΚΙΕΚΚΗ.
+                         <lb n="9"/>ΕΚΔ̣ΙΚ̣ΟΙΣ
+                          <lb n="10"/>
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Ἡ ἁγία Σοφία. Μήτηρ Θεοῦ Ἡ Βοήθηα. Ἰουστινιανὸν δεσπότην. / Τοῖς θεοσεβεστάτοις πρεσβυτέροις καὶ ἐκκλησεκδίκοις.</p>
+                  <p xml:lang="en">Hagia Sophia. Mother of God, Rescue. Justinian, despotes. To the very pious priests and ekklesiekdikoi.</p>
+                  <p xml:lang="fr">Saint Sophia. Mère de Dieu, le Secours. Justinien, despote. Aux très pieux prêtres et <hi rend="italic">ekklèsiekdikoi</hi>.</p>
+              </div>
+         
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Ce sceau appartient à la dernière variante des sceaux connus des prêtres
+                      juges de Sainte-Sophie. Le rôle d’intercesseur de la Vierge y est affirmé, « le Secours » auprès des prévenus et
+                      l’aide aux membres du tribunal ecclésiastique. Sur un autre groupe de sceaux de même organisation, en effet, la
+                      légende circulaire commence au dos de l’empereur, à gauche dans le champ, YKEBOHYEI, et s’achève à droite,
+                      derrière la Vierge, Ἰουστινιανὸν δεσπότην [1]. Nombre de sceaux de cette institution ont été conservés sur plusieurs siècles, car il s’agit du tribunal
+                      ecclésiastique le plus solennel.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1] Zacos II, nos 69a, b, c ; <hi rend="italic">DOSeals</hi> 5.42.14 ; Campagnolo-Pothitou – Cheynet, <hi rend="italic">Sceaux Zacos</hi>, no 269 (avec les autres références et,
+                      p. 301-311, un large commentaire sur l’évolution de ce modèle de bulle).
+                  </p> 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">283-285</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                         <!-- Fogg 2932.
+                          Ed. du // : DOSeals 5.42.18, seul exemplaire présentant au droit la même disposition des inscriptions et les mêmes ornements à la base
+                          et au centre.-->
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

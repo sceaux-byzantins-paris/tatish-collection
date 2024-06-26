@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Apelgaripès Chasanios, patrice (?), <hi rend="italic">stratèlatès</hi> (?), stratège de Tarse et ...</title>
+                <title xml:lang="en">Seal of Apelgaripes Chasanios, patrikios (?), <hi rend="italic">stratelates</hi> (?), strategos of Tarsus and...</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-07">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_3-48</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military">
+                        <persName xml:lang="grc">
+                            <forename>Ἀπελγαρίπης</forename>
+                            <surname>Χασάνιος</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Apelgaripès</forename>
+                            <surname>Chasanios</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Apelgaripes</forename>
+                            <surname>Chasanios</surname>
+                        </persName>                 
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">3048</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">29</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">19,2</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="obliterated"> 
+                                    <p xml:lang="fr">Petites échancrures aux orifices du canal ; revers oblitéré en deux points.</p>
+                                    <p xml:lang="en">Small indentations at the openings of the channel; reverse obliterated at two points</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="epigraphy titulature" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIe s. (troisième quart)</seg>
+                                <seg xml:lang="en">11th C. (third quarter)</seg>
+                            </origDate>    
+                            
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/837" xml:lang="fr">Asie Mineure</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/837" xml:lang="en">Asia Minor</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/298795/republic-of-turkey.html" xml:lang="fr">Turquie occidentale</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/298795/republic-of-turkey.html" xml:lang="en">West Turkey</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">29</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Saint Théodore nimbé, de face, en pied, dans une représentation
+                                            inhabituelle de ses attributs militaires. Sous la chlamyde, la cuirasse forme un triangle couvrant les épaules
+                                            jusqu’à la taille ; la main gauche, levée à hauteur des oreilles, tient une longue lance dont la pointe est posée au
+                                            sol, tandis que la main droite brandit le bouclier rond derrière lequel est dressée l’épée, en position d’apparat, non
+                                            de combat.</figDesc>
+                                        <figDesc n="r" xml:lang="en">Saint Theodoros, nimbed, full-length, in an unusual representation
+                                            his military attributes. Beneath the chlamys, the breastplate forms a triangle covering the shoulders to the waist.
+                                            to the waist; the left hand, raised to ear level, holds a long spear, the tip of which is resting on the ground, while the right hand brandishes a sword.
+                                            The left hand, raised to the height of the ears, holds a long spear whose tip is resting on the ground, 
+                                            while the right hand brandishes the round shield behind which the sword is raised, in a ceremonial position, not one of combat.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">29</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                                        <p xml:lang="en">Linear legend of 7 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-07" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                 <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                          <cb n="a"/><supplied reason="lost"><expan><ex>Ὁ ἅγιος</ex></expan></supplied> <supplied reason="lost">Θε</supplied>ό
+                          <cb n="b"/>δωρος
+                      </ab>
+                  </div>
+
+                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>+ <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>βο
+                          <lb n="2" break="no"/>ήθ</abbr><ex>ει</ex></expan> <expan><abbr>Ἀπελγαρίπ</abbr><ex>ῃ</ex></expan> 
+                          <lb n="3"/><expan><supplied reason="lost"><abbr>π</abbr><ex>ατ</ex><abbr>ρ</abbr></supplied><abbr>ι</abbr><ex>κίῳ</ex></expan> <supplied reason="lost" cert="low"><expan><abbr>στρα</abbr><ex>τη</ex><abbr>λ</abbr><ex>ά</ex><abbr>τ</abbr><ex>ῃ</ex></expan></supplied> 
+                          <lb n="4"/><expan><abbr>στρ</abbr><ex>α</ex><abbr>τηγ</abbr><supplied reason="lost"><abbr>ῷ</abbr></supplied></expan> <supplied reason="lost">Ταρ</supplied>
+                          <lb n="5" break="no"/>σοῦ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Σ<gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="6"/>δε τῷ Χα <!-- needs to be checked by Alessio -->
+                          <lb n="7" break="no"/>σανίῳ
+                               </ab>
+                  </div>
+
+
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="face" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <lb n="0"/>ΟΔ||Ο|Σ
+                       </ab>
+                   </div>   
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                          <lb n="1"/>Θ̅Κ̅Ο
+                          <lb n="2"/>ΗΘ/ΑΠΕΛΓΑΡΠ/
+                          <lb n="3"/>...ΣΤΡ̅ΛΑΤΛΤ
+                          <lb n="4"/>ΣΤΡ̅ΤΗΓ....
+                         <lb n="5"/>ΣΚˋΣ...
+                         <lb n="6"/>ΔΕΤΧΑ
+                         <lb n="7"/>ΣΑΝΙ
+                         <lb n="8"/>
+                        
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Θεόδωρος / + Θεοτόκε βοήθει Ἀπελγαρίπῃ πατρικίῳ στρατηλάτῃ ? στρατηγῷ Ταρσοῦ καὶ Σ...δε τῷ Χασανίῳ.</p>
+                  <p xml:lang="en">Saint Theodoros. Theotokos help Apelgaripes Chasanios, patrikios, stratelates, strategos of Tarsos and ... .</p>
+                  <p xml:lang="fr">Saint Théodore. Théotokos aide Apelgaripès Chasanios, patrice, stratèlatès, stratège de Tarse et ....</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">La lecture du sceau est difficile, car les lacunes sont assez importantes, en
+                      dépit de la qualité de la pièce. Le sigillant se place sous la protection de la Vierge, mais représente au droit saint
+                      Théodore. C’est un stratège de Tarse, et sans doute aussi d’une ou deux villes supplémentaires. La première lettre,
+                      S, peut laisser penser à Séleucie, voisine géographiquement, mais dont aucun texte ne nous dit qu’Apelgaripès
+                      l’ai jamais eue sous son autorité. Cette hypothèse laisse de plus inemployées deux lettres : DE. Tarse, centre un
+                      temps d’un émirat arabe, ville puissamment fortifi ée, avait été reconquise par les Byzantins en 965 et resta sous
+                      leur domination jusqu’en 1085, lorsqu’elle fut prise par le Seldjoukide de Nicée, Suleyman[1].
+                      W. Seibt et Al. Wassiliou-Seibt, à qui j’ai envoyé la photographie du sceau, m’ont offert des suggestions
+                      pour lesquelles je les remercie vivement. Malgré tout, la lecture de la troisième ligne de la légende reste
+                      problématique. On est tenté par une lecture patrice, stratèlate et stratège, hypothèse qui justifie la présence d’un
+                      signe d’abréviation sur les premières lettres de la troisième ligne. La difficulté réside dans la combinaison inédite
+                      des deux titres militaires, l’un, celui de stratèlate, relevant des <hi rend="italic">tagmata</hi> et l’autre, stratège, plutôt des <hi rend="italic">thémata</hi>. On
+                      attendrait plutôt une invocation, telle que « la Vierge aide Apelgaripès avec le concours du Stratèlate », c’est-à-dire
+                      le saint Théodore figuré au droit du sceau. Mais le sceau d’Hervé Phrangopoulos (3.43) montre que dans ces
+                      décennies de trouble les normes administratives ne sont peut-être plus systématiquement respectées.
+                      Cependant, la fin de la troisième ligne n’est pas d’une lecture aisée, notamment pour les dernières lettres
+                      du mot <hi rend="italic">stratèlatès</hi>. W. Seibt doute de cette lecture et propose magistre, suivi d’une autre dignité ou fonction,
+                      difficile à déterminer. Le signe d’abréviation du début de la ligne marquerait la réticence du graveur à mettre des
+                      A, comme dans le mot stratège à la quatrième ligne.
+                      Une autre conjecture, proposée par Alexandra Wassiliou-Seibt concerne le second lieu de commandement
+                      du stratège, pour lequel ma seule lecture assurée est celle de la lettre initiale, la suivante étant fortement écrasée.
+                      Le volume de la TIB sur la Cilicie et l’Isaurie signale une forteresse, pas très éloignée de Sis, connue sous le
+                      nom Süphandere[2], qui pourrait avoir la forme byzantine, Σουφανδέ. C’est une hypothèse très ingénieuse, mais
+                      il faudrait une confirmation de l’existence de ce petit thème, associé à celui, beaucoup plus vaste, de Tarse.
+                      En définitive, cette magnifique bulle n’offrira toutes ses précieuses informations qu’en présence d’un nouvel
+                      exemplaire qui en complétera les lacunes.
+                      Deux personnages contemporains au nom proche sont connus, qui ont exercé des commandements
+                      dans cette région, Apelgaripès et Apnelgaripès. Leurs sceaux, connus en plusieurs exemplaires, se distinguent
+                      clairement par le choix du saint militaire qui illustre leurs bulles. Apnelgaripès s’est placé sous la protection de
+                      saint Georges, alors que Apelgaripès a préféré saint Théodore.
+                      Pour la première fois, notre bulle donne une information supplémentaire, le second nom du sigillant,
+                      Chasanios, et permet de l’identifier avec précision. Il s’agit d’un Artzrouni qui, sous Michel VII, avait été placé à
+                      la tête des villes ciliciennes, Tarse, Mamistra. Ses rapports avec un autre Arménien passé au service des Byzantins,
+                      Kakikios d’Ani, étaient difficiles, même si un mariage entre David, fils de Kakikios, et une fille d’Apelgharib,
+                      aurait dû les rapprocher[3]. Le sceau est antérieur à 1078, date de la mort du personnage. On connaît le sceau d’un
+                      Apelgariphès, anthypatos, vestès et stratège de Séleucie, illustré par une représentation de Grégoire « archevêque
+                      de la Grande Arménie ». Il ne faut pas le confondre avec notre sigillant, car le stratège de Séleucie était un
+                      Bahlavouni, neveu de Grégoire Magistros[4]. Notre Apelgaripès, fils de Hasan, appartenait à une branche cadette
+                      des Artzrouni.
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]  Hellenkemper –Hild, <hi rend="italic">Kilikien-Isaurien</hi>, p. 431-432.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]  <hi rend="italic">Ibid</hi>., p. 420-421.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3]  G. Dédéyan, <hi rend="italic">Les Arméniens entre Grecs, Musulmans et Croisés. Etude sur les pouvoirs arméniens dans le Proche-Orient méditerranéen
+                      (1068-1150)</hi>. 2 vol., Lisbonne 2003, p. 289, 297.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-4">
+                      [4]  W. Seibt, Ἀρσακίδης /Aršakuni – Armenische Aristokraten in byzantinischen Diensten, in <hi rend="italic">ΑΝΔΡΙΑΣ. Herbert Hunger zum 80.
+                      Geburtstag</hi>, <hi rend="italic">JÖB</hi> 44, 1994, p. 352-353..
+                  </p> 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">157-159</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                         
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../SigiDoc-Epidoc_schema/sigidoc-chained.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau d'André, cubiculaire</title>
+                <title xml:lang="en">Seal of Andreas, koubikoularios</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-15">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_4-1a</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="E" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Ἀνδρέας</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>André</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Andreas</forename>
+                        </persName>
+                        <idno type="PBE" ana="http://www.pbe.kcl.ac.uk/person/p324">PBE Andreas 1</idno> 
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2378</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">22</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">8,58</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge"> 
+                                    <p xml:lang="fr">Très nettement échancré aux orifices du canal ; usé sur les deux faces</p>
+                                    <p xml:lang="en">Very clearly indented at the canal openings; worn on both sides</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0641" notAfter="0660" evidence="epigraphy onomastics titulature" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">VIIe siècle (milieu)</seg>
+                                <seg xml:lang="en">7th C. (middle)</seg>
+                            </origDate>    
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie</p>
+                                        <p xml:lang="en">Iconography</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Cavalier monté, galopant à droite, manteau flottant au vent ; tête
+                                            présentée de profil, coiffée d’un haut bonnet fermé, sorte de tiare ; l’effigie brandit un rouleau en main gauche.</figDesc>
+                                        <figDesc n="r" xml:lang="en">Mounted horseman galloping to the right, 
+                                            cloak billowing in the wind; head shown in profile, wearing a high closed cap, a sort of tiara; 
+                                            the effigy brandishes a scroll in his left hand.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Monogramme cruciforme</p>
+                                        <p xml:lang="en">Cruciform monogram</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="fr">Monogramme cruciforme comportant au sommet RW, à gauche e, à droite N et à la base, D
+                                            contenant A. Dans les cantons, inscriptions en caractères latins.</figDesc>
+                                        <figDesc n="v" xml:lang="en">Cruciform monogram with RW at the top, e on the left, N on the right and D at the base. containing A. 
+                                            The inscriptions in the cantons are in Latin characters.</figDesc>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-15" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                <!--  <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                      </ab>
+                  </div>-->
+                      
+                   <!-- il faut voir les // pour savoir si la légende se termine par une abréviation r(iu)???? -->
+                      <div type="textpart" subtype="face" n="rev" rend="monogram-cross" xml:lang="grc-Latn"><!-- xml:lang="grc-Latn" pas approprié ici; il faut trouver une meilleure solution -->
+                      <ab>
+                           <lb n="1"/><expan><ex>Ἀνδρέου</ex></expan> cubicu<supplied reason="lost" evidence="parallel">lariu</supplied>
+                               </ab>
+                          </div>
+
+
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <!--<div type="textpart" subtype="face" n="obv" rend="monogram-cross" xml:lang="grc">
+                       <ab>
+                      
+                          
+                       </ab>
+                   </div>   -->
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                           <lb n="0"/>––Ρ–Ν–. 
+                         C–I|C–.. 
+                         
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Ἀνδρέου cubiculariu.</p>
+                  <p xml:lang="en">Andreas, koubikoularios.</p>
+                  <p xml:lang="fr">André, cubiculaire.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Les éditeurs du specimen de
+                      l’ancienne coll. Hecht expliquent en détail comment interpréter
+                      les caractères latins de la légende, d’un emploi relativement
+                      tardif, combiné avec un monogramme en lettres grecques.
+                      André est un eunuque bien connu au service des empereurs
+                      Constant II et Constantin IV. Il fut notamment ambassadeur de
+                      ce dernier, en 667/668, lors d’un des premiers contacts offi ciels
+                      avec les Omeyyades. L’année suivante, il conduisit une
+                      armée byzantine qui reprit Amorion aux Arabes et massacra
+                      la garnison qu’ils y avaient laissée [1]. Le sceau d’André
+                      constitue l’un des rares exemples, en dehors des empereurs, où
+                      le sigillant est représenté sur sa bulle. Il est probable qu’André
+                      tenait un rouleau contenant des instructions impériales. Sur
+                      cette bulle si personnelle, l’usage des deux langues pourrait
+                      aussi signifi er qu’André était apte à en user, ce qui n’était
+                      probablement pas le cas du graveur. André a laissé un nombre
+                      exceptionnel de bulles pour cette époque, si l’on excepte les
+                      sceaux impériaux.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1] PmbZ, no 353.
+                  </p> 
+                 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">176-177</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                        <!--  (α) Zacos – Veglery, no 1375 ; (β) Seibt – Zarnitz, Bleisiegel, no 4.3.11 ; (γ) E. V. Stépanova, Pečati s latinskimi i greckolatinskimi
+                          nadpisiami VI-VIII vv. na sobranija Ermitaža, Saint-Pétersbourg 2006, nos 143 a, b, c ; (δ) M. Braulin – J. Nesbitt,
+                          Selections from a Private Collection of Byzantine Bullae, Byz. 68, 1998/1, no 6, fig. 9 ; (ε) Nesbitt – Wassiliou-Seibt – Seibt, Hecht
+                          Collection, p. 37, no 6, avec une étude complète des différents plombs et des interprétations à propos de l’iconographie du droit.-->
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             
