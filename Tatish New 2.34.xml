@@ -63,10 +63,11 @@
                         </settlement>
                         <institution/> 
                         <repository/> 
-                        <collection type="private" xml:lang="en" ref="URI">
-                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        <collection type="private" ref="URI">
+                            <rs type="collection-name" xml:lang="en"><persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection</rs>
+                            <rs type="collection-name" xml:lang="fr"> Collection <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                Tatış</persName>.</rs>
                         </collection>
-                        <collection type="private"/> 
                         <idno type="inv-nr-current">2695</idno>
                         <altIdentifier>
                             <repository/>
