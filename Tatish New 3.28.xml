@@ -133,7 +133,10 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName/>
+                                    <placeName ref="https://pleiades.stoa.org/places/874298">Edesse</placeName>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName ref="https://pleiades.stoa.org/places/874298">Edessa</placeName>
                                 </seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1078" notAfter="1081" evidence="epigraphy" cert="high" resp="#JCC">
