@@ -189,9 +189,9 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr">Buste de saint Nicolas de face, en son
+                                        <figDesc n="r" xml:lang="fr" ana="male saint bishop St-Nicholas bust gospel">Buste de saint Nicolas de face, en son
                                             vêtement épiscopal, tenant le Livre et bénissant</figDesc>
-                                        <figDesc n="r" xml:lang="en">Bust of Saint Nicholas in his episcopal vestment, holding the Bible and blessing</figDesc>
+                                        <figDesc n="r" xml:lang="en" ana="male saint bishop St-Nicholas bust gospel">Bust of Saint Nicholas in his episcopal garment, holding the Book and blessing</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc> 
                                     </figure>

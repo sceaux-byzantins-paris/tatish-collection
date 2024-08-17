@@ -98,7 +98,7 @@
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">18</dim>
+                                        <dim type="diameter">19</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g">5,08</measure>
                                     <measure type="axis" unit="clock"/>
