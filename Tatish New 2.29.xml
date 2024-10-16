@@ -252,8 +252,10 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
-                                        <p xml:lang="en">Linear legend of 6 lines</p>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes dont la
+                                            dernière est détruite</p>
+                                        <p xml:lang="en">Linear legend of 6 lines, the last of which
+                                            is no longer extant</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
