@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- last changed before 1.0 version release 2021-08-02 -->
-<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
-<!-- ongoing changes to 2.0: march 2024 -->
-
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -14,8 +10,9 @@
                 <title xml:lang="en">Seal of Nicholas, horreiarios</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <funder>
-                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
-                </funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
                 <principal>Alessio Sopracasa</principal>
             </titleStmt>
             <editionStmt>
@@ -24,16 +21,19 @@
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
                 <editor role="digital-editor" xml:id="SM" when="2024-04-02">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2024-10-15">Alessio
+                    Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename">Tatış_2-28</idno>
-                <idno type="SigiDocID"/>
+                <idno type="SigiDocID">s-mYY0oK</idno>
                 <idno type="sequence"/>
-                <date when="2024-03-03"/>
+                <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -48,7 +48,7 @@
                         </persName>
                         <persName xml:lang="en">
                             <forename>Nicholas</forename>
-                        </persName> 
+                        </persName>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -58,20 +58,26 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr">Izmir</seg>
-                            <seg xml:lang="en">Izmir</seg>
+                            <seg xml:lang="fr"><placeName
+                                ref="https://www.geonames.org/311046/izmir.html"
+                                >Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName
+                                ref="https://www.geonames.org/311046/izmir.html"
+                                >İzmir</placeName></seg>
                         </settlement>
-                        <institution/> 
-                        <repository/> 
-                        <collection type="private" xml:lang="en" ref="URI">
-                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="owner"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
                         </collection>
-                        <collection type="private"/> 
                         <idno type="inv-nr-current">2353</idno>
                         <altIdentifier>
                             <repository/>
-                            <collection type="private"/> 
-                            <collection type="private"/> 
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
                     </msIdentifier>
@@ -90,8 +96,10 @@
                                             <seg xml:lang="fr">Sceau</seg>
                                             <seg xml:lang="en">Seal</seg>
                                         </term>
-                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
-                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="fr">Plomb</seg>
@@ -107,22 +115,25 @@
                                     <measure type="countermark" unit="clock"/>
                                 </support>
                                 <condition rend="well-struck">
-                                    <p xml:lang="fr">Légèrement échancré aux orifices du canal ; belle frappe.</p>
-                                    <p xml:lang="en">Slightly indented at the openings of the canal; beautiful striking.</p>
+                                    <p xml:lang="fr">Légèrement échancré aux orifices du canal;
+                                        belle frappe.</p>
+                                    <p xml:lang="en">Slightly indented at the openings of the canal;
+                                        well struck.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="whole">
                                     <rs type="execution">
                                         <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
                                     </rs>
                                     <rs type="shape">
                                         <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc"/>
-                                        <idno type="PBW"/>
-                                    </rs>                                     
+                                        <idno type="SigiDoc">m-qcXwXy</idno>
+                                    </rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -134,9 +145,10 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1001" notAfter="1050"
+                                evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (première moitié)</seg>
-                                <seg xml:lang="en">11th C. first half</seg>
+                                <seg xml:lang="en">11th C., first half</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -163,8 +175,9 @@
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
-                            <textLang n="r" mainLang="" otherLangs="">
-                                <seg xml:lang=""/>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
                             </textLang>
                         </msContents>
                         <physDesc>
@@ -172,7 +185,7 @@
                                 <layoutDesc>
                                     <layout n="r">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter">18</dim>
+                                            <dim type="diameter"/>
                                         </dimensions>
                                         <p xml:lang="fr">Iconographie</p>
                                         <p xml:lang="en">Iconography</p>
@@ -181,16 +194,20 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="en"/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr">Croix patriarcale élevée sur trois degrés, aux bras terminés par
-                                            un globule. Sous le bras inférieur, la tige est traversée à mi-hauteur par un globe</figDesc>
-                                        <figDesc n="r" xml:lang="en">Patriarchal cross raised on three steps, with arms ending in a globule. 
-                                            Under the lower arm, the stem is crossed at mid-height by a globe</figDesc>
+                                        <figDesc n="r" ana="cross patriarchal on-steps" xml:lang="fr">Haute croix patriarcale élevée
+                                            sur trois degrés, aux bras terminés par un globule. Sous
+                                            le bras inférieur, la tige est traversée à mi-hauteur
+                                            par un globe. Ce type de croix est inhabituel.</figDesc>
+                                        <figDesc n="r" ana="cross patriarchal on-steps" xml:lang="en">High patriarchal cross raised
+                                            on three steps, with arms ending in a globule. Under the
+                                            lower arm, the stem is crossed at mid-height by a
+                                            globe. This kind of cross is unusual.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc>
                                     </figure>
@@ -214,7 +231,7 @@
                                 <layoutDesc>
                                     <layout n="v">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter">18</dim>
+                                            <dim type="diameter"/>
                                         </dimensions>
                                         <p xml:lang="fr">Légende linéaire sur 3 lignes</p>
                                         <p xml:lang="en">Linear legend of 3 lines</p>
@@ -229,10 +246,11 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v" xml:lang=""/>
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de perles ; légende surmontée et suivie
-                                            d’une perle accostée de tirets</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of pearls; legend surmounted and followed by a pearl flanked by dashes</figDesc>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de perles; une perle accostée de
+                                            tirets précède et suit la légende sur des lignes séparées</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of pearls; a pearl flanked by
+                                            dashes precedes and follows the legend on separate lines</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -242,96 +260,114 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl><p/></editorialDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
             <charDecl>
-                <glyph/> 
-            </charDecl> 
+                <glyph/>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="Grek">Greek script</language>
                 <language ident="Latn">Latin script</language>
-                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
-                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
-                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
                 <language ident="la-Grek">Latin written in Greek script</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2023-06-23" who="#AS"/>
-            <change when="2024-04-02" who="#SM">Filled in metadata in new template</change>
-            <change when="2024-04-03" who="#SM">Corrections on legend's encoding. Filled in comments and bibliography</change>
+            <change when="2024-10-15" who="#AS">Revision and correction of the entire XML
+                file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
+            <change when="2024-04-03" who="#SM">Corrections on legend's encoding. Filled in comments
+                and bibliography</change>
+            <change when="2024-04-02" who="#SM">Filled in metadata in new template</change>
+            <change when="2023-06-23" who="#AS"/>
         </revisionDesc>
-      </teiHeader>
-      <facsimile>
-          <surfaceGrp>
-              <surface n="r">
-                  <desc>Obverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the obverse (2019).</desc>
-                  </graphic>
-              </surface>
-              <surface n="v">
-                  <desc>Reverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the reverse (2019).</desc>
-                  </graphic>
-              </surface>
-          </surfaceGrp>
-      </facsimile>
-      <text>
-          <body>
-              <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"/> 
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                  <!--<div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"/>--> 
                       
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="1"/><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
                           <lb n="2"/><expan><abbr>Νικολ</abbr><ex>άῳ</ex></expan>
-                          <lb n="3"/><expan><abbr>ὁρ</abbr><ex>ε</ex><abbr>ιαρ</abbr><ex>ίῳ</ex></expan>
+                          <lb n="3"/><expan><abbr>ὁριαρ</abbr><ex>ίῳ</ex></expan>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve">
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc"/>
                       
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <ab><lb n="0"/>
-                          <lb n="1"/>ΚΕΘ
-                          <lb n="2"/>ΙΚΟΛ
-                          <lb n="3"/>ΟΡΙΑΡ 
+                      <ab>
+                          <lb n="0"/>
+                          <lb n="1"/>ΚΕΘ/
+                          <lb n="2"/>ΙΚΟΛ/
+                          <lb n="3"/>ΟΡΙΑΡ/
+                          <lb n="0"/>
                       </ab>
                   </div>
               </div>
-              <div type="apparatus">
-                  <listApp>
-                      <app xml:lang=""/>
-                  </listApp>
-              </div>
-              <div type="translation">
-                  <p>Κύριε βοήθει Νικολάῳ ὁρειαρίῳ.</p>
-                  <p xml:lang="en">Lord help Nikolaos, horreiarios.</p>
-                  <p xml:lang="fr">Seigneur aide Nicolas, hôrreiarios.</p>
-              </div>
-              <div type="commentary" subtype="text">
-                  <p xml:lang="fr">Ce fonctionnaire était chargé de gérer un ou des greniers impériaux [1]. Le blé
-                      qui y était accumulé était distribué à l’armée et aux fonctionnaires à titre d’annone complémentaire de leur <hi rend="italic">roga</hi>.</p>
-              </div>
-              <div type="commentary" subtype="footnotes">
-                  <p xml:lang="fr" xml:id="footnote-1">
-                      [1]. Un <hi rend="italic">hôrreiarios</hi> était établi à Smyrne. Plusieurs d’entre eux nous ont laissé des sceaux (J.-Cl. Cheynet, Un aspect du ravitaillement
-                      de Constantinople aux Xe/XIe siècles d’après quelques sceaux d’<hi rend="italic">hôrreiarioi</hi>, dans <hi rend="italic">SBS</hi> 6, 1999, p. 15-16, repris dans ID., <hi rend="italic">Société byzantine</hi>
-                      I, p. 224-226).
-                  </p>
-              </div>
-              <div type="bibliography" subtype="edition">
-                  <p>
-                      <bibl>
-                          <ptr target="CheynetTatış"/>, <citedRange unit="page">53</citedRange>
-                      </bibl>
-                  </p>
-              </div>
-          </body>
-      </text>
-</TEI>             
+            <div type="apparatus">
+                <listApp>
+                    <app loc="3">
+                        <lem>ὁριαρ(ίῳ)</lem>
+                        <rdg>
+                            <note>in <bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
+                                >2.28</citedRange></bibl> ὁρ(ε)ιαρ(ίῳ).</note>
+                        </rdg>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>Κύριε βοήθει Νικολάῳ ὁριαρίῳ.</p>
+                <p xml:lang="en">Lord help Nikolaos, horreiarios.</p>
+                <p xml:lang="fr">Seigneur aide Nicolas, hôrreiarios.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Ce fonctionnaire était chargé de gérer un ou des greniers impériaux
+                    [1]. Le blé qui y était accumulé était distribué à l’armée et aux fonctionnaires
+                    à titre d’annone complémentaire de leur <hi rend="italic">roga</hi>.</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. Un <hi rend="italic">hôrreiarios</hi>
+                    était établi à Smyrne. Plusieurs d’entre eux nous ont laissé des sceaux (J.-Cl.
+                    Cheynet, Un aspect du ravitaillement de Constantinople aux Xe/XIe siècles
+                    d’après quelques sceaux d’<hi rend="italic">hôrreiarioi</hi>, dans <hi
+                        rend="italic">SBS</hi> 6, 1999, p. 15-16, repris dans ID., <hi rend="italic"
+                        >Société byzantine</hi> I, p. 224-226). </p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.28</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

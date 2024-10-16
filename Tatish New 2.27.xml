@@ -292,7 +292,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2024-10-12" who="#AS">Revision and correction of the entire XML
+            <change when="2024-10-13" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
             <change when="2024-04-03" who="#SM">Corrections on legend's encoding. Filled in comments
