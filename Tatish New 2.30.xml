@@ -53,7 +53,6 @@
                         </persName>
                         <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20224/">Leon
                             20224</idno>
-                        <!-- il s'agit d'une mention sur un sceau similaire, mais pas // -->
                     </person>
                 </listPerson>
                 <msDesc>
@@ -219,14 +218,14 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="female saint Virgin bust child"
+                                        <figDesc n="r" ana="female Virgin bust child"
                                             xml:lang="fr">Vierge à mi-corps, tournée vers l’Enfant
                                             qu’elle tient sur le bras gauche, tête inclinée, sa joue
                                             touchant presque le nimbe crucigère. Le Christ, à
                                             mi-corps, de belle taille, bénit et tient le Livre. Dans
                                             le champ, à gauche, les sigles sont disposés en colonne
                                             et inversés.</figDesc>
-                                        <figDesc n="r" ana="female saint Virgin bust child"
+                                        <figDesc n="r" ana="female Virgin bust child"
                                             xml:lang="en">The Virgin, half-body, turned towards the
                                             Child whom she is holding on her left arm, head bowed,
                                             her cheek almost touching the cruciferous nimbus; the
