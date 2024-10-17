@@ -321,9 +321,9 @@
             <change when="2024-04-03" who="#SM">Filled in comments and bibliography</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
             <change when="2023-06-23" who="#AS"/>
-            
-            
-            
+
+
+
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -347,15 +347,14 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
                       <ab> 
-                       <cb n="a"/><expan><abbr>Θ</abbr><ex>εοῦ</ex></expan>
-                        <cb n="b"/><expan><abbr>Μ</abbr><ex>ήτηρ</ex></expan>
+                       <cb n="a"/><expan><abbr>Θ</abbr><ex>εοῦ</ex></expan> <expan><abbr>Μ</abbr><ex>ήτηρ</ex></expan>
+                        <!--<cb n="b"/>-->
                     </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>                         
-                          <lb n="1"/><supplied reason="lost">
-                              <expan><abbr>Θ</abbr><ex>εοτό</ex><supplied reason="lost"><abbr>κ</abbr></supplied><abbr>ε</abbr></expan>
-                          </supplied>
+                          <lb n="1"/>
+                          <expan><supplied reason="lost"><abbr>Θ</abbr><ex>εοτό</ex><abbr>κ</abbr></supplied><abbr>ε</abbr></expan>
                           βο<supplied reason="lost" cert="low">ήθει</supplied> τῷ σῷ
                                      <expan><abbr>δ</abbr><ex>ού</ex><abbr>λ</abbr><ex>ῳ</ex></expan>
                       </ab>
@@ -363,11 +362,15 @@
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="2"/><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan>
-                          <lb n="3"/><expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan> <supplied reason="lost">ἐπὶ</supplied>
-                          <lb n="4"/>τοῦ <expan><abbr>χρυ</abbr><supplied reason="lost"><abbr>σοτρ
-                          <lb n="5" break="no"/>ι</abbr></supplied><abbr>κλ</abbr><ex>ίνου</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <supplied reason="lost">κρ</supplied>ιτῖ 
-                          <lb n="6"/>ἐπὶ <supplied reason="lost">τ</supplied>οῦ <expan><abbr>Ἰ</abbr><supplied reason="lost"><abbr>ππ</abbr><ex>ο</ex></supplied>
-                          <lb n="7" break="no"/><supplied reason="lost"><abbr>δρ</abbr><ex>όμου</ex></supplied></expan><!-- répartition de hippodrome à vérifier -->
+                          <lb n="3"/><expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan>
+                          <supplied reason="lost">ἐπὶ</supplied>
+                          <lb n="4"/>τοῦ <expan><abbr>χρυ</abbr><supplied reason="lost" evidence="parallel"><abbr>σωτρ
+                          <lb n="5" break="no"/>ι</abbr></supplied><abbr>κλ</abbr><ex>ίνου</ex></expan>
+                          <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                          <supplied reason="lost">κρ</supplied>ιτῖ 
+                          <lb n="6"/>ἐπὶ <supplied reason="lost">τ</supplied>οῦ
+                          <expan><abbr>Ἰ</abbr><supplied reason="lost"><abbr>ππ</abbr></supplied>
+                          <lb n="7" break="no"/><supplied reason="lost"><abbr>οδρ</abbr><ex>όμου</ex></supplied></expan>
                                </ab>
                   </div>
               </div>
@@ -386,10 +389,10 @@
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="2"/>ΛΕΟΝΤ  
-                          <lb n="3"/>̅ΣΠ.... <!-- uncertain if on the seal the horizontal line over A is on purpose or because of the seal's condition -->
-                          <lb n="4"/>ΤΧΡ....   
-                          <lb n="5"/>.Λ·ϗ..ΙΤΙ
-                          <lb n="6"/>ΕΠΙ.Ι.. 
+                          <lb n="3"/>ΑΣΠΑ̣....
+                          <lb n="4"/>ΤΧΡΥ̣....   
+                          <lb n="5"/>.Λˊϗ..ΙΤΙ
+                          <lb n="6"/>ΕΠΙ̣.Ι.. 
                           <lb n="7"/>...
                       </ab>
                   </div>
@@ -397,20 +400,34 @@
             <div type="apparatus">
                 <listApp>
                     <app loc="1">
-                        <lem></lem>
+                        <lem>[Θ(εοτό)κ]ε βο[ήθει(?)] τῷ σῷ δ(ού)λ(ῳ)</lem>
+                        <rdg>
+                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
+                                        >2.30</citedRange></bibl> [Θ(εοτό)κε βοήθει] τῷ σῷ
+                                δ[ούλ(ῳ)]. Dans le verbe de l'invocation l'incertitude concerne le
+                                nombre de caractères initialement visibles et l'éventuelle présence
+                                d'une abréviation.</note>
+                        </rdg>
+                    </app>
+                    <app loc="4">
+                        <note>Oméga de χρυσω- établit sur la base de la pièce parallèle de la
+                            collection Thierry: voir bibliographie.</note>
+                    </app>
+                    <app loc="5-6">
+                        <lem>Ἰ[ππ-]|[οδρ(όμου)]</lem>
                         <rdg>
                             <note>dans <bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
-                                >2.30</citedRange></bibl> [Θ(εοτό)κε βοήθει] τῷ σῷ δ[ούλ(ῳ)].</note>
+                                        >2.30</citedRange></bibl> Ἰ[ππ(ο)δρ(όμου)]</note>
                         </rdg>
                     </app>
                 </listApp>
             </div>
             <div type="translation">
                 <p>Θεοῦ Μήτηρ. Θεοτόκε βοήθει τῷ σῷ δούλῳ / Λέοντι πρωτοσπαθαρίῳ ἐπὶ τοῦ
-                    χρυσοτρικλίνου καὶ κριτῖ ἐπὶ τοῦ Ἰπποδρόμου.</p>
-                <p xml:lang="en">Mother of God. Theotokos help your servant Leo, protospatharios,
+                    χρυσωτρικλίνου καὶ κριτῖ ἐπὶ τοῦ Ἰπποδρόμου.</p>
+                <p xml:lang="en">Mother of God. Mother of God help your servant Leo protospatharios,
                     epi tou Chrysotriklinou and judge of the Hippodrome.</p>
-                <p xml:lang="fr">Mère de Dieu. Théotokos aide ton serviteur Léon, protospathaire,
+                <p xml:lang="fr">Mère de Dieu. Mère de Dieu aide ton serviteur Léon protospathaire,
                     épi tou Chrysotriklinou et juge de l’Hippodrome.</p>
             </div>
             <div type="commentary" subtype="text">
@@ -421,27 +438,37 @@
                     répandu.</p>
             </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1"> [1]. Sceau Fogg 733, éd. Laurent, <hi
-                        rend="italic">Corpus</hi> II, no 873. Au droit, la Vierge en buste, tenant
-                    le médaillon, et au revers : |.ΕΟΝΤ|Α/ΣΠΑΘ/|ΙΤΟΥΧΡΥΣΟ|...ϗΚΡΙ|....ΟΥΙΠΠ/|Ρ̣Ο̣Μ
-                </p>
+                <p xml:lang="fr" xml:id="footnote-1"> [1].Sceau Fogg 733, publié dans <bibl>
+                        <ptr target="LaurentCorpus2"/>, <citedRange unit="part">873</citedRange></bibl>, et dans <bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.733/view"
+                                >BZS.1951.31.5.733</ref></citedRange>
+                    </bibl>. Au droit, la Vierge en buste, tenant le médaillon, et au revers: .εοντ
+                    | .ˊσπθ, | .π,τουχρυσο | ...ι,κρι | ..ουιππˊ | .ρο.. Voir aussi <bibl>
+                        <ptr target="PBW"/>, <citedRange unit="entry"><ref
+                                target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20225/">Leon
+                                20225</ref></citedRange>
+                    </bibl>.</p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>
                     <bibl>
-                        <ptr target="CheynetTatış"/>, <citedRange unit="page">55</citedRange>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.30</citedRange>.
                     </bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>
+                <p>Collection Thierry, 107:
                     <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
+                        <ptr target="LaurentCorpus2"/>, <citedRange unit="part">858</citedRange>.
+                        Alternativement à ce qui est indiqué dans <bibl>
+                            <ptr target="CheynetTatış"/>, p. <citedRange unit="page">55, n.
+                                28</citedRange> la distribution de la légende au revers du sceau
+                            Thierry pourrait bien être considérée identique à celle du sceau Tatış,
+                            ce qui en fait un parallèle à proprement parler.</bibl>
                     </bibl>
                 </p>
             </div>
-            <!-- // : Coll. Thierry 107 (Etampes).
-Ed. du // : lAurent, Corpus II, no 85828. -->
         </body>
     </text>
 </TEI>
