@@ -6,10 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Théodore, protospathaire, juge de l’Hippodrome (?),
-                    ...</title>
-                <title xml:lang="en">Seal of Theodoros, protospatharios, judge of the Hippodrome
-                    (?), ...</title>
+                <title xml:lang="fr">Sceau de Théodore, protospathaire, juge de l’Hippodrome, du
+                    Velum et des Armeniaques</title>
+                <title xml:lang="en">Seal of Theodoros, protospatharios, judge of the Hippodrome, of
+                    the Velum and of the Armeniakoi</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <funder>
                     <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
@@ -252,8 +252,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
-                                        <p xml:lang="en">Linear legend of 6 lines</p>
+                                        <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                                        <p xml:lang="en">Linear legend of 7 lines</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -293,6 +293,10 @@
                 <glyph xml:id="alpha">
                     <mapping type="standard">A</mapping>
                     <mapping type="simplified">(protos)</mapping>
+                </glyph>
+                <glyph xml:id="kai1">
+                    <mapping type="standard"></mapping>
+                    <mapping type="simplified">(kai)</mapping>
                 </glyph>
             </charDecl>
         </encodingDesc>
@@ -339,26 +343,32 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab> 
-                       <cb n="a"/><supplied reason="lost"><expan><ex>Ὁ ἅγιος</ex></expan></supplied>
-                          <supplied reason="lost">Θεό</supplied>
-                        <cb n="b"/>δωρος
+                       <cb n="a"/><supplied reason="lost" evidence="parallel"><expan><ex>Ὁ ἅγιος</ex></expan></supplied>
+                          <expan><abbr><supplied reason="lost" evidence="parallel">Θεό</supplied>
+                        <cb n="b"/>δωρ</abbr><ex>ος</ex></expan>
+                          ὁ <expan><abbr>Τήρ</abbr><ex>ων</ex></expan>
                     </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
                           <lb n="1"/><supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
-                          <supplied reason="lost">βο</supplied>ήθει τῷ σῷ <supplied reason="lost">δούλῳ</supplied>                      </ab>
+                          <supplied reason="lost">βο</supplied>ήθει τῷ σῷ
+                          <supplied reason="lost" evidence="parallel"><expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></supplied>
+                      </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="2"/><expan><abbr>Θεοδώ
                            <lb n="3" break="no"/>ρ</abbr><ex>ῳ</ex></expan>
                           <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
-                           <lb n="4"/><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan> ἐπὶ τ<supplied reason="lost">οῦ</supplied>
-                           <lb n="5"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/>
-                          <supplied reason="lost">Ἱ</supplied>ππο<supplied reason="lost" cert="low">δρόμου</supplied>
-                           <lb n="6"/><gap reason="lost" quantity="1" unit="character" precision="low"/><orig>οτα</orig><gap reason="lost" quantity="2" unit="character" precision="low"/><orig>ο</orig><gap reason="lost" quantity="1" unit="character" precision="low"/>
-                           <lb n="7"/><gap reason="lost" quantity="3" unit="character" precision="low"/><orig>ασ</orig>
+                           <lb n="4"/><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan> ἐπὶ
+                           <lb n="5"/><supplied reason="lost">τοῦ</supplied>
+                          <expan><supplied reason="lost"><abbr>Ἱ</abbr></supplied><abbr>ππο</abbr><supplied reason="lost"><abbr>δρ</abbr><ex>όμου</ex></supplied></expan>
+                          <supplied reason="lost" evidence="parallel">τ</supplied>
+                           <lb n="6" break="no"/><supplied reason="lost" evidence="parallel">οῦ</supplied> <expan><abbr>βίλ</abbr><ex>ου</ex></expan>
+                          <supplied reason="lost" evidence="parallel"><expan><abbr><am><g ref="#kai1"/></am></abbr><ex>καὶ</ex></expan></supplied> <supplied reason="lost" evidence="parallel">τ</supplied>
+                           <lb n="7" break="no"/><supplied reason="lost" evidence="parallel">ο</supplied>ν <expan><abbr>Ἀρμε
+                          <lb n="8" break="no"/><supplied reason="lost" evidence="parallel">νιακ</supplied></abbr><ex>ῶν</ex></expan>
                                </ab>
 
                   </div>
@@ -367,50 +377,51 @@
                   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
                       <ab>
                           <cb n="a"/>....
-                          <cb n="b"/>Δ||Ρ̣|Ο̣|Σ̣
+                          <cb n="b"/>Δ||Ρ̣,|Ο̣|Τ̣Η̣|Ρ
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>
-                          <lb n="1"/>....Η̣Θ̣Ε̣Ι̣Τ̣̣Σ̣̣......
+                          <lb n="1"/>....Η̣Θ̣Ε̣Ι̣Τ̣̣Σ̣̣....
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="0"/>
                           <lb n="2"/>ΘΕΟ 
-                          <lb n="3"/>Ρ̣ΑˊΣΠΑ̣Θ̣/
-                          <lb n="4"/>Κ̣Ρ̣ΙΤΕΠΙ̣Τ̣
-                          <lb n="5"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/>ΠΠΟ<gap reason="lost" quantity="2" unit="character" precision="low"/> 
-                          <lb n="6"/><gap reason="lost" quantity="1" unit="character" precision="low"/>ΟΤΑ<gap reason="lost" quantity="2" unit="character" precision="low"/>Ο<gap reason="lost" quantity="1" unit="character" precision="low"/>  
-                          <lb n="7"/><gap reason="lost" quantity="3" unit="character" precision="low"/>ΑΣ  
+                          <lb n="3"/>Ρ̣,ΑˊΣΠΑ̣Θ̣/
+                          <lb n="4"/>Κ̣Ρ̣ΙΤΕΠ.
+                          <lb n="5"/>...Ο... 
+                          <lb n="6"/>.̣Ι̣Λ̣..  
+                          <lb n="7"/>.Ν̣Α̣Ρ̣̣Ε̣
+                          <lb n="8"/>....
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app loc="5">
-                        <lem>Ἱ]ππο[δρόμου(?)]</lem>
-                        <rdg>
-                            <note>Il est possible que le terme soit en réalité abrégé, par exemple en Ἱπποδρ(όμου).</note>
-                        </rdg>
+                    <app loc="b, 6-8">
+                        <note>La lecture a été rendue possible par la pièce parallèle, qui permet de
+                            compléter l'édition de l'exemplaire de la collection Tatış, comme
+                            suggéré par <bibl><ptr target="Seibt2020"/>, p. <citedRange unit="page">512</citedRange></bibl>.</note>
                     </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Ὁ ἅγιος Θεόδωρος. Κύριε βοήθει τῷ σῷ δούλῳ / Θεοδώρῳ πρωτοσπαθαρίῳ, κριτῇ ἐπὶ τοῦ
-                    Ἱπποδρόμου (?) ...</p>
-                <p xml:lang="en">Saint Theodore. Lord help your servant Theodoros protospatharios,
-                    judge of the Hippodrome (?) ...</p>
-                <p xml:lang="fr">Saint Théodore. Seigneur aide ton serviteur Théodore
-                    protospathaire, juge de l’Hippodrome (?) ...</p>
+                <p>Ὁ ἅγιος Θεόδωρος ὁ Τήρων. Κύριε βοήθει τῷ σῷ δούλῳ / Θεοδώρῳ πρωτοσπαθαρίῳ, κριτῇ
+                    ἐπὶ τοῦ Ἱπποδρόμου, τοῦ βίλου καὶ τον Ἀρμενιακῶν</p>
+                <p xml:lang="en">Saint Theodore the soldier. Lord help your servant Theodoros protospatharios,
+                    judge of the Hippodrome, of the Velum and of the Armeniakoi.</p>
+                <p xml:lang="fr">Saint Théodore le soldat. Seigneur aide ton serviteur Théodore
+                    protospathaire, juge de l’Hippodrome, du Velum et des Arméniaques.</p>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">La lecture juge est assurée, celle de l’Hippodrome est
+                <!--<p xml:lang="fr">La lecture juge est assurée, celle de l’Hippodrome est
                     vraisemblable, mais la fin de la légende échappe, compte tenu de l’état de
                     conservation du sceau. La légende se terminait soit par une autre fonction,
                     comme notaire ou protonotaire d’une institution, soit par le nom de la province
-                    où exerçait le juge, soit par un nom transmissible.</p>
+                    où exerçait le juge, soit par un nom transmissible.</p>-->
+                <!-- Légende rendue caduque par l'emploi du parallèle. -->
             </div>
             <div type="commentary" subtype="footnotes">
                 <p xml:lang=""/>
@@ -418,8 +429,24 @@
             <div type="bibliography" subtype="edition">
                 <p>
                     <bibl>
-                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.33</citedRange>.
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.32</citedRange>.
                     </bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>Collection Dumbarton Oaks, BZS.1947.2.43:
+                    <bibl>
+                        <ptr target="DOseals4"/>, <citedRange unit="part">22.24</citedRange>.
+                    </bibl> = <bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.43/view"
+                                >BZS.1947.2.43</ref></citedRange>.
+                    </bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="discussion">
+                <p>
+                    <bibl><ptr target="Seibt2020"/>, p. <citedRange unit="page">512</citedRange>.</bibl>
                 </p>
             </div>
         </body>

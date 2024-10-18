@@ -71,8 +71,6 @@
                         <idno type="inv-nr-current">2695</idno>
                         <altIdentifier>
                             <repository/>
-                            <collection type="private"/> 
-                            <collection type="private"/> 
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
                     </msIdentifier>
@@ -191,9 +189,9 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr">Petite croix patriarcale dépourvue d’ornement,
+                                        <figDesc n="r" ana="" xml:lang="fr">Petite croix patriarcale dépourvue d’ornement,
                                             élevée sur quatre degrés, gravés hors du nimbe limitant la croix</figDesc>
-                                        <figDesc n="r" xml:lang="en">Small, unadorned patriarchal cross, raised on four steps, 
+                                        <figDesc n="r" ana="" xml:lang="en">Small, unadorned patriarchal cross, raised on four steps, 
                                             engraved outside the nimbus bordering the cross</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Couronne de perles</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Wreath of pearls</figDesc>
@@ -233,7 +231,7 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v" xml:lang=""/>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
                                         <figDesc n="decoV" xml:lang="fr">Couronne de perles ; légende précédée d’une croisette ; au sommet et à la base du champ, un losange
                                             de perles placé entre deux tirets</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Wreath of pearls; legend preceded by a cross; at the top and base of the field, a pearl rhombus set between two dashes</figDesc>
