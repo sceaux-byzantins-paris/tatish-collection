@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- last changed before 1.0 version release 2021-08-02 -->
-<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
-<!-- ongoing changes to 2.0: march 2024 -->
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau d'Eulampios, patrice et logothète du sakellion et du stratiôtikon</title>
-                <title xml:lang="en">Seal of Eulampios, patrikios and logothete of the sakellion and of the stratiotikon</title>
+                <title xml:lang="fr">Sceau d'Eulampios, patrice et logothète du <hi rend="italic"
+                        >sakellion</hi> et du <hi rend="italic">stratiôtikon</hi></title>
+                <title xml:lang="en">Seal of Eulampios, patrikios and logothete of the sakellion and
+                    of the stratiotikon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <funder>
-                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
-                </funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
                 <principal>Alessio Sopracasa</principal>
             </titleStmt>
             <editionStmt>
@@ -23,16 +23,19 @@
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
                 <editor role="digital-editor" xml:id="SM" when="2024-04-02">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2024-11-04">Alessio
+                    Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename">Tatış_2-35</idno>
-                <idno type="SigiDocID"/>
+                <idno type="SigiDocID">s-de1Uji</idno>
                 <idno type="sequence"/>
-                <date when="2024-03-03"/>
+                <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -47,9 +50,12 @@
                         </persName>
                         <persName xml:lang="en">
                             <forename>Eulampios</forename>
-                        </persName> 
-                        <idno type="PBE" ana=" http://www.pbe.kcl.ac.uk/person/p2490">Eulampios 3</idno>
-                        <idno type="PmbZ" ana="https://pbw2016.kdl.kcl.ac.uk/person/154245/">Eulampios 1670</idno>
+                        </persName>
+                        <idno type="PBE" ana="https://pbe.kcl.ac.uk/data/D24/F90.htm">Eulampios
+                            3</idno>
+                        <idno type="PmbZ"
+                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ12774/html"
+                            >1670</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -62,17 +68,19 @@
                             <seg xml:lang="fr">Izmir</seg>
                             <seg xml:lang="en">Izmir</seg>
                         </settlement>
-                        <institution/> 
-                        <repository/> 
-                        <collection type="private" xml:lang="en" ref="URI">
-                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
                         </collection>
-                        <collection type="private"/> 
                         <idno type="inv-nr-current">2915</idno>
                         <altIdentifier>
                             <repository/>
-                            <collection type="private"/> 
-                            <collection type="private"/> 
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
                     </msIdentifier>
@@ -91,15 +99,17 @@
                                             <seg xml:lang="fr">Sceau</seg>
                                             <seg xml:lang="en">Seal</seg>
                                         </term>
-                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
-                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="fr">Plomb</seg>
                                         <seg xml:lang="en">Lead</seg>
                                     </material>
                                     <dimensions type="support" unit="mm">
-                                        <dim type="diameter">22</dim>
+                                        <dim type="diameter">25</dim>
                                     </dimensions>
                                     <measure type="weight" unit="g">12,17</measure>
                                     <measure type="axis" unit="clock"/>
@@ -107,23 +117,27 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge"> 
-                                    <p xml:lang="fr">Nettement échancré aux orifices du canal ; légère oxydation.</p>
-                                    <p xml:lang="en">Clearly indented at the canal openings; slight oxidation.</p>
+                                <condition rend="worn-edge">
+                                    <p xml:lang="fr">Nettement échancré aux orifices du canal;
+                                        légère oxydation.</p>
+                                    <p xml:lang="en">Markedly indented at the channel openings;
+                                        slight oxidation.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="whole">
                                     <rs type="execution">
                                         <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
                                     </rs>
                                     <rs type="shape">
                                         <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc"/>
+                                        <idno type="SigiDoc">m-MYrmf1</idno>
                                         <idno type="PBW"/>
-                                    </rs>                                     
+                                    </rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -135,12 +149,14 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0601" notAfter="0900" evidence="epigraphy" cert="high" resp="#JCC"> 
+                            <origDate type="analysis" notBefore="0601" notAfter="0900"
+                                evidence="epigraphy parallel related-seal linguistic-features"
+                                cert="high" resp="#JCC">
                                 <seg xml:lang="fr">VIIe/VIIIe siècle</seg>
                                 <seg xml:lang="en">7th/8th C.</seg>
                             </origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered"> 
+                        <provenance type="found" subtype="discovered">
                             <placeName type="ancientFindspot" ref="URI" xml:lang=""/>
                             <placeName type="modernFindspot" ref="URI" xml:lang=""/>
                             <rs type="circumstances" xml:lang=""/>
@@ -164,7 +180,7 @@
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
-                            <textLang n="r" mainLang="grc" otherLangs="">
+                            <textLang n="r" mainLang="grc">
                                 <seg xml:lang="fr">Grec byzantin</seg>
                                 <seg xml:lang="en">Byzantine Greek</seg>
                             </textLang>
@@ -183,15 +199,20 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="en"/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr"/>
-                                        <figDesc n="decoR" xml:lang="fr">Cercle de feuillage ; légende surmontée et suivie d’une croisette</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Circle of foliage; legend surmounted and followed by a cross</figDesc>
+                                        <!--<figDesc n="r" ana="" xml:lang="fr"/>-->
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de feuillage;
+                                            légende surmontée par une croisette sur une ligne
+                                            séparée et suivie d’une croisette sur la même
+                                            ligne.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Wreath border; legend
+                                            preceded by a crosslet on a separate line and followed
+                                            by a crosslet on the same line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -228,9 +249,14 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v" xml:lang=""/>
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage ; légende surmontée et suivie d’une croisette</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of foliage; legend surmounted and followed by a cross</figDesc>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage;
+                                            légende surmontée par une croisette sur une ligne
+                                            séparée et suivie d’une croisette sur la même
+                                            ligne.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Wreath border; legend
+                                            preceded by a crosslet on a separate line and followed
+                                            by a crosslet on the same line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -240,25 +266,30 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl><p/></editorialDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
             <charDecl>
-                <glyph xml:id="cross"> 
+                <glyph xml:id="cross">
                     <mapping type="standard">+</mapping>
                     <mapping type="simplified">(cross)</mapping>
-                </glyph> 
-                <glyph xml:id="kai"> 
+                </glyph>
+                <glyph xml:id="kai">
                     <mapping type="standard">ϗ</mapping>
                     <mapping type="simplified">(kai)</mapping>
-                </glyph> 
-            </charDecl> 
+                </glyph>
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="Grek">Greek script</language>
                 <language ident="Latn">Latin script</language>
-                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
-                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
-                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
                 <language ident="la-Grek">Latin written in Greek script</language>
             </langUsage>
         </profileDesc>
@@ -267,34 +298,36 @@
             <change when="2024-04-02" who="#SM">Filled in metadata in new template</change>
             <change when="2024-04-04" who="#SM">Filled in comments and bibliography</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
+            <change when="2024-11-04" who="#AS">Revision and correction of the entire XML
+                file</change>
         </revisionDesc>
-      </teiHeader>
-      <facsimile>
-          <surfaceGrp>
-              <surface n="r">
-                  <desc>Obverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the obverse (2019).</desc>
-                  </graphic>
-              </surface>
-              <surface n="v">
-                  <desc>Reverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the reverse (2019).</desc>
-                  </graphic>
-              </surface>
-          </surfaceGrp>
-      </facsimile>
-      <text>
-          <body>
-              <div type="edition" subtype="editorial" xml:space="preserve">
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
                           <lb n="1"/>Εὐλαμ
                            <lb n="2" break="no"/>πίου πα
                            <lb n="3" break="no"/>τρικίο<supplied reason="lost">υ</supplied>
                            <lb n="4"/><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> λογοθ
-                           <lb n="5" break="no"/>έτου
+                           <lb n="5" break="no"/>έτου+
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
@@ -303,16 +336,16 @@
                            <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ε<supplied reason="lost">λ</supplied>λίου <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
                            <lb n="8"/>τοῦ στρα
                            <lb n="9" break="no"/>τιωτικ
-                           <lb n="10" break="no"/>οῦ +
+                           <lb n="10" break="no"/>οῦ+
                                </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve">
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
                       <ab>
                           <lb n="0"/>. 
-                          <lb n="1"/>ΕΥΛΜ 
-                          <lb n="2"/>ΠΙΟΥΠ 
+                          <lb n="1"/>ΕΥΛΜ̣
+                          <lb n="2"/>ΠΙΟΥΠ̣
                           <lb n="3"/>ΤΡΙΚΙΟ. 
                           <lb n="4"/>ϗΛΟΓΟΘ 
                           <lb n="5"/>ΕΤ 
@@ -320,55 +353,76 @@
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                          <lb n="6"/>...ΣΑ  
-                          <lb n="7"/>.Ε.ΛΙΟϗ   
-                          <lb n="8"/>ΤΟΣΤΡΑ 
+                          <lb n="0"/>.
+                          <lb n="6"/>Τ.Υ̣ΣΑ
+                          <lb n="7"/>.Ε.ΛΙΟΥϗ   
+                          <lb n="8"/>ΤΟ̣Υ̣ΣΤΡΑ
                           <lb n="9"/>ΤΙΩΤΙΚ 
                           <lb n="10"/>ΟΥ 
                       </ab>
                   </div>
               </div>
-              <div type="apparatus">
-                  <listApp>
-                      <app xml:lang=""/>
-                  </listApp>
-              </div>
-              <div type="translation">
-                  <p>+ Εὐλαμπίου πατρικίου καὶ λογοθέτου / + τοῦ σακελλίου καὶ τοῦ στρατιωτικοῦ.</p>
-                  <p xml:lang="en">(Seal of) Eulampios, patrikios and logothete of the sakellion and of the stratiotikon.</p>
-                  <p xml:lang="fr">(Sceau d') Eulampios, patrice et logothète du sakellion et du stratiôtikon.</p>               
-              </div>
-              
-              <div type="commentary" subtype="text">
-                  <p xml:lang="fr">Comme l’avaient noté les premiers éditeurs, G. Zacos et A. Veglery, la mention d’un
-                      logothète du <hi rend="italic">sakellion</hi> est unique et la combinaison des fonctions est également exceptionnelle. Al. Wassiliou-
-                      Seibt et W. Seibt rapprochent ce plomb de celui de l’homonyme, “<hi rend="italic">apo hypatôn</hi>, patrice et éparque de Rome τὸ
-                      δεύτερον”, selon son sceau bilatéral proposé à la vente Künker 25 (septembre-octobre 1993), no 544 (signalé
-                      dans les <hi rend="italic">SBS</hi> 6, 1999, p. 136) [1]. Il s’agirait du même personnage. En ce cas, notre plomb serait datable, non pas
-                      du VIIIe siècle, comme le proposait Laurent, mais de la seconde moitié du VIIe siècle. L’emploi du génitif sur les
-                      sceaux devient beaucoup moins fréquent autour de 700 et le motif de la croisette accostée de fleurons, visible sur
-                      l’exemplaire Fogg 826, est très répandu au début du VIIIe siècle.</p>
-              </div>
-              <div type="commentary" subtype="footnotes">
-                  <p xml:lang="fr" xml:id="footnote-1">
-                      [1]. Wassiliou-Seibt – Seibt, <hi rend="italic">Bleisiegel</hi> II, p. 100.
-                  </p>
-              </div>
-              <div type="bibliography" subtype="edition">
-                  <p>
-                      <bibl>
-                          <ptr target="CheynetTatış"/>, <citedRange unit="page">59-60</citedRange>
-                      </bibl>
-                  </p>
-              </div>
-              <div type="bibliography" subtype="parallels">
-                  <p>
-                      <bibl>
-                          <ptr target="xxx"/>, <citedRange unit="page"/> <!-- // : Fogg 826 et 1017.
-Ed. des // : ZACos – veglery, nos 801 a, b ; lAurent, Corpus II, no 533. -->
-                      </bibl>
-                  </p>
-              </div>
-          </body>
-      </text>
-</TEI>             
+            <div type="apparatus">
+                <listApp>
+                    <app xml:lang=""/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>+ Εὐλαμπίου πατρικίου καὶ λογοθέτου / + τοῦ σακελλίου καὶ τοῦ στρατιωτικοῦ.</p>
+                <p xml:lang="en">(Seal of) Eulampios, patrikios and logothete of the sakellion and
+                    of the stratiotikon.</p>
+                <p xml:lang="fr">(Sceau d') Eulampios, patrice et logothète du <hi rend="italic"
+                        >sakellion</hi> et du <hi rend="italic">stratiôtikon</hi>.</p>
+            </div>
+
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Comme l’avaient noté les premiers éditeurs, G. Zacos et A. Veglery,
+                    la mention d’un logothète du <hi rend="italic">sakellion</hi> est unique et la
+                    combinaison des fonctions est également exceptionnelle. Al. Wassiliou-Seibt et
+                    W. Seibt rapprochent ce plomb de celui de l’homonyme, “<hi rend="italic">apo
+                        hypatôn</hi>, patrice et éparque de Rome τὸ δεύτερον”, selon son sceau
+                    bilatéral proposé à la vente Künker 25 (septembre-octobre 1993), no 544 [1]. Il
+                    s’agirait du même personnage. En ce cas, notre plomb serait datable, non pas du
+                    VIIIe siècle, comme le proposait Laurent, mais de la seconde moitié du VIIe
+                    siècle. L’emploi du génitif sur les sceaux devient beaucoup moins fréquent
+                    autour de 700 et le motif de la croisette accostée de fleurons, visible sur
+                    l’exemplaire Fogg 826 (Dumbarton OPaks, BZS.1951.31.5.826), est très répandu au
+                    début du VIIIe siècle.</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. Signalé dans <bibl>
+                        <ptr target="SBS_Auctions1991-1996"/>, p. <citedRange unit="page"
+                            >136</citedRange>
+                    </bibl>; <bibl>
+                        <ptr target="BBÖ2"/>, <citedRange unit="page">100</citedRange>
+                    </bibl>.</p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.35</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>Collection Dumbarton Oaks, BZS.1951.31.5.826 (Fogg 826): <bibl>
+                        <ptr target="Zacos1"/>, <citedRange unit="part">801a</citedRange>
+                    </bibl> = <bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.826/view"
+                                >BZS.1951.31.5.826</ref></citedRange>
+                    </bibl>;</p>
+                <p> Collection Dumbarton Oaks, BZS.1951.31.5.1017 (Fogg 1017): <bibl>
+                        <ptr target="Zacos1"/>, <citedRange unit="part">801b</citedRange>
+                    </bibl> = <bibl>
+                        <ptr target="LaurentCorpus2"/>, <citedRange unit="part">533</citedRange>.
+                    </bibl> = <bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1017/view"
+                                >BZS.1951.31.5.1017</ref></citedRange>
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
