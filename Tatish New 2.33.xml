@@ -76,11 +76,11 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="owner"
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
                                     ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
                             <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2792</idno>
@@ -198,9 +198,9 @@
                                             <dim type="diameter">24,5</dim>
                                         </dimensions>
                                         <p xml:lang="fr">Iconographie avec légende invocative
-                                            circulaire commençant à la base de la croix, 7</p>
+                                            circulaire commençant à la base de la croix, à 7</p>
                                         <p xml:lang="en">Iconography with circular invocative legend
-                                            starting at the cross's basis, 7</p>
+                                            starting at the cross's basis, at 7</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -213,7 +213,7 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="r"
-                                            ana="cross patriarchal ornated on-steps on-globe fleurons"
+                                            ana="cross patriarchal ornated on-steps fleurons"
                                             xml:lang="fr">Fine croix patriarcale, recroisetée à la
                                             plus grande traverse, élevée sur un globule puis trois
                                             degrés, ornée d’élégants fleurons issant de la base,
