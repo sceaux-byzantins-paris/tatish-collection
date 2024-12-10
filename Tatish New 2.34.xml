@@ -418,19 +418,17 @@
             <div type="bibliography" subtype="edition">
                 <p>
                     <bibl>
-                        <ptr target="CheynetTatış"/>, <citedRange unit="page">58-59</citedRange>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.34</citedRange>.
                     </bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>
+                <p>Débeltos, plusieurs exemplaires ; collection privée en Chersonèse:
                     <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
-                        <!-- // : Débeltos, plusieurs exemplaires ; collection privée en Chersonèse.
-Ed. des // : N. Alekséenko, Les relations entre Cherson et l’Empire d’après le témoignage des sceaux des archives de Cherson, SBS 8,
-2003, p. 79 ; I. JordAnov, The Seals of Byzantine Fiscal Institutions (815/816-971) discovered in Bulgaria, SBS 9, 2006, p. 109-110, nos
-25, 26, 27 ; repris dans id., Corpus III, nos 783-785. -->
-                    </bibl>
+                        <ptr target="Alexeenko2003a"/>, p. <citedRange unit="page">79</citedRange>
+                    </bibl>; <bibl>
+                        <ptr target="Jordanov2006"/>, p. <citedRange unit="page">109-110</citedRange>, <citedRange unit="part">25, 26, 27</citedRange>
+                    </bibl> = <bibl><ptr target="JordanovCorpus3"/>, <citedRange unit="part">783-785</citedRange>.</bibl>
                 </p>
             </div>
         </body>

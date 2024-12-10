@@ -385,19 +385,12 @@
                     conservée.</p>
             </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1"><bibl><ptr target="Cotsonis2005"/>, p. <citedRange unit="page">394</citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-1">[1] <bibl><ptr target="Cotsonis2005"/>, p. <citedRange unit="page">394</citedRange></bibl>.</p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.56</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

@@ -380,13 +380,6 @@
                     </bibl>
                 </p>
             </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
-                    </bibl>
-                </p>
-            </div>
         </body>
     </text>
 </TEI>

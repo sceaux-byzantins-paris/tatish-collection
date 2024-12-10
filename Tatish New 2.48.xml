@@ -315,7 +315,7 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="2"/><supplied reason="lost"><g ref="#cross">+</g></supplied><expan><supplied reason="lost"><abbr>Χρ</abbr></supplied><abbr>ισ</abbr>
+                        <lb n="2"/><supplied reason="lost">+</supplied><expan><supplied reason="lost"><abbr>Χρ</abbr></supplied><abbr>ισ</abbr>
                           <lb n="3" break="no"/><supplied reason="lost"><abbr>τ</abbr></supplied><abbr>οφόρ</abbr><ex>ῳ</ex></expan> 
                           <lb n="4"/><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>νοτ
                           <lb n="5" break="no"/>αρίῳ</abbr></expan>
@@ -363,13 +363,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.48</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

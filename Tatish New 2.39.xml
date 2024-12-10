@@ -157,11 +157,9 @@
                                 ref="https://pleiades.stoa.org/places/599490" xml:lang="en"
                                 >Anaia</placeName>
                             <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/300399/soeke.html" xml:lang="fr">Söke
-                                (basse vallée du Méandre</placeName>
+                                ref="https://www.geonames.org/300399/soeke.html" xml:lang="fr">Söke, basse vallée du Méandre</placeName>
                             <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/300399/soeke.html" xml:lang="en">Söke
-                                (lower Meander valley</placeName>
+                                ref="https://www.geonames.org/300399/soeke.html" xml:lang="en">Söke, lower Meander valley</placeName>
                             <rs type="circumstances" xml:lang=""/>
                         </provenance>
                         <provenance type="observed" subtype="seen">

@@ -239,10 +239,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis;
-                                            croisette au début de la légende, dur une même
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis;
+                                            croisette au début de la légende, sur une même
                                             ligne</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Circle of dots; crosslet at
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots; crosslet at
                                             the beginning of the legend, on the same line</figDesc>
                                     </figure>
                                 </decoNote>
@@ -326,7 +326,7 @@
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
                       <ab>
-                          <lb n="1"/>ΚΕΟ–Θ̣/ΑΤΟΣΟΔ/
+                          <lb n="1"/>ΚΕΟΘ̣/ΑΤΟΣΟΔ/
                       </ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">

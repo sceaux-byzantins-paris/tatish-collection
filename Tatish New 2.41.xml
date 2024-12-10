@@ -365,7 +365,7 @@
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app xml:lang=""/>
+                    <app xml:lang="fr" loc="1"><note>Le nom est restitué d’après la pièce parallèle mieux conservée.</note></app>
                 </listApp>
             </div>
             <div type="translation">
@@ -374,7 +374,7 @@
                 <p xml:lang="fr">Mère de Dieu. Azarias, spatharocandidat et notaire impérial.</p>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">Le nom est restitué d’après la pièce parallèle mieux conservée. Ce
+                <p xml:lang="fr">Ce
                     nom est attesté par une autre bulle, celle d’un clerc impérial et
                     kouboukleisios, actif au IXe siècle [1].</p>
             </div>

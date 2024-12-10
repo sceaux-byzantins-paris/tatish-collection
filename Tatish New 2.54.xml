@@ -320,7 +320,7 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/><g ref="#cross">+</g>Κύριε 
+                         <lb n="1"/>+Κύριε 
                          <lb n="2"/>βοήθει 
                          <lb n="3"/>τῷ σῷ δού
                          <lb n="4" break="no"/>λῳ <expan><abbr>Κων</abbr><ex>σταντίν</ex><abbr>ῳ</abbr></expan>
@@ -396,13 +396,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.54</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

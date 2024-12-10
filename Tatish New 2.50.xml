@@ -390,7 +390,7 @@
                     une croix ornée de légers fleurons stylisés en forme de lys, depuis la base
                     jusqu’à mi-champ et au revers, +ΔΑΜΙ|ΑΝΩRCΠΑ|ΘΑΡΟΚΑΝΔ|SΑΝΟΤΤ|ΟΥΜΕΓΚΟΥ|ΑΤΩΡ.
                     [Le sceau a depuis été publié dans <bibl>
-                        <ptr target="Kofopoulos202"/>, <citedRange unit="part">2.108</citedRange>
+                        <ptr target="Kofopoulos2022"/>, <citedRange unit="part">2.108</citedRange>
                         (provenant de la vente Münz), en confirmant que les deux sceaux
                         appartiennent au même titulaire, à deux étapes différentes de sa carrière.]
                     </bibl></p>
@@ -401,7 +401,7 @@
                         <ptr target="SBS_Auctions2007-2011"/>, p. <citedRange unit="page">160-161</citedRange>
                     </bibl>, aujourd’hui dans la
                     collection Kofopoulos, inv. 1003. [Le sceau a depuis été publié dans <bibl>
-                        <ptr target="Kofopoulos202"/>, <citedRange unit="part">2.109</citedRange>].</bibl>
+                        <ptr target="Kofopoulos2022"/>, <citedRange unit="part">2.109</citedRange>].</bibl>
                 </p>
                 <p xml:lang="fr" xml:id="footnote-4"> [4].<bibl>
                     <ptr target="JordanovCorpus3"/>, <citedRange unit="part">912 et 913</citedRange>
@@ -414,13 +414,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.50</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

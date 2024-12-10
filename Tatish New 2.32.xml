@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fr">Sceau de Théodore, protospathaire, juge de l’Hippodrome, du
-                    Velum et des Armeniaques</title>
+                    Velum et des Arméniaques</title>
                 <title xml:lang="en">Seal of Theodoros, protospatharios, judge of the Hippodrome, of
                     the Velum and of the Armeniakoi</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -153,7 +153,10 @@
                         <origin>
                             <origPlace>
                                 <seg xml:lang="fr">
-                                    <placeName/>
+                                    <placeName>Arméniaques</placeName>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName>Armeniakoi</placeName>
                                 </seg>
                             </origPlace>
                             <origDate type="analysis" notBefore="1026" notAfter="1050"
