@@ -112,7 +112,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge">
+                                <condition rend="worn-edge chipped">
                                     <p xml:lang="fr">Echancré aux orifices du canal; usure sur les
                                         deux faces d’un flan partiellement rogné sur le
                                         pourtour.</p>
@@ -262,16 +262,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -322,7 +312,7 @@
                       <ab>
                         <lb n="2"/>+<expan><abbr>Κωνσ
                           <lb n="3" break="no"/>ταντ</abbr><ex>ίνῳ</ex></expan> <expan><abbr>πρι
-                          <lb n="4" break="no"/>μ</abbr><ex>ι</ex><abbr>κηρ</abbr><ex>ίῳ</ex></expan> <supplied reason="lost"><expan><abbr><am><g ref="#kai" cert="low"/></am></abbr><ex>καὶ</ex></expan></supplied> <expan><abbr>με
+                          <lb n="4" break="no"/>μ</abbr><ex>ι</ex><abbr>κηρ</abbr><ex>ίῳ</ex></expan> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <expan><abbr>με
                           <lb n="5" break="no"/>γ</abbr><ex>άλῳ</ex></expan> <expan><abbr>τ</abbr><supplied reason="lost"><abbr>ρα</abbr></supplied><abbr>π</abbr><ex>εζίτῃ</ex></expan> τ<supplied reason="lost">οῦ</supplied> 
                           <lb n="6"/><expan><abbr>προέδ</abbr><ex>ρου</ex></expan>
                                </ab>

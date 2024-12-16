@@ -123,7 +123,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="blank-too-small crushed">
+                                <condition rend="blank-too-small crushed chipped">
                                     <p xml:lang="fr">Echancré aux orifices du canal qui divise la
                                         bulle en deux parties; flan trop petit, partiellement
                                         écrasé au revers.</p>
@@ -271,20 +271,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -337,8 +323,8 @@
                           <lb n="2"/><supplied reason="lost" evidence="parallel">+</supplied><supplied reason="lost" evidence="parallel">Μιχα
                           <lb n="3" break="no"/>ὴ</supplied>λ <expan><abbr>πατρ</abbr><ex>ικίῳ</ex></expan>
                           <lb n="4"/><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                               <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><ex>αθαρίῳ</ex></expan>
-                               <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>μ</abbr><ex>α</ex>
+                               <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><ex>αθαρίῳ</ex></expan>
+                               <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>μ</abbr><ex>α</ex>
                           <lb n="5" break="no"/><abbr>γ</abbr><ex>ίστρῳ</ex></expan> τῶν <expan><abbr>β</abbr><ex>ασιλικῶν</ex></expan>
                           <lb n="6"/><expan><abbr>Ὀφφ</abbr><ex>ικίων</ex></expan>
                                </ab>

@@ -111,7 +111,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure><!-- ??? -->
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="blank-too-large corroded">
+                                <condition rend="corroded">
                                     <p xml:lang="fr">Large flan, à peine échancré aux orifices du
                                         canal; oxydé au revers.</p>
                                     <p xml:lang="en">Large blank, barely indented at the channel
@@ -273,12 +273,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>

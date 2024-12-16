@@ -113,7 +113,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed chipped worn-edge">
                                     <p xml:lang="fr">Echancré aux orifices du canal; rogné sur le
                                         pourtour; lettres un peu écrasées.</p>
                                     <p xml:lang="en">Slightly indented at the channel openings;
@@ -271,12 +271,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>

@@ -44,7 +44,7 @@
                 <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
-                            <forename>N.</forename><!-- Undetermined? -->
+                            <forename>N.</forename>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>N.</forename>
@@ -114,7 +114,7 @@
                                     <!-- ??? -->
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed broken">
                                     <p xml:lang="fr">Flan cassé dans sa partie supérieure; points
                                         d’écrasement sur les deux faces.</p>
                                     <p xml:lang="en">The upper part of the blank is broken, with
@@ -265,20 +265,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -336,8 +322,8 @@
                           <expan><supplied reason="lost"><abbr>πα</abbr></supplied>
                          <lb n="4" break="no"/><abbr>τρ</abbr><ex>ικίῳ</ex></expan>
                           <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                               <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>αθ</abbr><ex>αρίῳ</ex></supplied></expan>
-                         <lb n="5"/><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                               <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>αθ</abbr><ex>αρίῳ</ex></supplied></expan>
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
                           <expan><abbr>λογοθέτ</abbr><ex>ῃ</ex></expan> <supplied reason="lost">τ</supplied>
                          <lb n="6" break="no"/>οῦ <expan><abbr>στρατι</abbr><ex>ωτικοῦ</ex></expan>
                                </ab>

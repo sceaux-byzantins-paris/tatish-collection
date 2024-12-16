@@ -118,7 +118,7 @@
                                     <measure type="channelOrient" unit="clock">11-5</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed corroded">
                                     <p xml:lang="fr">Surfrappe possible; légères échancrures aux
                                         orifices du canal; en voie d’oxydation; traces
                                         d’écrasement.</p>
@@ -289,16 +289,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -361,11 +351,11 @@
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="2"/><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan>
-                          <lb n="3"/><expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan>
+                          <lb n="3"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan>
                           <supplied reason="lost">ἐπὶ</supplied>
                           <lb n="4"/>τοῦ <expan><abbr>χρυ</abbr><supplied reason="lost" evidence="parallel"><abbr>σωτρ
                           <lb n="5" break="no"/>ι</abbr></supplied><abbr>κλ</abbr><ex>ίνου</ex></expan>
-                          <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                          <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
                           <supplied reason="lost">κρ</supplied>ιτῖ 
                           <lb n="6"/>ἐπὶ <supplied reason="lost">τ</supplied>οῦ
                           <expan><abbr>Ἰ</abbr><supplied reason="lost"><abbr>ππ</abbr></supplied>

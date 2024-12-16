@@ -118,7 +118,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge blank-too-small">
+                                <condition rend="worn-edge broken">
                                     <p xml:lang="fr">Flan fortement rogné au sommet; fêlé le long de
                                         la ligne de canal.</p>
                                     <p xml:lang="en">Blank heavily trimmed at the top; cracked along
@@ -265,21 +265,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <!-- ?? -->
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -332,7 +317,7 @@
                           <supplied reason="lost" evidence="parallel"><expan><abbr>δού</abbr><ex>λῳ</ex></expan></supplied>
                           <supplied reason="lost" evidence="parallel">Π</supplied>
                            <lb n="3" break="no"/><supplied reason="lost" evidence="parallel">α</supplied>ύλῳ
-                          <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σ</abbr><supplied reason="lost"><abbr>π</abbr><ex>αθαρίῳ</ex></supplied></expan>
+                          <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σ</abbr><supplied reason="lost"><abbr>π</abbr><ex>αθαρίῳ</ex></supplied></expan>
                            <lb n="4"/>ἐπὶ τοῦ <expan><abbr>χρ</abbr><supplied reason="lost"><abbr>υ</abbr></supplied>
                            <lb n="5" break="no"/><abbr>σοτρικ</abbr><ex>λίνου</ex></expan>
 
@@ -344,7 +329,7 @@
                           <lb n="7"/><supplied reason="lost" evidence="parallel">τοῦ</supplied>
                           <expan><supplied reason="lost" evidence="parallel"><abbr>Ἱππο
                            <lb n="8" break="no"/>δρ</abbr><ex>όμου</ex></supplied></expan>
-                          <supplied reason="lost" evidence="parallel"><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan></supplied>
+                          <supplied reason="lost" evidence="parallel"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied>
                           στ<supplied reason="lost" evidence="parallel">ρατι</supplied>
                            <lb n="9" break="no"/><supplied reason="lost" evidence="parallel">ω</supplied>τικῷ λο 
                            <lb n="10" break="no"/>γοθέτῃ

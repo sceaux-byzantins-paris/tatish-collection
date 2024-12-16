@@ -116,14 +116,14 @@
                                     <measure type="channelOrient" unit="clock">3-9</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed chipped">
                                     <p xml:lang="fr">Echancré aux orifices du canal placé à
                                         l’horizontale; rogné à la base du flan; écrasé sur une
                                         partie importante des deux faces: ceci rend visible
                                         seulement la partie droite de la légende circulaire sur
                                         l'avers et de l'épigraphe en colonnes accompagnant l'image,
                                         tandis qu'au revers les dernières lignes sont écrasées.</p>
-                                    <p xml:lang="en">Horizontal channel, Indented at its openings;
+                                    <p xml:lang="en">Horizontal channel, indented at its openings;
                                         trimmed at the base of the blank; crushed on a large part of
                                         both sides: this makes only the right-hand part of the
                                         circular legend and of the image's label visible on the
@@ -288,20 +288,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai1">
-                    <mapping type="standard"></mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -363,13 +349,13 @@
                       <ab>
                          <lb n="2"/><expan><abbr>Θεοδώ
                            <lb n="3" break="no"/>ρ</abbr><ex>ῳ</ex></expan>
-                          <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
+                          <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
                            <lb n="4"/><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan> ἐπὶ
                            <lb n="5"/><supplied reason="lost">τοῦ</supplied>
                           <expan><supplied reason="lost"><abbr>Ἱ</abbr></supplied><abbr>ππο</abbr><supplied reason="lost"><abbr>δρ</abbr><ex>όμου</ex></supplied></expan>
                           <supplied reason="lost" evidence="parallel">τ</supplied>
                            <lb n="6" break="no"/><supplied reason="lost" evidence="parallel">οῦ</supplied> <expan><abbr>βίλ</abbr><ex>ου</ex></expan>
-                          <supplied reason="lost" evidence="parallel"><expan><abbr><am><g ref="#kai1"/></am></abbr><ex>καὶ</ex></expan></supplied> <supplied reason="lost" evidence="parallel">τ</supplied>
+                          <supplied reason="lost" evidence="parallel"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <supplied reason="lost" evidence="parallel">τ</supplied>
                            <lb n="7" break="no"/><supplied reason="lost" evidence="parallel">ο</supplied>ν <expan><abbr>Ἀρμε
                           <lb n="8" break="no"/><supplied reason="lost" evidence="parallel">νιακ</supplied></abbr><ex>ῶν</ex></expan>
                                </ab>

@@ -119,7 +119,6 @@
                                     <measure type="countermark" unit="clock"/>
                                 </support>
                                 <condition rend="corroded">
-                                    <!-- ?? -->
                                     <p xml:lang="fr">A peine échancré aux orifices du canal; oxydé
                                         sur les deux faces.</p>
                                     <p xml:lang="en">Barely indented at the canal openings; oxidised
@@ -297,20 +296,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -365,8 +350,8 @@
                          <expan><abbr>πα</abbr><supplied reason="lost"><abbr>τ</abbr><ex>ρι</ex></supplied>
                          <lb n="4" break="no"/><abbr>κ</abbr><ex>ίῳ</ex></expan>
                          <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                         <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
-                         <lb n="5"/><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> γενηκο͂ͅ <!-- accent et iota souscrit! -->
+                         <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> γενηκο͂ͅ <!-- accent et iota souscrit! -->
                          <lb n="6"/><expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan>
                                </ab>
                   </div>

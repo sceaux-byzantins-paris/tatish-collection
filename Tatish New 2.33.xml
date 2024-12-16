@@ -289,20 +289,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -357,9 +343,9 @@
                           <expan><supplied reason="lost"><abbr>π</abbr></supplied><abbr>α
                          <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan>
                           <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                         <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σπ
+                         <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ
                          <lb n="5" break="no"/>αθ</abbr><ex>αρίῳ</ex></expan>
-                          <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                          <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
                           <expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan>
                          <lb n="6"/>τοῦ <expan><abbr>δρόμ</abbr><ex>ου</ex></expan>
                                </ab>

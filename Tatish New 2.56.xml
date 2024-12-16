@@ -283,12 +283,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -338,7 +332,7 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="1"/><g ref="#cross">+</g><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                        <lb n="1"/>+<expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
                           <lb n="2"/><expan><abbr>Γραβριὴ</abbr><ex>λ</ex></expan>
                           <lb n="3"/><expan><abbr>δομεστ</abbr><supplied reason="lost"><abbr>ίκ</abbr><ex>ῳ</ex></supplied></expan> 
                           <lb n="4"/>τȏν <gap reason="lost" extent="unknown" unit="character"/><!-- ῀ on omicron -->

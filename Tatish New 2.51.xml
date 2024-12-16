@@ -266,16 +266,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -327,7 +317,7 @@
                         <lb n="2"/>+Θεοφ
                           <lb n="3" break="no"/>υλάκτῳ <expan><abbr>πα
                           <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan> <expan><abbr>πραιπ</abbr><supplied reason="lost"><abbr>ο</abbr></supplied>
-                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
+                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
                           <lb n="6" break="no"/><surplus>κ</surplus>ελαρ</abbr><ex>ίῳ</ex></expan>
                                </ab>
                   </div>

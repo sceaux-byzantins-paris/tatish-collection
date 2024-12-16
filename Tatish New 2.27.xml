@@ -266,17 +266,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <!-- ?? -->
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -330,7 +319,7 @@
                            <lb n="2"/>+<expan><abbr>Λέον</abbr>
                            <lb n="3" break="no"/><supplied reason="lost"><abbr>τ</abbr><ex>ι</ex></supplied></expan>
                           <expan><abbr>μ</abbr><supplied reason="lost"><abbr>αν</abbr></supplied><abbr>δ</abbr><ex>άτορι</ex></expan>
-                           <lb n="4"/><supplied reason="lost"><expan><abbr><am><g ref="#kai" cert="low"/></am></abbr><ex>καὶ</ex></expan></supplied>
+                           <lb n="4"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied>
                           <expan><abbr>ἐπισ
                            <lb n="5" break="no"/><supplied reason="lost">κ</supplied>επ</abbr><ex>τί</ex><abbr>τῃ</abbr></expan>
                       </ab>
