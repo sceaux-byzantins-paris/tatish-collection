@@ -110,7 +110,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="broken worn-edge">
+                                <condition rend="broken chipped">
                                     <p xml:lang="fr">Flan brisé au sommet du champ; nettement
                                         échancré aux orifices du canal; traces d’usure sur les deux
                                         faces.</p>
@@ -375,13 +375,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.45</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

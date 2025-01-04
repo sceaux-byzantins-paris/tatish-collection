@@ -117,7 +117,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge">
+                                <condition rend="worn-edge chipped">
                                     <p xml:lang="fr">Nettement échancré aux orifices du canal;
                                         légère oxydation.</p>
                                     <p xml:lang="en">Markedly indented at the channel openings;
@@ -269,16 +269,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -326,14 +316,14 @@
                           <lb n="1"/>Εὐλαμ
                            <lb n="2" break="no"/>πίου πα
                            <lb n="3" break="no"/>τρικίο<supplied reason="lost">υ</supplied>
-                           <lb n="4"/><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> λογοθ
+                           <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> λογοθ
                            <lb n="5" break="no"/>έτου+
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="6"/>τ<supplied reason="lost">ο</supplied>ῦ σα
-                           <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ε<supplied reason="lost">λ</supplied>λίου <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                           <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ε<supplied reason="lost">λ</supplied>λίου <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
                            <lb n="8"/>τοῦ στρα
                            <lb n="9" break="no"/>τιωτικ
                            <lb n="10" break="no"/>οῦ+
@@ -394,7 +384,7 @@
                         <ptr target="SBS_Auctions1991-1996"/>, p. <citedRange unit="page"
                             >136</citedRange>
                     </bibl>; <bibl>
-                        <ptr target="BBÖ2"/>, <citedRange unit="page">100</citedRange>
+                        <ptr target="BBÖ2"/>, p. <citedRange unit="page">100</citedRange>
                     </bibl>.</p>
             </div>
             <div type="bibliography" subtype="edition">

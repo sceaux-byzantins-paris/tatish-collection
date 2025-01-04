@@ -113,7 +113,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed chipped worn-edge">
                                     <p xml:lang="fr">Echancré aux orifices du canal; rogné sur le
                                         pourtour; lettres un peu écrasées.</p>
                                     <p xml:lang="en">Slightly indented at the channel openings;
@@ -271,12 +271,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -320,7 +314,7 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/><g ref="#cross">+</g>Κύριε 
+                         <lb n="1"/>+Κύριε 
                          <lb n="2"/>βοήθει 
                          <lb n="3"/>τῷ σῷ δού
                          <lb n="4" break="no"/>λῳ <expan><abbr>Κων</abbr><ex>σταντίν</ex><abbr>ῳ</abbr></expan>
@@ -396,13 +390,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.54</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

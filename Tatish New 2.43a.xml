@@ -114,7 +114,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="crushed">
+                                <condition rend="crushed pierced">
                                     <p xml:lang="fr">Fortement rogné au sommet du champ; deux trous
                                         dans le champ; points d’écrasement sur les deux faces.</p>
                                     <p xml:lang="en">Heavily trimmed at the top of the field; two
@@ -282,12 +282,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>

@@ -222,7 +222,7 @@
                                         <figDesc n="decoR" xml:lang="fr">Cercle de feuillage
                                             stylisé; croisette pattée au sommet du monogramme,
                                             posée au milieu du Π.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Circle of stylised foliage;
+                                        <figDesc n="decoR" xml:lang="en">Circle of stylised foliage;
                                             a cross at the top of the field</figDesc>
                                     </figure>
                                 </decoNote>
@@ -270,7 +270,7 @@
                                         <figDesc n="decoV" xml:lang="fr">Cercle de feuillage
                                             stylisé; croisette dans le champ, au sommet du
                                             monogramme</figDesc>
-                                        <figDesc n="decoV" xml:lang="fr">Circle of stylised foliage;
+                                        <figDesc n="decoV" xml:lang="en">Circle of stylised foliage;
                                             a cross at the top of the field</figDesc>
                                     </figure>
                                 </decoNote>
@@ -284,12 +284,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>

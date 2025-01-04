@@ -264,20 +264,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="alpha">
-                    <mapping type="standard">A</mapping>
-                    <mapping type="simplified">(protos)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -328,8 +314,8 @@
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                         <lb n="2"/>+Δαμι<supplied reason="lost">α</supplied>
-                          <lb n="3" break="no"/>νῷ <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> 
-                          <lb n="4"/><expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>νοτ</abbr><ex>αρίῳ</ex></expan> τοῦ 
+                          <lb n="3" break="no"/>νῷ <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                          <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>νοτ</abbr><ex>αρίῳ</ex></expan> τοῦ 
                           <lb n="5"/><expan><abbr>μεγ</abbr><ex>άλου</ex></expan> <expan><abbr>κουρ
                           <lb n="6" break="no"/>ατορ</abbr><ex>ικίου</ex></expan>+
                                </ab>
@@ -390,7 +376,7 @@
                     une croix ornée de légers fleurons stylisés en forme de lys, depuis la base
                     jusqu’à mi-champ et au revers, +ΔΑΜΙ|ΑΝΩRCΠΑ|ΘΑΡΟΚΑΝΔ|SΑΝΟΤΤ|ΟΥΜΕΓΚΟΥ|ΑΤΩΡ.
                     [Le sceau a depuis été publié dans <bibl>
-                        <ptr target="Kofopoulos202"/>, <citedRange unit="part">2.108</citedRange>
+                        <ptr target="Kofopoulos2022"/>, <citedRange unit="part">2.108</citedRange>
                         (provenant de la vente Münz), en confirmant que les deux sceaux
                         appartiennent au même titulaire, à deux étapes différentes de sa carrière.]
                     </bibl></p>
@@ -401,7 +387,7 @@
                         <ptr target="SBS_Auctions2007-2011"/>, p. <citedRange unit="page">160-161</citedRange>
                     </bibl>, aujourd’hui dans la
                     collection Kofopoulos, inv. 1003. [Le sceau a depuis été publié dans <bibl>
-                        <ptr target="Kofopoulos202"/>, <citedRange unit="part">2.109</citedRange>].</bibl>
+                        <ptr target="Kofopoulos2022"/>, <citedRange unit="part">2.109</citedRange>].</bibl>
                 </p>
                 <p xml:lang="fr" xml:id="footnote-4"> [4].<bibl>
                     <ptr target="JordanovCorpus3"/>, <citedRange unit="part">912 et 913</citedRange>
@@ -414,13 +400,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.50</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

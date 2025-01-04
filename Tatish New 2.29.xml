@@ -117,7 +117,7 @@
                                     <measure type="channelOrient" unit="clock">12-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="not-centered">
+                                <condition rend="not-centered chipped">
                                     <p xml:lang="fr">Echancré aux orifices du canal; lettres
                                         écrasées au revers; frappe légèrement décentrée.</p>
                                     <p xml:lang="en">Indented at the channel orifices; crushed
@@ -286,12 +286,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -397,8 +391,9 @@
                         <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
                             >140</citedRange>
                     </bibl>. </p>
-                <p xml:lang="fr" xml:id="footnote-2"> [2]. Era Van De Vries, Psellos et son gendre,
-                        <hi rend="italic">Byzantinische Forschungen</hi> 23, 1996, p. 109-149. </p>
+                <p xml:lang="fr" xml:id="footnote-2"> [2]. <bibl>
+                    <ptr target="deVries1996"/>.
+                </bibl>. </p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>

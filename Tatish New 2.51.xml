@@ -266,16 +266,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-                <glyph xml:id="kai">
-                    <mapping type="standard">ϗ</mapping>
-                    <mapping type="simplified">(kai)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -324,10 +314,10 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="2"/><g ref="#cross">+</g>Θεοφ<!-- #cross to be changed according to the choice of the cross' shape in the diplomatic -->
+                        <lb n="2"/>+Θεοφ
                           <lb n="3" break="no"/>υλάκτῳ <expan><abbr>πα
                           <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan> <expan><abbr>πραιπ</abbr><supplied reason="lost"><abbr>ο</abbr></supplied>
-                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
+                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
                           <lb n="6" break="no"/><surplus>κ</surplus>ελαρ</abbr><ex>ίῳ</ex></expan>
                                </ab>
                   </div>
@@ -380,14 +370,14 @@
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>sinon très proches, issus de deux <hi rend="italic">boullôtèria</hi> différents
+                <p>Sinon très proches, issus de deux <hi rend="italic">boullôtèria</hi> différents
                     (décalage d’une lettre, pas toujours clair selon l’état de conservation): </p>
-                <p> Fogg 823 = Collection Dumbarton Oaks 1958.106.5607: <bibl>
+                <p> Fogg 823 = Collection Dumbarton Oaks, BZS.1958.106.5607: <bibl>
                         <ptr target="Zacos1"/>, <citedRange unit="part">2542</citedRange> = <bibl>
                             <ptr target="LaurentCorpus2"/>, <citedRange unit="part">753</citedRange>
                             = <bibl>
                                 <ptr target="DOsealsOnline"/>, <citedRange unit="part"
-                                    >????????????</citedRange>; </bibl>
+                                    ><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5607/view">BZS.1958.106.5607</ref></citedRange>; </bibl>
                         </bibl>
                     </bibl>
                 </p>

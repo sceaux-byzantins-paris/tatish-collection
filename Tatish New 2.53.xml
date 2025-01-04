@@ -110,7 +110,7 @@
                                     <measure type="channelOrient" unit="clock">11-6</measure>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge">
+                                <condition rend="chipped corroded">
                                     <p xml:lang="fr">Echancré aux orifices du canal; légèrement
                                         oxydé.</p>
                                     <p xml:lang="en">Indented at the channel openings; slightly
@@ -342,13 +342,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.53</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>

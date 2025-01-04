@@ -268,12 +268,6 @@
             <editorialDecl>
                 <p/>
             </editorialDecl>
-            <charDecl>
-                <glyph xml:id="cross">
-                    <mapping type="standard">+</mapping>
-                    <mapping type="simplified">(cross)</mapping>
-                </glyph>
-            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
@@ -367,13 +361,6 @@
                 <p>
                     <bibl>
                         <ptr target="CheynetTatış"/>, <citedRange unit="part">2.44</citedRange>.
-                    </bibl>
-                </p>
-            </div>
-            <div type="bibliography" subtype="parallels">
-                <p>
-                    <bibl>
-                        <ptr target="xxx"/>, <citedRange unit="page"/>
                     </bibl>
                 </p>
             </div>
