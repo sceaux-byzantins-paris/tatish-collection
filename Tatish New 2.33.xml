@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/dev/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/dev/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -212,16 +212,13 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r"
-                                            ana="cross patriarchal ornated on-steps fleurons"
-                                            xml:lang="fr">Fine croix patriarcale, recroisetée à la
+                                        <figDesc n="r" ana="cross patriarchal ornated on-steps fleurons" xml:lang="fr">Fine croix patriarcale, recroisetée à la
                                             plus grande traverse, élevée sur un globule puis trois
                                             degrés, ornée d’élégants fleurons issant de la base,
                                             s’enroulant sous la traverse inférieure puis s’élevant
                                             jusqu’au sommet, surmontés d’une fleur de part et
                                             d’autre du bras supérieur.</figDesc>
-                                        <figDesc n="r"
-                                            ana="cross patriarchal ornated on-steps fleurons"
+                                        <figDesc n="r" ana="cross patriarchal ornated on-steps fleurons"
                                             xml:lang="en">Fine patriarchal cross, recrossed at the
                                             largest crossbar, raised on a globe and three steps,
                                             adorned with elegant fleurons stemming from the base,
