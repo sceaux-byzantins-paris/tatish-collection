@@ -286,6 +286,7 @@
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
             <change when="2024-11-04" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -307,25 +308,25 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"><!-- encoding for indexing? -->
                       <ab> 
                          <lb n="1"/><app type="alternative">
-                         <lem><expan><ex>Θεοτόκε βοήθει</ex></expan></lem>
-                         <rdg><expan><ex>Κύριε βοήθει</ex></expan></rdg></app>
+                         <lem><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan></rs></lem>
+                         <rdg><rs type="invocation" ref="#inv004"><expan><ex>Κύριε βοήθει</ex></expan></rs></rdg></app>
                          <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> δούλῳ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="2"/>+<gap reason="lost" quantity="1" unit="line"/>
-                         <lb n="3"/><expan><supplied reason="lost" cert="low"><abbr>ἀνθυ</abbr></supplied><abbr>πάτ</abbr><ex>ῳ</ex></expan>
+                         <lb n="3"/><rs type="dignity" ref="#d0006"><expan><supplied reason="lost" cert="low"><abbr>ἀνθυ</abbr></supplied><abbr>πάτ</abbr><ex>ῳ</ex></expan>
                           <expan><supplied reason="lost"><abbr>πα</abbr></supplied>
-                         <lb n="4" break="no"/><abbr>τρ</abbr><ex>ικίῳ</ex></expan>
-                          <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                               <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>αθ</abbr><ex>αρίῳ</ex></supplied></expan>
+                         <lb n="4" break="no"/><abbr>τρ</abbr><ex>ικίῳ</ex></expan></rs>
+                          <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
+                               <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ</abbr><supplied reason="lost"><abbr>αθ</abbr><ex>αρίῳ</ex></supplied></expan></rs>
                          <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
-                          <expan><abbr>λογοθέτ</abbr><ex>ῃ</ex></expan> <supplied reason="lost">τ</supplied>
-                         <lb n="6" break="no"/>οῦ <expan><abbr>στρατι</abbr><ex>ωτικοῦ</ex></expan>
+                          <rs type="office" subtype="civil" ref="#of0116"><expan><abbr>λογοθέτ</abbr><ex>ῃ</ex></expan></rs> <supplied reason="lost">τ</supplied>
+                         <lb n="6" break="no"/>οῦ <rs type="institution" ref="#org0027"><expan><abbr>στρατι</abbr><ex>ωτικοῦ</ex></expan></rs>
                                </ab>
                   </div>
               </div>

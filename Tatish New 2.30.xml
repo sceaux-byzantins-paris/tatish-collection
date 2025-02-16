@@ -304,6 +304,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-15" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-02" who="#SM">Filled in metadata in new template</change>
@@ -343,23 +344,23 @@
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
                       <ab>                         
                           <lb n="1"/>
-                          <expan><supplied reason="lost"><abbr>Θ</abbr><ex>εοτό</ex><abbr>κ</abbr></supplied><abbr>ε</abbr></expan>
+                          <rs type="invocation" ref="#inv002"><expan><supplied reason="lost"><abbr>Θ</abbr><ex>εοτό</ex><abbr>κ</abbr></supplied><abbr>ε</abbr></expan>
                           βο<supplied reason="lost" cert="low">ήθει</supplied> τῷ σῷ
-                                     <expan><abbr>δ</abbr><ex>ού</ex><abbr>λ</abbr><ex>ῳ</ex></expan>
+                                     <expan><abbr>δ</abbr><ex>ού</ex><abbr>λ</abbr><ex>ῳ</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="2"/><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan>
-                          <lb n="3"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan>
-                          <supplied reason="lost">ἐπὶ</supplied>
+                         <lb n="2"/><forename><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan></rs>
+                          <rs type="office" subtype="civil" ref="#of0070"><supplied reason="lost">ἐπὶ</supplied>
                           <lb n="4"/>τοῦ <expan><abbr>χρυ</abbr><supplied reason="lost" evidence="parallel"><abbr>σωτρ
                           <lb n="5" break="no"/>ι</abbr></supplied><abbr>κλ</abbr><ex>ίνου</ex></expan>
-                          <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
-                          <supplied reason="lost">κρ</supplied>ιτῖ 
+</rs>                          <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
+                          <rs type="office" subtype="civil" ref="#of0112"><supplied reason="lost">κρ</supplied>ιτῖ</rs> 
                           <lb n="6"/>ἐπὶ <supplied reason="lost">τ</supplied>οῦ
-                          <expan><abbr>Ἰ</abbr><supplied reason="lost"><abbr>ππ</abbr></supplied>
-                          <lb n="7" break="no"/><supplied reason="lost"><abbr>οδρ</abbr><ex>όμου</ex></supplied></expan>
+                          <rs type="institution" ref="#org0017"><expan><abbr>Ἰ</abbr><supplied reason="lost"><abbr>ππ</abbr></supplied>
+                          <lb n="7" break="no"/><supplied reason="lost"><abbr>οδρ</abbr><ex>όμου</ex></supplied></expan></rs>
                                </ab>
                   </div>
               </div>

@@ -286,6 +286,7 @@
             <change when="2024-04-13" who="#SM">Corrections on metadata</change>
             <change when="2024-11-23" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -309,16 +310,16 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ δούλῳ                      
+                         <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ δούλῳ</rs>                      
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="2"/>+Θεοφ
-                          <lb n="3" break="no"/>υλάκτῳ <expan><abbr>πα
-                          <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan> <expan><abbr>πραιπ</abbr><supplied reason="lost"><abbr>ο</abbr></supplied>
-                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
-                          <lb n="6" break="no"/><surplus>κ</surplus>ελαρ</abbr><ex>ίῳ</ex></expan>
+                        <lb n="2"/>+<forename>Θεοφ
+                          <lb n="3" break="no"/>υλάκτῳ</forename> <rs type="dignity" ref="#d0047"><expan><abbr>πα
+                          <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan></rs> <rs type="dignity" ref="#d0049"><expan><abbr>πραιπ</abbr><supplied reason="lost"><abbr>ο</abbr></supplied>
+                          <lb n="5" break="no"/><abbr>σίτ</abbr><ex>ῃ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0177"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σακ
+                          <lb n="6" break="no"/><surplus>κ</surplus>ελαρ</abbr><ex>ίῳ</ex></expan></rs>
                                </ab>
                   </div>
               </div>
@@ -344,7 +345,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Θεοφυλάκτῳ πατρικίῳ πραιποσίτῃ καὶ βασιλικῷ
+                <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Θεοφυλάκτῳ πατρικίῳ, πραιποσίτῃ καὶ βασιλικῷ
                     σακκελαρίῳ.</p>
                 <p xml:lang="en">Mother of God help your servant Theophylaktos, patrikios,
                     praepositus and imperial sakellarios.</p>

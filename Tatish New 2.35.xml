@@ -290,6 +290,7 @@
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
             <change when="2024-11-04" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -313,20 +314,20 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
-                          <lb n="1"/>Εὐλαμ
-                           <lb n="2" break="no"/>πίου πα
-                           <lb n="3" break="no"/>τρικίο<supplied reason="lost">υ</supplied>
-                           <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> λογοθ
-                           <lb n="5" break="no"/>έτου+
+                          <lb n="1"/><forename>Εὐλαμ
+                           <lb n="2" break="no"/>πίου</forename> <rs type="dignity" ref="#d0047">πα
+                           <lb n="3" break="no"/>τρικίο<supplied reason="lost">υ</supplied></rs>
+                           <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0116">λογοθ
+                           <lb n="5" break="no"/>έτου</rs>+
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="6"/>τ<supplied reason="lost">ο</supplied>ῦ σα
-                           <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ε<supplied reason="lost">λ</supplied>λίου <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
-                           <lb n="8"/>τοῦ στρα
+                         <lb n="6"/>τ<supplied reason="lost">ο</supplied>ῦ <rs type="institution" ref="#org0024">σα
+                           <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ε<supplied reason="lost">λ</supplied>λίου</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
+                           <lb n="8"/>τοῦ <rs type="institution" ref="#org0027">στρα
                            <lb n="9" break="no"/>τιωτικ
-                           <lb n="10" break="no"/>οῦ+
+                           <lb n="10" break="no"/>οῦ</rs>+
                                </ab>
                   </div>
               </div>

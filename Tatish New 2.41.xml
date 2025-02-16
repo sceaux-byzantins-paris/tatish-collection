@@ -300,6 +300,7 @@
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
             <change when="2024-11-18" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -329,10 +330,10 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>+<expan><abbr>Ἀζ</abbr><supplied reason="lost" evidence="parallel"><abbr>αρ</abbr><ex>ίᾳ</ex></supplied></expan>
-                          <lb n="2" break="no"/><expan><abbr>σπαθα</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ο</ex></supplied>
-                          <lb n="3" break="no"/><abbr>κανδ</abbr><ex>ι</ex><abbr>δ</abbr><ex>άτῳ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <supplied reason="lost"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan></supplied>
-                          <lb n="4" break="no"/><expan><abbr>νοτ</abbr><supplied reason="lost"><abbr>αρ</abbr><ex>ίῳ</ex></supplied></expan>
+                         <lb n="1"/>+<forename><expan><abbr>Ἀζ</abbr><supplied reason="lost" evidence="parallel"><abbr>αρ</abbr><ex>ίᾳ</ex></supplied></expan></forename>
+                          <lb n="2" break="no"/><rs type="dignity" ref="#d0080"><expan><abbr>σπαθα</abbr><supplied reason="lost"><abbr>ρ</abbr><ex>ο</ex></supplied>
+                          <lb n="3" break="no"/><abbr>κανδ</abbr><ex>ι</ex><abbr>δ</abbr><ex>άτῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0144"><supplied reason="lost"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan></supplied>
+                          <lb n="4" break="no"/><expan><abbr>νοτ</abbr><supplied reason="lost"><abbr>αρ</abbr><ex>ίῳ</ex></supplied></expan></rs>
                                </ab>
                   </div>
               </div>

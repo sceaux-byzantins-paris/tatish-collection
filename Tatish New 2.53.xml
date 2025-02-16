@@ -274,6 +274,7 @@
             <change when="2024-04-05" who="#SM">Filled in metadata in new template</change>
             <change when="2024-11-23" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -297,14 +298,14 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/><expan><ex>Ἠρακλίτου</ex></expan>                     
+                         <lb n="1"/><forename><expan><ex>Ἠρακλίτου</ex></expan></forename>                     
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="monogram-cross" xml:lang="grc">
                       <ab>
                         <lb n="2"/><app type="alternative">
-                         <lem><expan><expan><ex>βικαρίου</ex></expan></expan></lem>
-                         <rdg><expan><expan><ex>κουβικουλαρίου</ex></expan></expan></rdg>
+                         <lem><rs type="office" subtype="civil" ref="#of0040"><expan><expan><ex>βικαρίου</ex></expan></expan></rs></lem>
+                         <rdg><rs type="dignity" ref="#d0033"><expan><expan><ex>κουβικουλαρίου</ex></expan></expan></rs></rdg>
                             </app>
                                </ab>
                   </div>

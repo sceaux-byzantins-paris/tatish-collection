@@ -311,6 +311,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-30" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -340,19 +341,19 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/><supplied reason="lost">+</supplied> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη τῷ σῷ δούλῳ   
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><supplied reason="lost">+</supplied> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη τῷ σῷ δούλῳ </rs>  
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="2"/>+ <expan><abbr>Ἰωάν</abbr><ex>νῃ</ex></expan>
-                         <lb n="3"/><expan><supplied reason="lost"><abbr>ἀν</abbr></supplied><abbr>θυπ</abbr><ex>άτῳ</ex></expan> 
+                         <lb n="2"/>+<forename><expan><abbr>Ἰωάν</abbr><ex>νῃ</ex></expan></forename>
+                         <lb n="3"/><rs type="dignity" ref="#d0006"><expan><supplied reason="lost"><abbr>ἀν</abbr></supplied><abbr>θυπ</abbr><ex>άτῳ</ex></expan> 
                          <expan><abbr>πα</abbr><supplied reason="lost"><abbr>τ</abbr><ex>ρι</ex></supplied>
-                         <lb n="4" break="no"/><abbr>κ</abbr><ex>ίῳ</ex></expan>
-                         <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
-                         <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan>
-                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> γενηκο͂ͅ <!-- accent et iota souscrit! -->
-                         <lb n="6"/><expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan>
+                         <lb n="4" break="no"/><abbr>κ</abbr><ex>ίῳ</ex></expan></rs>
+                         <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
+                         <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs>
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="institution" ref="#org0011">γενηκο͂ͅ </rs><!-- accent et iota souscrit! -->
+                         <lb n="6"/><rs type="office" subtype="civil" ref="#of0116"><expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan></rs>
                                </ab>
                   </div>
               </div>
@@ -380,7 +381,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>+ Κύριε βοήθη τῷ σῷ δούλῳ / + Ἰωάννῃ ἀνθυπάτῳ πατρικίῳ βασιλικῷ πρωτοσπαθαρίῳ καὶ
+                <p>+ Κύριε βοήθη τῷ σῷ δούλῳ / + Ἰωάννῃ ἀνθυπάτῳ πατρικίῳ, βασιλικῷ πρωτοσπαθαρίῳ καὶ
                     γενηκο͂ͅ λογοθέτῃ.</p>
                 <!-- accent et iota souscrit! -->
                 <p xml:lang="en">Lord help your servant John, anthyparos, patrikios, imperial

@@ -289,6 +289,7 @@
             <change when="2024-04-13" who="#SM">Corrections on metadata</change>
             <change when="2024-11-19" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -318,10 +319,10 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="1"/>+<expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
-                          <lb n="2"/>τῷ σῷ <expan><abbr>δ</abbr><ex>ούλῳ</ex></expan> 
-                          <lb n="3"/><expan><abbr>Γεωργί</abbr><ex>ῳ</ex></expan> 
-                          <lb n="4"/><expan><abbr>νοταρ</abbr><ex>ίῳ</ex></expan>
+                        <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                          <lb n="2"/>τῷ σῷ <expan><abbr>δ</abbr><ex>ούλῳ</ex></expan></rs> 
+                          <lb n="3"/><forename><expan><abbr>Γεωργί</abbr><ex>ῳ</ex></expan></forename> 
+                          <lb n="4"/><rs type="office" subtype="civil" ref="#of0143"><expan><abbr>νοταρ</abbr><ex>ίῳ</ex></expan></rs>
                                </ab>
                   </div>
               </div>

@@ -285,6 +285,7 @@
             <change when="2024-04-13" who="#SM">Corrections on metadata</change>
             <change when="2024-11-23" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -308,16 +309,16 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/>+<expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο<supplied reason="lost">ήθει</supplied> <supplied reason="lost">τῷ</supplied> σῷ δούλῳ                   
+                         <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο<supplied reason="lost">ήθει</supplied> <supplied reason="lost">τῷ</supplied> σῷ δούλῳ</rs>                   
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="2"/>+Δαμι<supplied reason="lost">α</supplied>
-                          <lb n="3" break="no"/>νῷ <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
-                          <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>νοτ</abbr><ex>αρίῳ</ex></expan> τοῦ 
-                          <lb n="5"/><expan><abbr>μεγ</abbr><ex>άλου</ex></expan> <expan><abbr>κουρ
-                          <lb n="6" break="no"/>ατορ</abbr><ex>ικίου</ex></expan>+
+                        <lb n="2"/>+<forename>Δαμι<supplied reason="lost">α</supplied>
+                          <lb n="3" break="no"/>νῷ</forename> <rs type="dignity" ref="#d0079"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                          <lb n="4"/><rs type="office" subtype="civil" ref="#of0172"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>νοτ</abbr><ex>αρίῳ</ex></expan></rs> τοῦ 
+                          <lb n="5"/><rs type="institution" ref="#org0049"><expan><abbr>μεγ</abbr><ex>άλου</ex></expan> <expan><abbr>κουρ
+                          <lb n="6" break="no"/>ατορ</abbr><ex>ικίου</ex></expan></rs>+
                                </ab>
                   </div>
               </div>

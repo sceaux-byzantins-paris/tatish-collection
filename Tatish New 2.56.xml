@@ -303,6 +303,7 @@
             <change when="2024-04-13" who="#SM">Corrections on metadata</change>
             <change when="2024-12-04" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -332,9 +333,9 @@
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="1"/>+<expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
-                          <lb n="2"/><expan><abbr>Γραβριὴ</abbr><ex>λ</ex></expan>
-                          <lb n="3"/><expan><abbr>δομεστ</abbr><supplied reason="lost"><abbr>ίκ</abbr><ex>ῳ</ex></supplied></expan> 
+                        <lb n="1"/>+<rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                          <lb n="2"/><forename><expan><abbr>Γαβριὴ</abbr><ex>λ</ex></expan></forename>
+                          <lb n="3"/><rs type="office" subtype="military" ref="#of0243"><expan><abbr>δομεστ</abbr><supplied reason="lost"><abbr>ίκ</abbr><ex>ῳ</ex></supplied></expan></rs> 
                           <lb n="4"/>τȏν <gap reason="lost" extent="unknown" unit="character"/><!-- ῀ on omicron -->
                           <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>
                       </ab>
@@ -363,7 +364,7 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p>Γαβριἠλ. / +Θεοτόκε βοήθει Γαβριήλ δομεστίκῳ τȏν ...</p>
+                <p>Γαβριἠλ. / + Θεοτόκε βοήθει Γαβριήλ δομεστίκῳ τȏν ...</p>
                 <p xml:lang="en">Gabriel. Mother of God help Gabriel, domestikos ...</p>
                 <p xml:lang="fr">Gabriel. Mère de Dieu aide Gabriel, domestique ...</p>
             </div>

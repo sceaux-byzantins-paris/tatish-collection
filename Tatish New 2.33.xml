@@ -301,6 +301,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-17" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -330,21 +331,21 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
                       <ab> 
-                       <lb n="1"/>+<expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθει τῷ σῷ δούλῳ
-                    </ab>
+                       <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθει τῷ σῷ δούλῳ
+</rs>                    </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="2"/>+Θωμᾷ 
-                         <lb n="3"/><expan><abbr>ἀνθυπ</abbr><ex>άτῳ</ex></expan>
+                         <lb n="2"/>+<forename>Θωμᾷ</forename> 
+                         <lb n="3"/><rs type="dignity" ref="#d0006"><expan><abbr>ἀνθυπ</abbr><ex>άτῳ</ex></expan>
                           <expan><supplied reason="lost"><abbr>π</abbr></supplied><abbr>α
-                         <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan>
-                          <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
+                         <lb n="4" break="no"/>τρικ</abbr><ex>ίῳ</ex></expan></rs>
+                          <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 
                          <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπ
-                         <lb n="5" break="no"/>αθ</abbr><ex>αρίῳ</ex></expan>
+                         <lb n="5" break="no"/>αθ</abbr><ex>αρίῳ</ex></expan></rs>
                           <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
-                          <expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan>
-                         <lb n="6"/>τοῦ <expan><abbr>δρόμ</abbr><ex>ου</ex></expan>
+                          <rs type="office" subtype="civil" ref="#of0116"><expan><abbr>λογοθ</abbr><ex>έτῃ</ex></expan></rs>
+                         <lb n="6"/>τοῦ <rs type="institution" ref="#org0012"><expan><abbr>δρόμ</abbr><ex>ου</ex></expan></rs>
                                </ab>
                   </div>
               </div>

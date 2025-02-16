@@ -286,6 +286,7 @@
             <change when="2024-06-13" who="#SM">Corrections on metadata</change>
             <change when="2024-12-14" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -309,20 +310,20 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
-                         <lb n="1"/>+<expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> 
+                         <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> 
                          <lb n="2"/><supplied reason="lost">β</supplied>οήθε<supplied reason="lost">ι</supplied> 
                          <lb n="3"/><supplied reason="lost">τ</supplied>ῷ σῷ δού
-                         <lb n="4" break="no"/><supplied reason="lost">λ</supplied>ῳ Νική
-                         <lb n="5" break="no"/>τᾳ
+                         <lb n="4" break="no"/><supplied reason="lost">λ</supplied>ῳ</rs> <forename>Νική
+                         <lb n="5" break="no"/>τᾳ</forename>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                        <lb n="6"/><expan><abbr><supplied reason="lost">σ</supplied>εβασ
-                          <lb n="7" break="no"/>τοφόρ</abbr><ex>ῳ</ex></expan> 
-                          <lb n="8"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> δρουγγα
-                          <lb n="9" break="no"/><supplied reason="lost">ρ</supplied>ίῳ τῶν 
-                          <lb n="10"/><expan><abbr>πλωΐμ</abbr><ex>ων</ex></expan>
+                        <lb n="6"/><rs type="dignity" ref="#d0074"><expan><abbr><supplied reason="lost">σ</supplied>εβασ
+                          <lb n="7" break="no"/>τοφόρ</abbr><ex>ῳ</ex></expan></rs> 
+                          <lb n="8"/><supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="military" ref="#of0249">δρουγγα
+                          <lb n="9" break="no"/><supplied reason="lost">ρ</supplied>ίῳ</rs> τῶν 
+                          <lb n="10"/><rs type="institution" ref="#org0088"><expan><abbr>πλωΐμ</abbr><ex>ων</ex></expan></rs>
                       </ab>
                   </div>
               </div>

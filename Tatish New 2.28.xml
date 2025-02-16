@@ -281,6 +281,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-15" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -313,9 +314,9 @@
                       
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          <lb n="1"/><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
-                          <lb n="2"/><expan><abbr>Νικολ</abbr><ex>άῳ</ex></expan>
-                          <lb n="3"/><expan><abbr>ὁριαρ</abbr><ex>ίῳ</ex></expan>
+                          <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
+                          <lb n="2"/><forename><expan><abbr>Νικολ</abbr><ex>άῳ</ex></expan></forename>
+                          <lb n="3"/><rs type="office" subtype="civil" ref="#of0197"><expan><abbr>ὁριαρ</abbr><ex>ίῳ</ex></expan></rs>
                       </ab>
                   </div>
               </div>

@@ -286,6 +286,7 @@
             <change when="2024-04-12" who="#SM">Corrections on metadata and legend</change>
             <change when="2024-11-04" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -310,29 +311,29 @@
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab> 
                           <lb n="1"/><supplied reason="lost" evidence="parallel">+</supplied>
-                          <supplied reason="lost" evidence="parallel"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
+                          <rs type="invocation" ref="#inv004"><supplied reason="lost" evidence="parallel"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
                           <supplied reason="lost" evidence="parallel"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied>
                            <lb n="2"/><supplied reason="lost" evidence="parallel">τῷ</supplied>
                           <supplied reason="lost" evidence="parallel">σῷ</supplied>
-                          <supplied reason="lost" evidence="parallel"><expan><abbr>δού</abbr><ex>λῳ</ex></expan></supplied>
-                          <supplied reason="lost" evidence="parallel">Π</supplied>
-                           <lb n="3" break="no"/><supplied reason="lost" evidence="parallel">α</supplied>ύλῳ
-                          <expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σ</abbr><supplied reason="lost"><abbr>π</abbr><ex>αθαρίῳ</ex></supplied></expan>
-                           <lb n="4"/>ἐπὶ τοῦ <expan><abbr>χρ</abbr><supplied reason="lost"><abbr>υ</abbr></supplied>
-                           <lb n="5" break="no"/><abbr>σοτρικ</abbr><ex>λίνου</ex></expan>
+                          <supplied reason="lost" evidence="parallel"><expan><abbr>δού</abbr><ex>λῳ</ex></expan></supplied></rs>
+                          <forename><supplied reason="lost" evidence="parallel">Π</supplied>
+                           <lb n="3" break="no"/><supplied reason="lost" evidence="parallel">α</supplied>ύλῳ</forename>
+                          <rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σ</abbr><supplied reason="lost"><abbr>π</abbr><ex>αθαρίῳ</ex></supplied></expan></rs>
+                           <lb n="4"/><rs type="office" ref="#of0070">ἐπὶ τοῦ <expan><abbr>χρ</abbr><supplied reason="lost"><abbr>υ</abbr></supplied>
+                           <lb n="5" break="no"/><abbr>σοτρικ</abbr><ex>λίνου</ex></expan></rs>
 
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="6"/><supplied reason="lost" evidence="parallel">κριτῇ</supplied>
+                         <lb n="6"/><rs type="office" ref="#of0112"><supplied reason="lost" evidence="parallel">κριτῇ</supplied></rs>
                           <lb n="7"/><supplied reason="lost" evidence="parallel">τοῦ</supplied>
-                          <expan><supplied reason="lost" evidence="parallel"><abbr>Ἱππο
-                           <lb n="8" break="no"/>δρ</abbr><ex>όμου</ex></supplied></expan>
+                          <rs type="institution" ref="#org0017"><expan><supplied reason="lost" evidence="parallel"><abbr>Ἱππο
+                           <lb n="8" break="no"/>δρ</abbr><ex>όμου</ex></supplied></expan></rs>
                           <supplied reason="lost" evidence="parallel"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied>
-                          στ<supplied reason="lost" evidence="parallel">ρατι</supplied>
-                           <lb n="9" break="no"/><supplied reason="lost" evidence="parallel">ω</supplied>τικῷ λο 
-                           <lb n="10" break="no"/>γοθέτῃ
+                          <rs type="institution" ref="#org0027">στ<supplied reason="lost" evidence="parallel">ρατι</supplied>
+                           <lb n="9" break="no"/><supplied reason="lost" evidence="parallel">ω</supplied>τικῷ</rs> <rs type="office" subtype="civil" ref="#of0116">λο 
+                           <lb n="10" break="no"/>γοθέτῃ</rs>
                                </ab>
                   </div>
               </div>

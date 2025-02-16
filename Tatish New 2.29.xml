@@ -301,6 +301,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-15" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -337,11 +338,11 @@
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="1"/><expan><abbr>Σφραγ</abbr><ex>ὶς</ex></expan>
-                         <lb n="2"/><supplied reason="lost">Β</supplied>ασιλείου 
-                         <lb n="3"/><supplied reason="lost">κ</supplied>ριτοῦ ἐπὶ 
-                         <lb n="4"/>τοῦ <expan><abbr>Ἱπποδρ</abbr><ex>όμου</ex></expan>
-                         <lb n="5"/> τοῦ <expan><abbr>Μαλ</abbr><supplied reason="lost"><abbr>έ</abbr></supplied>
-                           <lb n="6" break="no"/><supplied reason="lost"><abbr>σ</abbr><ex>η</ex></supplied></expan>
+                         <lb n="2"/><forename><supplied reason="lost">Β</supplied>ασιλείου</forename> 
+                         <lb n="3"/><rs type="office" subtype="civil" ref="#of0112"><supplied reason="lost">κ</supplied>ριτοῦ</rs> ἐπὶ 
+                         <lb n="4"/>τοῦ <rs type="institution" ref="#org0017"><expan><abbr>Ἱπποδρ</abbr><ex>όμου</ex></expan></rs>
+                         <lb n="5"/> τοῦ <surname><expan><abbr>Μαλ</abbr><supplied reason="lost"><abbr>έ</abbr></supplied>
+                           <lb n="6" break="no"/><supplied reason="lost"><abbr>σ</abbr><ex>η</ex></supplied></expan></surname>
                       </ab>
                   </div>
               </div>

@@ -299,6 +299,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-12" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -326,19 +327,19 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                  <div type="textpart" n="obv" subtype="face" rend=" monogram-block" xml:lang="grc">
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-block" xml:lang="grc">
                       <ab>
-                        <lb n="1"/><expan><ex>Ναρσοῦ ἐπισκεπτίτου</ex></expan>
+                        <lb n="1"/><forename><rs type="office" subtype="civil" ref="#of0066"><expan><ex>Ναρσοῦ ἐπισκεπτίτου</ex></expan></rs></forename><!-- encoding for indexing not suitable -->
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="monogram-block" xml:lang="grc">
                       <ab>
-                          <lb n="2"/><expan><ex>τῶν βασιλικῶν ἀγελῶν</ex></expan>
+                          <lb n="2"/><rs type="institution" ref="#org0002"><expan><ex>τῶν βασιλικῶν ἀγελῶν</ex></expan></rs><!-- encoding for indexing not suitable -->
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                  <div type="textpart" subtype="face" n="obv" rend=" monogram-block" xml:lang="grc">
+                  <div type="textpart" subtype="face" n="obv" rend="monogram-block" xml:lang="grc">
                       <ab><lb n="1"/>Π–Ν–Ι––Ρ–Σ–Τ––Κ–Ε</ab>
                   </div>
                   <div type="textpart" subtype="face" n="rev" rend="monogram-block" xml:lang="grc">

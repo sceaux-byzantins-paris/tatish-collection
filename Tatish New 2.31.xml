@@ -296,6 +296,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
             <change when="2024-10-17" who="#AS">Revision and correction of the entire XML
                 file</change>
             <change when="2024-04-12" who="#SM">Corrections on metadata</change>
@@ -334,16 +335,16 @@
                       <lb n="1"/><gap reason="illegible" quantity="23" unit="character" precision="low"/>
                       </ab>
                   </div>
-                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- encoding for indexing lines 2-4? -->
                       <ab>
                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
-                          <expan><supplied reason="lost" cert="low"><abbr>πατρ</abbr></supplied><abbr>ικ</abbr><ex>ίῳ</ex></expan>
+                          <rs type="dignity" ref="#d0047"><expan><supplied reason="lost" cert="low"><abbr>πατρ</abbr></supplied><abbr>ικ</abbr><ex>ίῳ</ex></expan></rs>
                          <lb n="3"/><app type="alternative">
-                         <lem><supplied reason="lost">ἀνθ</supplied>υπάτ</lem>
-                         <rdg><gap reason="lost" quantity="3" unit="character"/>ὑπάτ</rdg></app>
+                         <lem><rs type="dignity" ref="#d0005"><supplied reason="lost">ἀνθ</supplied>υπάτ</rs></lem>
+                         <rdg><rs type="dignity" ref="#d0089"><gap reason="lost" quantity="3" unit="character"/>ὑπάτ</rs></rdg></app>
                          <lb n="4" break="no"/><supplied reason="lost">ῳ</supplied>
-                         <expan><abbr>κριτ</abbr><ex>ῇ</ex></expan> τοῦ <expan><abbr>βή
-                         <lb n="5"/>λ</abbr><ex>ου</ex></expan> <orig>καιχαρ</orig>
+                         <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs> τοῦ <rs type="institution" ref="#org0007"><expan><abbr>βή
+                         <lb n="5"/>λ</abbr><ex>ου</ex></expan></rs> <orig>καιχαρ</orig>
                          <lb n="6"/><gap reason="lost" quantity="4" unit="character"/><orig>τ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ο</orig>
                          <lb n="7"/><gap reason="illegible" quantity="5" unit="character" precision="low"/>
                                </ab>
