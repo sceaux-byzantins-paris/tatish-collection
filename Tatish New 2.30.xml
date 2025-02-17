@@ -342,7 +342,7 @@
                     </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>                         
+                      <ab ana="dat">                         
                           <lb n="1"/>
                           <rs type="invocation" ref="#inv002"><expan><supplied reason="lost"><abbr>Θ</abbr><ex>εοτό</ex><abbr>κ</abbr></supplied><abbr>ε</abbr></expan>
                           βο<supplied reason="lost" cert="low">ήθει</supplied> τῷ σῷ
@@ -350,7 +350,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                          <lb n="2"/><forename><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan></forename>
                           <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπα</abbr><supplied reason="lost"><abbr>θ</abbr><ex>αρίῳ</ex></supplied></expan></rs>
                           <rs type="office" subtype="civil" ref="#of0070"><supplied reason="lost">ἐπὶ</supplied>

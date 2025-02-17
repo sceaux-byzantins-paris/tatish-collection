@@ -314,7 +314,7 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="dat"> 
                          <lb n="1"/>+<rs type="invocation" ref="#inv004">Κύριε 
                          <lb n="2"/>βοήθει 
                          <lb n="3"/>τῷ σῷ δού
@@ -322,7 +322,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                         <lb n="5"/><rs type="dignity" ref="#d0017">βεστά<supplied reason="lost">ρ</supplied>
                           <lb n="6" break="no"/>χῃ</rs> καὶ <rs type="office" subtype="military" ref="#of0263">κα
                           <lb n="7" break="no"/>τεπάνω</rs> τῷ 

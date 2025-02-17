@@ -302,12 +302,12 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="gen"> 
                          <lb n="1"/><rs type="invocation" ref="#inv001"><expan><ex>Θεοτόκε βοήθει</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                         <lb n="2"/><forename>Θεο
                           <lb n="3" break="no"/>δώρο
                           <lb n="4" break="no"/>υ</forename> <rs type="office" subtype="military" ref="#of0249">δρογγ

@@ -340,12 +340,12 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab> 
-                         <lb n="1"/><rs type="invocation" ref="#inv004"><supplied reason="lost">+</supplied> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη τῷ σῷ δούλῳ </rs>  
+                      <ab ana="dat"> 
+                         <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοήθη τῷ σῷ δούλῳ </rs>  
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                          <lb n="2"/>+<forename><expan><abbr>Ἰωάν</abbr><ex>νῃ</ex></expan></forename>
                          <lb n="3"/><rs type="dignity" ref="#d0006"><expan><supplied reason="lost"><abbr>ἀν</abbr></supplied><abbr>θυπ</abbr><ex>άτῳ</ex></expan> 
                          <expan><abbr>πα</abbr><supplied reason="lost"><abbr>τ</abbr><ex>ρι</ex></supplied>

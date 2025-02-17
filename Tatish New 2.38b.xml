@@ -315,12 +315,12 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="dat"> 
                            <lb n="1"/><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ δούλῳ</rs>                      
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/><supplied reason="lost" evidence="parallel">+</supplied><forename><supplied reason="lost" evidence="parallel">Μιχα
                           <lb n="3" break="no"/>ὴ</supplied>λ</forename> <rs type="dignity" ref="#d0047"><expan><abbr>πατρ</abbr><ex>ικίῳ</ex></expan></rs>
                           <lb n="4"/><rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> 

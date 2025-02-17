@@ -330,13 +330,13 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="nom"> 
                         <cb n="a"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan>
                         <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
                     </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                          <lb n="1"/><expan><abbr>Σφραγ</abbr><ex>ὶς</ex></expan>
                          <lb n="2"/><forename><supplied reason="lost">Β</supplied>ασιλείου</forename> 
                          <lb n="3"/><rs type="office" subtype="civil" ref="#of0112"><supplied reason="lost">κ</supplied>ριτοῦ</rs> ἐπὶ 

@@ -331,12 +331,12 @@
                     </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="und">
                       <lb n="1"/><gap reason="illegible" quantity="23" unit="character" precision="low"/>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- encoding for indexing lines 2-4? -->
-                      <ab>
+                      <ab ana="dat">
                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>
                           <rs type="dignity" ref="#d0047"><expan><supplied reason="lost" cert="low"><abbr>πατρ</abbr></supplied><abbr>ικ</abbr><ex>ίῳ</ex></expan></rs>
                          <lb n="3"/><app type="alternative">

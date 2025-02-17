@@ -313,7 +313,7 @@
                   <!--<div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"/>--> 
                       
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
                           <lb n="2"/><forename><expan><abbr>Νικολ</abbr><ex>άῳ</ex></expan></forename>
                           <lb n="3"/><rs type="office" subtype="civil" ref="#of0197"><expan><abbr>ὁριαρ</abbr><ex>ίῳ</ex></expan></rs>

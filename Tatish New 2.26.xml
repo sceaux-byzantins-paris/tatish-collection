@@ -328,12 +328,12 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-block" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                         <lb n="1"/><forename><rs type="office" subtype="civil" ref="#of0066"><expan><ex>Ναρσοῦ ἐπισκεπτίτου</ex></expan></rs></forename><!-- encoding for indexing not suitable -->
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="monogram-block" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                           <lb n="2"/><rs type="institution" ref="#org0002"><expan><ex>τῶν βασιλικῶν ἀγελῶν</ex></expan></rs><!-- encoding for indexing not suitable -->
                       </ab>
                   </div>

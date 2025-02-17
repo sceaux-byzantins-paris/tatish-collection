@@ -309,7 +309,7 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="dat"> 
                           <lb n="1"/><supplied reason="lost" evidence="parallel">+</supplied>
                           <rs type="invocation" ref="#inv004"><supplied reason="lost" evidence="parallel"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
                           <supplied reason="lost" evidence="parallel"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied>
@@ -325,7 +325,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                          <lb n="6"/><rs type="office" ref="#of0112"><supplied reason="lost" evidence="parallel">κριτῇ</supplied></rs>
                           <lb n="7"/><supplied reason="lost" evidence="parallel">τοῦ</supplied>
                           <rs type="institution" ref="#org0017"><expan><supplied reason="lost" evidence="parallel"><abbr>Ἱππο

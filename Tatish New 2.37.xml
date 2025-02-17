@@ -309,7 +309,7 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"><!-- encoding for indexing? -->
-                      <ab> 
+                      <ab ana="dat"> 
                          <lb n="1"/><app type="alternative">
                          <lem><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan></rs></lem>
                          <rdg><rs type="invocation" ref="#inv004"><expan><ex>Κύριε βοήθει</ex></expan></rs></rdg></app>
@@ -317,7 +317,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                          <lb n="2"/>+<gap reason="lost" quantity="1" unit="line"/>
                          <lb n="3"/><rs type="dignity" ref="#d0006"><expan><supplied reason="lost" cert="low"><abbr>ἀνθυ</abbr></supplied><abbr>πάτ</abbr><ex>ῳ</ex></expan>
                           <expan><supplied reason="lost"><abbr>πα</abbr></supplied>

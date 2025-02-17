@@ -332,7 +332,7 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="nom"> 
                        <cb n="a"/><supplied reason="lost" evidence="parallel"><expan><ex>Ὁ ἅγιος</ex></expan></supplied>
                           <expan><abbr><supplied reason="lost" evidence="parallel">Θεό</supplied>
                         <cb n="b"/>δωρ</abbr><ex>ος</ex></expan>
@@ -340,14 +340,14 @@
                     </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/><rs type="invocation" ref="#inv004"><supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied>
                           <supplied reason="lost">βο</supplied>ήθει τῷ σῷ
                           <supplied reason="lost" evidence="parallel"><expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></supplied></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                          <lb n="2"/><forename><expan><abbr>Θεοδώ
                            <lb n="3" break="no"/>ρ</abbr><ex>ῳ</ex></expan></forename>
                           <rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs>
