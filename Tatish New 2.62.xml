@@ -11,11 +11,12 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fr">Sceau de Michel Kontostéphanos, curopalate et duc</title>
-                <title xml:lang="en">Seal of Michael Kontostephanos, kouropalates and doukas</title>
+                <title xml:lang="en">Seal of Michael Kontostephanos, kouropalates and doux</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <funder>
-                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
-                </funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
                 <principal>Alessio Sopracasa</principal>
             </titleStmt>
             <editionStmt>
@@ -24,22 +25,25 @@
                     <seg xml:lang="en">Digital enhancement</seg>
                 </edition>
                 <editor role="digital-editor" xml:id="SM" when="2024-04-08">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2025-02-17">Alessio
+                    Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
                 <idno type="filename">Tatış_2-62</idno>
-                <idno type="SigiDocID"/>
+                <idno type="SigiDocID">s-H3I1tw</idno>
                 <idno type="sequence"/>
-                <date when="2024-03-03"/>
+                <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <person gender="M" role="civil"> 
+                    <person gender="M" role="military">
                         <persName xml:lang="grc">
                             <forename>Μιχαήλ</forename>
                             <surname>Κοντοστέφανος</surname>
@@ -51,8 +55,10 @@
                         <persName xml:lang="en">
                             <forename>Michael</forename>
                             <surname>Kontostephanos</surname>
-                        </persName> 
-                        </person>
+                        </persName>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20385/"
+                            >Michael 20385</idno>
+                    </person>
                 </listPerson>
                 <msDesc>
                     <msIdentifier>
@@ -64,17 +70,19 @@
                             <seg xml:lang="fr">Izmir</seg>
                             <seg xml:lang="en">Izmir</seg>
                         </settlement>
-                        <institution/> 
-                        <repository/> 
-                        <collection type="private" xml:lang="en" ref="URI">
-                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
                         </collection>
-                        <collection type="private"/> 
                         <idno type="inv-nr-current">2562</idno>
                         <altIdentifier>
                             <repository/>
-                            <collection type="private"/> 
-                            <collection type="private"/> 
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
                     </msIdentifier>
@@ -93,8 +101,10 @@
                                             <seg xml:lang="fr">Sceau</seg>
                                             <seg xml:lang="en">Seal</seg>
                                         </term>
-                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
-                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
                                     </objectType>
                                     <material>
                                         <seg xml:lang="fr">Plomb</seg>
@@ -106,26 +116,30 @@
                                     <measure type="weight" unit="g">24,81</measure>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="worn-edge"> 
-                                    <p xml:lang="fr">A peine échancré aux orifices du canal ; très fortement usé sur les deux faces.</p>
-                                    <p xml:lang="en">Barely indented at the canal openings; very heavily worn on both sides.</p>
+                                <condition rend="worn-edge">
+                                    <p xml:lang="fr">A peine échancré aux orifices du canal; très
+                                        fortement usé sur les deux faces.</p>
+                                    <p xml:lang="en">Sligthly indented at the channel openings; very
+                                        heavily worn on both sides.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout n="whole">
                                     <rs type="execution">
                                         <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
                                     </rs>
                                     <rs type="shape">
                                         <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc"/>
+                                        <idno type="SigiDoc">m-XiKhw3</idno>
                                         <idno type="PBW"/>
-                                    </rs>                                     
+                                    </rs>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -137,16 +151,25 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="epigraphy" cert="high" resp="#JCC"> 
+                            <origDate type="analysis" notBefore="1041" notAfter="1060"
+                                evidence="epigraphy related-seal parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (milieu)</seg>
-                                <seg xml:lang="en">11th C. middle</seg>
+                                <seg xml:lang="en">11th C., middle</seg>
                             </origDate>
                         </origin>
-                        <provenance type="found" subtype="discovered"> 
-                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/511218" xml:lang="fr">Cyzique</placeName>
-                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/511218" xml:lang="en">Cyzicus</placeName>
-                            <placeName type="modernFindspot" ref="https://www.geonames.org/751077/bandirma.html" xml:lang="fr">près de Bandırma (Panormos, rive sud de la Marmara)</placeName>
-                            <placeName type="modernFindspot" ref="https://www.geonames.org/751077/bandirma.html" xml:lang="en">near Bandırma (Panormos, south coast of the Marmara)</placeName>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot"
+                                ref="https://tib.oeaw.ac.at/static/reader/TIB/tib13.html#page/880/mode/2up"
+                                xml:lang="fr">Panormos</placeName>
+                            <placeName type="ancientFindspot"
+                                ref="https://tib.oeaw.ac.at/static/reader/TIB/tib13.html#page/880/mode/2up"
+                                xml:lang="en">Panormos</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/751077/bandirma.html" xml:lang="fr"
+                                >Bandırma</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/751077/bandirma.html" xml:lang="en"
+                                >Bandırma</placeName>
                             <rs type="circumstances" xml:lang=""/>
                         </provenance>
                         <provenance type="observed" subtype="seen">
@@ -168,7 +191,7 @@
                             <summary n="r">
                                 <seg xml:lang="en">Obverse</seg>
                             </summary>
-                            <textLang n="r" mainLang="grc" otherLangs="">
+                            <textLang n="r" mainLang="grc">
                                 <seg xml:lang="fr">Grec byzantin</seg>
                                 <seg xml:lang="en">Byzantine Greek</seg>
                             </textLang>
@@ -178,25 +201,37 @@
                                 <layoutDesc>
                                     <layout n="r">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter">29</dim>
+                                            <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
-                                        <p xml:lang="en">Iconography with legend in columns</p>                       
+                                        <p xml:lang="fr">Iconographie</p>
+                                        <p xml:lang="en">Iconography</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="en"/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr">Saint militaire en pied, armé de la lance et du bouclier</figDesc>
-                                        <figDesc n="r" xml:lang="en">A military saint standing, armed with spear and shield</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Cercle d’épais grènetis</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Circle of thick dots</figDesc> 
+                                        <figDesc n="r"
+                                            ana="person male saint military standing sword shield"
+                                            xml:lang="fr">Saint militaire en pied, armé de la lance
+                                            et du bouclier: d’après les pièces parallèles, il s’agit
+                                            de saint Dèmètrios. L’inscription en colonne de part et
+                                            d’autre de l’effigie n’est plus lisible.</figDesc>
+                                        <figDesc n="r"
+                                            ana="person male saint military standing sword shield"
+                                            xml:lang="en">A military saint standing, armed with
+                                            spear and shield: according to the paralel seals, it is
+                                            saint Demetrios. The inscription in columns on either
+                                            side of the image is no longer visible.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle d’épais
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of thick
+                                            dots.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -218,10 +253,10 @@
                                 <layoutDesc>
                                     <layout n="v">
                                         <dimensions type="written" unit="mm">
-                                            <dim type="diameter">29</dim>
+                                            <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
-                                        <p xml:lang="en">Linear legend of 6 lines</p> 
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 6 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -233,9 +268,12 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="v" xml:lang=""/>
-                                        <figDesc n="decoV" xml:lang="fr">Cercle d’épais grènetis ; légende précédée d’une croisette et suivie d’une perle accostée de tirets</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of thick dots; legend preceded by a cross and followed by a pearl and dashes</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle d’épais grènetis;
+                                            légende précédée d’une croisette et suivie d’une perle
+                                            accostée de tirets.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of thick dots;
+                                            legend preceded by a crosslet and followed by a pearl
+                                            between dashes.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -245,25 +283,30 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <editorialDecl><p/></editorialDecl>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
             <charDecl>
                 <glyph xml:id="cross">
                     <mapping type="standard">+</mapping>
                     <mapping type="simplified">(cross)</mapping>
                 </glyph>
-               <!-- <glyph xml:id="ho_hagios">
+                <!-- <glyph xml:id="ho_hagios">
                     <mapping type="standard"></mapping>
                     <mapping type="simplified">(ho_hagios)</mapping> </glyph>
 -->
-           </charDecl> 
+            </charDecl>
         </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="Grek">Greek script</language>
                 <language ident="Latn">Latin script</language>
-                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
-                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
-                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
                 <language ident="la-Grek">Latin written in Greek script</language>
             </langUsage>
         </profileDesc>
@@ -271,44 +314,46 @@
             <change when="2023-06-23" who="#AS"/>
             <change when="2024-04-08" who="#SM">Filled in metadata in new template</change>
             <change when="2024-06-13" who="#SM">Corrections on metadata</change>
+            <change when="2025-02-17" who="#AS">Revision and correction of the entire XML file;
+                encoding for indexing added</change>
         </revisionDesc>
-      </teiHeader>
-      <facsimile>
-          <surfaceGrp>
-              <surface n="r">
-                  <desc>Obverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the obverse (2019).</desc>
-                  </graphic>
-              </surface>
-              <surface n="v">
-                  <desc>Reverse</desc>
-                  <graphic url="https://www.abcde.com" type="digital">
-                      <desc>Digital image of the reverse (2019).</desc>
-                  </graphic>
-              </surface>
-          </surfaceGrp>
-      </facsimile>
-      <text>
-          <body>
-              <div type="edition" subtype="editorial" xml:space="preserve">
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="und"> 
                            <cb n="a"/><gap reason="lost" extent="unknown" unit="character"/>
                       <cb n="b"/><gap reason="lost" extent="unknown" unit="character"/>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
-                        <lb n="1"/>+ <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
-                           <lb n="2"/>Μιχα<supplied reason="lost">ὴ</supplied>λ κου 
-                          <lb n="3" break="no"/><supplied reason="lost">ρ</supplied>οπαλάτῃ καὶ δουκὶ 
-                          <lb n="4"/>τῷ <expan><abbr>Κοντο
-                          <lb n="5" break="no"/>στεφάν</abbr><ex>ῳ</ex></expan>
+                      <ab ana="dat">
+                        <lb n="1"/>+<rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                           <lb n="2"/><forename>Μιχα<supplied reason="lost">ὴ</supplied>λ</forename> <rs type="dignity" ref="#d0035">κου 
+                          <lb n="3" break="no"/><supplied reason="lost">ρ</supplied>οπαλάτῃ</rs> καὶ <rs type="office" subtype="military" ref="#of0245">δουκὶ</rs> 
+                          <lb n="4"/>τῷ <surname><expan><abbr>Κοντο
+                          <lb n="5" break="no"/>στεφάν</abbr><ex>ῳ</ex></expan></surname>
                       </ab>
                   </div>
               </div>
-              <div type="edition" subtype="diplomatic" xml:space="preserve">
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
                       <ab>
                            <cb n="a"/><gap reason="lost" extent="unknown" unit="character"/>
@@ -318,62 +363,71 @@
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab> 
                           <lb n="1"/>ΚΕΘ 
-                          <lb n="2"/>ΜΙΧΑ.ΛΚ
+                          <lb n="2"/>Μ̣ΙΧΑ.ΛΚ
                           <lb n="3"/>.ΟΠΑΛΑΤΗ 
-                          <lb n="4"/>ΚΑΙΔΟΥΚΙ 
-                          <lb n="5"/>ΤΚΟΝΤΟ  
-                          <lb n="6"/>ΣΤΕΑΝ/ 
-                          <lb n="0"/> 
+                          <lb n="4"/>Κ̣ΑΙΔΟΥΚΙ 
+                          <lb n="5"/>Τ̣ΚΟΝΤΟ  
+                          <lb n="6"/>Σ̣ΤΕΑΝ/ 
+                          <lb n="0"/>
                       </ab>
                   </div>
               </div>
-              <div type="apparatus">
-                  <listApp>
-                      <app xml:lang=""/>
-                  </listApp>
-              </div>
-              <div type="translation">
-                  <p>+ Κύριε βοήθει Μιχαὴλ κουροπαλάτῃ καὶ δούκι τῷ Κοντοστεφάνῳ.</p>
-                  <p xml:lang="en">Lord help Michael Kontostaphanos, kouropalates and doukas.</p>
-                  <p xml:lang="fr">Seigneur aide Michel Kontostéphanos, curopalate et duc</p>
-              </div>
-              <div type="commentary" subtype="text">
-                  <p xml:lang="fr">Ce plomb est connu par des pièces très proches de même légende, dans une répartition
-                      un peu différente, notamment des plombs de l’Ermitage [1]. Michel Kontostéphanos appartenait à l’une des familles
-                      les plus prestigieuses de l’Empire depuis qu’Etienne Kontostéphanos avait occupé la charge de domestique des
-                      Scholes au début du règne de Basile II [2]. Michel était par sa mère un neveu de l’empereur Isaac Comnène, qui le
-                      fit curopalate après son avènement en 1057. Il fut un temps duc d’Antioche alors qu’il était encore titré magistre [3].</p>
-              </div>
-              <div type="commentary" subtype="footnotes">
-                  <p xml:lang="fr" xml:id="footnote-1">
-                      [1]. M-2980, éd. Lichačev, <hi rend="italic">Molivdovuly</hi>, p. 297, no 9 et pl. LXXXI :
-                      +ΚΕR/Θ/|ΜΙΧΑΗΛΚΟΥ|ΡΟΠΑΛΑΤΗ|SΔΟΥΚΙΤΩ|ΚΟΝΤΟΣΤΕ|-ΦΑΝΩ- Lichačev signale qu’une autre pièce de l’Ermitage est un parallèle
-                      [M-6151, anc. coll. Schlumberger, éd. G. Schlumberger, Sceaux byzantins inédits (sixième série), <hi rend="italic">RN</hi> IV, série 20, 1916, p. 43,
-                      no 325, mais sans reproduction].
-                  </p>  
-                  <p xml:lang="fr" xml:id="footnote-2">
-                      [2]. Skylitzès, <hi rend="italic">Synopsis historiarum</hi>, p. 331.
-                  </p>
-                  <p xml:lang="fr" xml:id="footnote-3">
-                      [3]. J.-Cl. Cheynet, Les ducs d’Antioche sous Michel IV et Constantin IX, Novum Millennium. <hi rend="italic">Studies on Byzantine History and
-                      Culture dedicated to Paul Speck</hi>, Aldershot 2001, p. 57-60, repris dans Idem, <hi rend="italic">Societé byzantine</hi>, p. 202-205 ; <hi rend="italic">DOSeals</hi> 5.9.4.
-                  </p>
-              </div>
-              <div type="bibliography" subtype="edition">
-                  <p>
-                      <bibl>
-                          <ptr target="CheynetTatış"/>, <citedRange unit="page">81-82</citedRange>
-                      </bibl>
-                  </p>
-              </div>
-              <div type="bibliography" subtype="parallels"> <!-- // : (α) Coll. Theodoridis, inv. 701 ; (β) vente Gorny 113 (octobre 2001), no 6171 (SBS 8, 2003, p. 225).
-Ed. d’un // : (α) Cheynet – theodoridis, Sceaux patronymiques, no 111. -->
-                  <p>
-                      <bibl>
-                          <ptr target="xxx"/>, <citedRange unit="page"/>
-                      </bibl>
-                  </p>
-              </div>
-          </body>
-      </text>
-</TEI>             
+            <div type="apparatus">
+                <listApp>
+                    <app xml:lang=""/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>... / + Κύριε βοήθει Μιχαὴλ κουροπαλάτῃ καὶ δούκι τῷ Κοντοστεφάνῳ.</p>
+                <p xml:lang="en">Lord help Michael Kontostaphanos, kouropalates and doux.</p>
+                <p xml:lang="fr">Seigneur aide Michel Kontostéphanos, curopalate et duc.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Ce plomb est connu par des pièces très proches de même légende,
+                    dans une répartition un peu différente, notamment des plombs de l’Ermitage [1].
+                    Michel Kontostéphanos appartenait à l’une des familles les plus prestigieuses de
+                    l’Empire depuis qu’Etienne Kontostéphanos avait occupé la charge de domestique
+                    des Scholes au début du règne de Basile II [2]. Michel était par sa mère un
+                    neveu de l’empereur Isaac Comnène, qui le fit curopalate après son avènement en
+                    1057. Il fut un temps duc d’Antioche alors qu’il était encore titré magistre
+                    [3].</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. M-2980, éd. <bibl><ptr
+                            target="Lihačev1991"/>, p. <citedRange unit="page">297, no.
+                            9</citedRange> et <citedRange unit="part">pl. LXXXI</citedRange></bibl>:
+                    +ΚΕR/Θ/|ΜΙΧΑΗΛΚΟΥ|ΡΟΠΑΛΑΤΗ|SΔΟΥΚΙΤΩ|ΚΟΝΤΟΣΤΕ|-ΦΑΝΩ- Lichačev signale qu’une
+                    autre pièce de l’Ermitage est un parallèle [M-6151, anc. coll. Schlumberger, éd.
+                            <bibl><ptr target="Schlumberger1916"/>, no. <citedRange unit="part"><ref
+                                target="https://gallica.bnf.fr/ark:/12148/bd6t54197256r/f59.item"
+                                >325</ref></citedRange>, p. <citedRange unit="page"
+                        >43</citedRange></bibl>, mais sans reproduction]</p>
+                <p xml:lang="fr" xml:id="footnote-2"> [2]. <bibl><ptr target="ScylitzaeSynopsis1973"
+                        />, p. <citedRange unit="page">331</citedRange></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-3"> [3]. <bibl><ptr target="Cheynet2001"/>, p.
+                            <citedRange unit="page">57-60</citedRange></bibl>, repris dans
+                            <bibl><ptr target="Cheynet2008e"/>, p. <citedRange unit="page"
+                            >202-205</citedRange></bibl>; <bibl><ptr target="DOseals5"/>,
+                            <citedRange unit="part">9.4</citedRange></bibl> = <bibl><ptr
+                            target="DOsealsOnline"/>, <citedRange unit="part"><ref
+                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1955.1.3105"
+                                >BZS 1955.1.3105</ref></citedRange></bibl>.</p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.62</citedRange>
+                    </bibl>. </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>Coll. Theodoridis, no. 701: <bibl>
+                        <ptr target="CheynetTheodoridis"/>, <citedRange unit="part">111</citedRange>
+                    </bibl>.</p>
+                <p>Vente <bibl><ptr target="Gorny"/>, <citedRange>113 (octobre 2001)</citedRange>,
+                        no. <citedRange unit="entry">6171</citedRange></bibl> = <bibl><ptr
+                            target="SBS_Auctions1997-2001"/>, <citedRange unit="page"
+                            >225</citedRange></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

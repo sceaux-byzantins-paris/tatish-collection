@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- last changed before 1.0 version release 2021-08-02 -->
-<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
-<!-- ongoing changes to 2.0: march 2024 -->
-
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -297,6 +293,7 @@
             <change when="2024-06-13" who="#SM">Corrections on metadata</change>
             <change when="2025-02-03" who="#AS">Revision and correction of the entire XML
                 file</change>
+            <change when="2025-02-17" who="#AS">Encoding for indexing added</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -319,13 +316,13 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab> 
+                      <ab ana="nom"> 
                           <cb n="a"/><supplied reason="lost"><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan></supplied> <expan><supplied reason="lost"><abbr>Θεό</abbr></supplied>
                          <cb n="b"/><abbr>δωρο</abbr><ex>ς</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                         <lb n="1"/>+<rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
                           <lb n="2"/><forename>Ἀαρὼν</forename> 
                           <lb n="3"/><rs type="dignities" ref="#d0051">προαί
