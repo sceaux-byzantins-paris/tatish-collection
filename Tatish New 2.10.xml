@@ -6,12 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Webhook test4</title>
-                <!--
                 <title xml:lang="fr">Sceau de Constantin, protospathaire impérial, épi tou Chrysotriklinou et grand chartulaire du génikon
                     logothésion</title>
                 <title xml:lang="en">Seal of Constantine, imperial protospatharios, epi tou Chrysotriklinou and grand chartoularios of the genikon</title>
-                -->
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <funder>
                     <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
