@@ -287,7 +287,7 @@
               <div type="edition" subtype="editorial" xml:space="preserve">
   <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc"><!-- hypothétique, éventuellement à refaire -->
                        <ab>
-                          <cb n="a"/><expan><abbr>Μ</abbr><ex>ι</ex>
+                          <cb n="a"/><expan><abbr>Μ</abbr><ex>ι</ex></expan>
                         <cb n="b" break="no"/><supplied reason="lost"><expan cert="low"><abbr>χ</abbr><ex>αήλ</ex></expan></supplied>
                       </ab>
                   </div>
