@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Grégoire, commerciaire des Anatoliques</title>
+                <title xml:lang="en">Seal of Gregory, kommerkiaros of the Anatolics</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-11">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_3-2</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil"> 
+                        <persName xml:lang="grc">
+                            <forename>Γρηγόριος</forename>                  
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Grégoire</forename>                        
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Gregorios</forename>                           
+                        </persName> 
+                        </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">3076</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">31</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">30</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="blank-too-small worn-edge"> 
+                                    <p xml:lang="fr">Flan nettement trop petit et boursouflé
+                                        au droit par le passage du canal placé en diagonale ; traces d’usure sur les
+                                        deux faces.</p>
+                                    <p xml:lang="en">Blank clearly too small and blistered on the right by the diagonally placed channel; traces of wear on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="internal" notBefore="0787" notAfter="0788" when-custom="0010" datingMethod="https://www.wikidata.org/wiki/Q1339127" evidence="internal-date">
+                                <seg xml:lang="en">Indiction 10, corresponding to the year 787-788 CE</seg>
+                                <seg xml:lang="fr">Indiction 10, correspondant à l'année 787-788 CE</seg>
+                            </origDate>              
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/648647" xml:lang="fr">Iconium/Claudiconium (district de Bozkir)</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/648647" xml:lang="en">Iconium/Claudiconium (Bozkir district)</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/320621/bozkir.html" xml:lang="fr">district de Bozkir (province de Konya)</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/320621/bozkir.html" xml:lang="en">Bozkir district (Konya province)</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">31</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie</p>
+                                        <p xml:lang="en">Iconography</p>                    
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Deux bustes
+                                            impériaux de face, à gauche Constantin VI, imberbe, coiffé
+                                            d’une couronne à pendilia, surmontée d’une croisette, revêtu
+                                            de la chlamyde, accrochée par une grosse fibule ; Irène à
+                                            droite, coiffée d’une couronne crucigère à pendants, revêtue
+                                            du lôros</figDesc>
+                                        <figDesc n="r" xml:lang="en">Two imperial busts, on the left Constantine VI, 
+                                            beardless, wearing a crown with pendilia, surmounted by a cross, wearing a 
+                                            chlamydia, attached by a large fibula; Irene on the right, wearing a 
+                                            cruciger crown with pendants and a lôros</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de feuillage</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of foliage</figDesc> 
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">31</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 3 lignes</p>
+                                        <p xml:lang="en">Linear legend of 3 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de feuillage</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of foliage</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl> 
+              <glyph/>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-11" who="#SM">Filled in metadata in new template</change>
+            <change when="2024-06-13" who="#SM">Corrections on metadata</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc"/>
+                      
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>Γριγορίῳ <expan><abbr>κ
+                           <lb n="2" break="no"/>ομ</abbr><ex>μ</ex><abbr>ερ</abbr><ex>κιαρίῳ</ex></expan> τῶν<!-- deuxième mu pas forcéent nécessaire? -->
+                           <lb n="3"/><expan><abbr>Ἀνατο</abbr><ex>λικῶν</ex></expan>
+                               </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc"/>
+                      
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="1"/>ΓΡΙΓΟΡΙΚ 
+                          <lb n="2" break="no"/>ΟΜΕΡΤΝ     
+                          <lb n="3"/>ΑΝΑΤΟ  
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Γριγορίῳ κομμερκιαρίῳ τῶν Ἀνατολικῶν.</p>
+                  <p xml:lang="en">(Seal of) Gregory, kommerkiaros of the Anatolics.</p>
+                  <p xml:lang="fr">(Sceau de) Grégoire, commerciaire des Anatoliques.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">
+                      Les sceaux personnels de
+                      commerciaire sont assez rares à cette date, puisque la formule anonyme des <hi rend="italic">basilika kommerkia</hi> de thème domine
+                      largement. Ce Grégoire devait sans doute ce poste à la faveur d’Irène, mais curieusement il ne fait mention
+                      d’aucune dignité. Les plombs des <hi rend="italic">kommerkia</hi> des Anatoliques sont peu nombreux, compte tenu de l’importance
+                      de ce thème. Cinq sont publiés et un sixième, provenant du musée de Pamukkale, est mentionné dans la base
+                      de données « Taktikon ». Ils montrent une évolution qui conduisit à la formation du thème. Deux sceaux, l’un
+                      daté sans doute de 733-734, l’autre de 736/737, mentionnent les « <hi rend="italic">kommerkia</hi> des provinces des Anatoliques » [1],
+                      celui de 744/745, les « <hi rend="italic">kommerkia</hi> de la stratégie des Anatoliques » [2]. Un autre, antérieur sans doute d’une
+                      année, offre la formule simple <hi rend="italic">kommerkia</hi> des Anatoliques [3], reprise ensuite par deux autres sceaux de l’ancienne
+                      collection Zarnitz [4]. Le sceau de Grégoire est donc exceptionnel, puisque, pour trouver ensuite un autre sceau
+                      d’un fonctionnaire exerçant la même charge, il faut attendre le début du Xe siècle [5].
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. J.-Cl. Cheynet, Quelques nouveaux sceaux de commerciaires, in <hi rend="italic">Trade in Byzantium. Papers from the Third International Sevgi
+                      Gonul Byzantine Studies Symposium</hi>, éd. P. Magdalino et N. Necipoglu, Istanbul 2016, p. 43 et <hi rend="italic">DOSeals</hi> 3.86.37 (anc. coll. Zacos). Il
+                      faut comprendre que l’impôt est levé dans les provinces traditionnelles où l’armée des Anatoliques est installée.         
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. <hi rend="italic">Taktikon</hi> ANAT 253. Les Anatoliques sont devenus une unité administrative. Nous avons plusieurs mentions de cette formation
+                      transitoire d’une stratégie de thème, pour l’Hellade, les Thracésiens, les Cibyrrhéotes (J.-Cl. Cheynet, La mise en place des thèmes
+                      d’après les sceaux : les stratégies, <hi rend="italic">SBS</hi> 10, 2010, p. 1-14). Toutes ces bulles sont datées entre 739 et 745. La réforme aurait pris place à
+                      la fin du règne de Léon III.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3]. Cheynet, Nouveaux sceaux (comme note 78), p. 42.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-4">
+                      [4]. Seibt – Zarnitz, <hi rend="italic">Bleisiegel</hi>, nos 1.3.9 et 1.3.10 (758/759 et 776).
+                  </p> 
+                  
+                  <p xml:lang="fr" xml:id="footnote-5">
+                      [5]. <hi rend="italic">Taktikon</hi> ANAT 258 (sceau Ermitage, M-6094).
+                  </p>        
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">107-108</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                  <p>
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+                  </p>
+              </div>
+          </body>
+      </text>
+</TEI>             

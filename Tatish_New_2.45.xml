@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Grègoras, notaire</title>
+                <title xml:lang="en">Seal of Gregoras, notary</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-04">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2024-11-19">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-45</idno>
+                <idno type="SigiDocID">s-4oRrvo</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Γρηγοράς</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Grègoras</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Gregoras</forename>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
+                        </collection>
+                        <idno type="inv-nr-current">2624</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">19</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">6,17</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="broken chipped">
+                                    <p xml:lang="fr">Flan brisé au sommet du champ; nettement
+                                        échancré aux orifices du canal; traces d’usure sur les deux
+                                        faces.</p>
+                                    <p xml:lang="en">Blank broken at the top of the field; markedly
+                                        indented at the channel openings; traces of wear on both
+                                        sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-QkQ6y5</idno>
+                                        <idno type="PBW"/>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0701" notAfter="0800"
+                                evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">VIIIe siècle</seg>
+                                <seg xml:lang="en">8th C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot"
+                                ref="https://pleiades.stoa.org/places/550706" xml:lang="fr">Magnésie
+                                du Sipyle</placeName>
+                            <placeName type="ancientFindspot"
+                                ref="https://pleiades.stoa.org/places/550706" xml:lang="en">Magnesia
+                                ad Sipylum</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/304827/manisa.html" xml:lang="fr"
+                                >Manisa</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/304827/manisa.html" xml:lang="en"
+                                >Manisa</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Monogramme cruciforme invocatif incomplet,
+                                            cantonné du tétragramme commun, conservé dans les
+                                            cantons inférieurs.</p>
+                                        <p xml:lang="en">Incomplete cruciform invocative monogram,
+                                            flanked by the common syllables, preserved in the lower
+                                            quarters.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="r" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de feuillage
+                                            stylisé</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Stylised wreath
+                                            border.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 2 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 2 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage
+                                            stylisé; légende surmontée et suivie d’une croisette
+                                            accostée d’un motif végétal stylisé ou de
+                                            fleurons.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Stylised wreath border;
+                                            legend surmounted and followed by a crosslet flanked by
+                                            stylised vegetal motif or fleurons.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-04" who="#SM">Filled in metadata, comments and bibliography in new
+                template</change>
+            <change when="2024-04-13" who="#SM">Corrections on metadata</change>
+            <change when="2024-11-19" who="#AS">Revision and correction of the entire XML
+                file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"><!-- encoding for invocation? -->
+                      <ab ana="dat"> 
+                          <lb n="1"/><app type="alternative">
+                              <lem><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan></rs></lem> 
+                              <rdg><rs type="invocation" ref="#inv004"><expan><ex>Κύριε βοήθει</ex></expan></rs></rdg>
+                                              </app>
+                          <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> δούλῳ
+                  </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                        <lb n="2"/><forename>Γρη<supplied reason="lost">γο</supplied>
+                          <lb n="3" break="no"/>ρᾷ</forename> <rs type="office" subtype="civil" ref="#of0143"><expan><abbr>νο</abbr><supplied reason="lost"><abbr>τ</abbr><ex>αρίῳ</ex></supplied></expan></rs>
+                               </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="monogram-cross" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>.–..–Η–Β–Θ ..–..–Δ–Λ̣
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="0"/>... 
+                          <lb n="2"/>ΓΡΗ̣.. 
+                          <lb n="3"/>ΡΝΟ. 
+                          <lb n="0"/> 
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app xml:lang=""/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>Θεοτόκε <hi rend="italic">vel</hi> Κύριε βοήθει τῷ σῷ δούλῳ / Γρηγορᾷ
+                    νοταρίῳ.</p>
+                <p xml:lang="en">Mother of God <hi rend="italic">or</hi> Lord help your servant
+                    Gregoras, notary.</p>
+                <p xml:lang="fr">Mère de Dieu <hi rend="italic">ou</hi> Seigneur aide ton serviteur
+                    Grègoras, notaire.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Le nom est assez rare et dénote une origine caucasienne. On connaît
+                    un homonyme quasi contemporain, qu’il ne faut sans doute pas identifier à notre
+                    sigillant: au droit, un monogramme V cantonné par le tétragramme, au génitif.
+                    Au revers, ΓΡΗ|.ΡΑΔΕ.|ΠΟΤΙΚΟV|ΝΟΤΑΡΙ|ΟΥ: Γρηγορᾶ δεσποτικοῦ νοταρίου [1].</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. <bibl>
+                    <ptr target="Zacos1"/>, <citedRange unit="part">1940</citedRange>.
+                </bibl></p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.45</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

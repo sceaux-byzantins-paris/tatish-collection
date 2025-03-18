@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Jean [Doukas], césar</title>
+                <title xml:lang="en">Seal of John [Doukas], kaisar</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-05-21">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_5-31</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Ἰωάννης</forename>
+                            <surname>Δούκας</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Jean</forename>
+                            <surname>Doukas</surname>               
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>John</forename>
+                            <surname>Doukas</surname>  
+                        </persName>
+                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/107265/">PBW Ioannes 62</idno>                   
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2701</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Dignitaries</seg>
+                            <seg xml:lang="fr">Dignitaires</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">29</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">18,57</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge"> 
+                                    <p xml:lang="fr">Légèrement échancré aux orifices du canal ; faibles traces d’usure sur les deux faces.</p>
+                                    <p xml:lang="en">Slightly indented at the channel orifices; slight traces of wear on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1059" notAfter="1088" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">post 1059</seg>
+                                <seg xml:lang="en">post 1059</seg>
+                            </origDate>       
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609430" xml:lang="fr">Vallée du Kaystros</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609430" xml:lang="en">Kaystros valley</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305883/river-mendere.html" xml:lang="fr">Caÿstre</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305883/river-mendere.html" xml:lang="en">Cayster</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">29</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende circulaire</p>
+                                        <p xml:lang="en">Iconography with circular legend</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Vierge de face, en buste,
+                                            tenant des deux mains un grand médaillon montrant le buste de l’Enfant au nimbe crucigère</figDesc>
+                                        <figDesc n="r" xml:lang="en">Bust of the Virgin Mary, holding in both hands a large medallion showing the bust of the Child with a cruciferous nimbus</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">29</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende circulaire</p>
+                                        <p xml:lang="en">Iconography with circular legend</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="fr">Le césar de face, en buste, doté d’une barbe et d’une moustache ;
+                                            coiffé d’un diadème de perles surmonté d’une croisette, il est revêtu du chitôn sous une chlamyde richement
+                                            cloisonnée de perles, retenue par une fibule de joyaux à l’épaule droite, et tient en main droite une croix et de
+                                            l’autre l’akakia</figDesc>
+                                        <figDesc n="v" xml:lang="en">Bust of the Caesar with a beard and moustache; wearing a pearl 
+                                            diadem topped with a cross, he is wearing the chitôn under a chlamyde richly laced with pearls, held in place by a 
+                                            jewelled fibula on the right shoulder, and holding a cross in his right hand and the akakia in the other</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de perles</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-21" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                        <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan>
+                        <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+
+                      </ab>
+                  </div>
+                    <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                       <ab>
+                        <lb n="1"/>+ <expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> βοήθει τῷ σῷ δούλ<supplied reason="lost">ῳ</supplied>                   
+                      </ab>
+                  </div>           
+                  <div type="textpart" subtype="face" n="rev" rend="circular" xml:lang="grc">
+                      <ab>
+                           <lb n="2"/><expan><abbr>Ἰω</abbr><ex>άννῃ</ex></expan> τῷ <expan><abbr>εὐτυχεστάτ</abbr><ex>ῳ</ex></expan> καίσαρι
+                               </ab>
+                          </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                           <cb n="a"/>
+                           <cb n="b"/>Θ̅Υ̅                        
+                       </ab>
+                   </div>         
+                   <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                       <ab>
+                        <lb n="1"/>ΘΚΕΟΗΘΕΙΤΣΔΟΛ. <!-- Δ not found in Athena ruby palette -->
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="circular" xml:lang="grc">
+                      <ab>
+                           <lb n="2"/>Ι̅̅ΤΕΥΤΥΧΕ||ΣΤΑΤ/ΚΑΙΣΑΡΙ
+                               </ab>
+                          </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Μήτηρ Θεοῦ. Θεοτόκε βοήθει τῷ σῷ δούλῳ / Ἰωάννῃ τῷ εὐτυχεστάτῳ καίσαρι.</p>
+                  <p xml:lang="en">Mother of God. Mother of God help your servant John, the most fortunate kaisar.</p>
+                  <p xml:lang="fr">Mère de Dieu. Mother of God aide ton serviteur Jean, le très fortuné césar.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Jean Doukas fut promu césar lorsque son frère Constantin fut proclamé empereur. L’un des
+                      privilèges du césar l’autorisait à graver son portrait sur ses sceaux, comme le basileus. Il fut très actif sous le
+                      règne de Constantin X, mais aussi sous les empereurs jusqu’à l’époque d’Alexis Comnène qui avait épousé sa
+                      petite-fi lle. Au cours de sa carrière tourmentée, il fut entraîné dans une rébellion contre son neveu Michel VII et,
+                      prudemment, prit l’habit monastique sous le nom d’Ignace, qu’il fit désormais inscrire sur ses sceaux [1].
+                      C’est le second sceau du césar trouvé dans la région d’Izmir. Il est possible qu’il y ait possédé des biens
+                      fonciers. Son fils Andronic fut stratège des Thracésiens [2] et acquit un vaste domaine impérial dans les environs
+                      de Milet [3].</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Sur Jean Doukas, cf la notice no 26 avec une bibliographie récente dans M. kouroupou, J.-Fr. Vannier, Commémoraisons des
+                      Comnènes dans le typikon liturgique du monastère du Christ Philanthrope (<hi rend="italic">ms. Panaghia Kamariotissa</hi> 29), <hi rend="italic">REB</hi> 63, 2005, p. 63-64.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. <hi rend="italic">DOSeals</hi> 3.2.39. La lecture du nom a été corrigée par W. Seibt dans son compte rendu, <hi rend="italic">BZ</hi> 92, 1999, p. 539.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3]. <hi rend="italic">Βυζαντινὰ ἔγγραφα τῆς μονῆς Πάτμου. Α ́, Αὐτοκρατορικά</hi>, éd. É. Vranoussi, Athènes 1980, no 50.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">207-208</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> <!-- // ou très proches, pas tous issus du même boullôtèrion : (α) anc. coll. Zacos, quatre exemplaires ; (β) BnF, fonds ancien ; (γ) Musée
+d’Izmir ; (δ) Zacos (BnF) 1145 et 5053, inédits ; (ε) ventes aux enchères214.
+Ed. des // : (α) ZACos – veglery, nos 2683a, b, c, d ; (β) M. rostovtseW – M. prou, Catalogue des plombs de l’Antiquité, du Moyen
+Âge et des Temps modernes, conservés au Département des Médailles et des Antiques de la Bibliothèque Nationale, Paris 1900, p. 286,
+no 859 ; (γ) J.-Cl. Cheynet, La place de Smyrne dans le thème des Thracésiens, Aureus. Mélanges Ev. Chrysos, éd. T. koliAs et K.
+pitsAkis, Athènes 2014, p. 107-109. -->
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

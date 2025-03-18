@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Olbianos, protospathaire impérial et tourmarque</title>
+                <title xml:lang="en">Seal of Olbianos, imperial protospatharios and tourmarches</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-10">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-84</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military"> 
+                        <persName xml:lang="grc">
+                            <forename>Ὀλβιανός</forename>                          
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Olbianos</forename>      
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Olbianos</forename>                         
+                        </persName> 
+                        </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2848</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">26</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">29,73</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="blank-too-small worn-edge"> 
+                                    <p xml:lang="fr">Flan trop petit, à peine échancré aux orifices du canal ; légères traces d’usure sur les deux faces.</p>
+                                    <p xml:lang="en">Blank too small, barely indented at the channel openings; slight traces of wear on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0701" notAfter="0900" evidence="epigraphy" cert="high" resp="#JCC"> 
+                                <seg xml:lang="fr">VIIIe/IXe siècle</seg>
+                                <seg xml:lang="en">8th/9th C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">26</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Monogramme cruciforme</p>
+                                        <p xml:lang="en">Cruciform monogram</p>                    
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang=""/>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de feuillage</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of foliage</figDesc> 
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">26</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                                        <p xml:lang="en">Linear legend of 4 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage ; légende débutant par une croisette</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of foliage; legend starting with a cross</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl> 
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+                <glyph xml:id="kai">
+                    <mapping type="standard">ϗ</mapping>
+                    <mapping type="simplified">(kai)</mapping>
+                </glyph>
+                <glyph xml:id="alpha">
+                    <mapping type="standard">A</mapping>
+                    <mapping type="simplified">(protos)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-10" who="#SM">Filled in metadata in new template</change>
+            <change when="2024-06-13" who="#SM">Corrections on metadata</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                   <div type="textpart" subtype="face" n="obv" rend="monogram-cross" xml:lang="grc">
+                      <ab>
+                     <lb n="1"/><expan><ex>Θεοτόκε βοήθει</ex></expan> <supplied reason="lost">τ</supplied>ῷ σῷ <supplied reason="lost">δ</supplied>ούλ<supplied reason="lost">ῳ</supplied>
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="2"/>+ Ὀλβι
+                          <lb n="3" break="no"/>ανῷ <expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>σ
+                          <lb n="4" break="no"/>πα</abbr><ex>θάριῳ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>τ</abbr><supplied reason="lost"><abbr>ο</abbr></supplied><abbr>υρ
+                          <lb n="5" break="no"/>μά</abbr><ex>ρχῃ</ex></expan>
+                               </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="monogram-cross" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>.–.–Η–Β–Θ–.–Σ–.Λ           
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="2"/>ΟΛΒΙ    
+                          <lb n="3"/>ΝΒ/Α/Σ
+                          <lb n="4"/>ΠΑ/ϗΤ.ΥΡ    
+                          <lb n="5"/>ΜΑ/
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Θεοτόκε βοήθει τῷ σῷ δούλῳ / + Ὀλβιανῷ βασιλικῷ πρωτοσπαθαρίῳ καὶ τουρμάρχῃ.</p>
+                  <p xml:lang="en">Mother of God help your servant Olbianos, imperial protospatharios and tourmarches.</p>
+                  <p xml:lang="fr">Mère de Dieu aide ton serviteur Olbianos, protospathaire impérial et tourmarque.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">
+                      Le ΟΥ a des empattements obliques et le B est fermé. Olbianos est un nom peu répandu
+                      puisque la <hi rend="italic">PmbZ</hi> relève six occurrences, ce qui ne signifie pas qu’il y ait eu six porteurs du nom (nos 5644-5649).
+                      Un Olbianos, partisan de Michel II, fut stratège des Arméniaques et le soutint lors de la révolte de Thomas le
+                      Slave [1]. Il fut peut-être aussi stratège de Macédoine, si un sceau peut lui être attribué, ce qui est incertain, car
+                      cet Olbianos était seulement titré spathaire [2]. Notre sceau peut marquer une étape antérieure de la carrière du
+                      stratège des Arméniaques, car la dignité de protospathaire est élevée pour un tourmarque de ce temps, puisque
+                      des stratèges de grands thèmes n’obtenaient pas une dignité supérieure.
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. <hi rend="italic">Chronographiae quae Theophanis Continuati nomine fertur Libri</hi> I-IV. Recensuerunt anglice verterunt indicibus instruxerunt M.
+                      Featherstone et J. Signes-Codoñer (CFHB– Series Berolinensis 53), Berlin-Boston 2015, p. 80 ; <hi rend="italic">PmbZ</hi>, no 5646.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. <hi rend="italic">DOSeals</hi> 1.43.31.
+                  </p> 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">101-102</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> <!-- // : Zacos (BnF) 4314, inédit. -->
+                  <p>
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+                  </p>
+              </div>
+          </body>
+      </text>
+</TEI>             

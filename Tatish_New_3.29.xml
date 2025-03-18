@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Théodore N. [Pègônitès ?], magistre, vestès, vestarque et duc d’Edesse</title>
+                <title xml:lang="en">Seal of Theodoros N. [Pegonites ?], magistros, vestes, vestarches and doux of Edessa</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-16">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_3-29</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military">
+                        <persName xml:lang="grc">
+                            <forename>Θεόδωρος</forename>
+                            <surname>Ν. (Πηγονίτης ?)</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Théodore</forename>
+                            <surname>Ν. (Pègônitès ?)</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Theodoros</forename>
+                            <surname>Ν. (Pegonites ?)</surname>
+                        </persName>
+                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/155915/">Theodoros 20238</idno>                     
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">3040</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">22</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">12,35</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="blank-too-small"> 
+                                    <p xml:lang="fr">Flan régulier, mais trop petit, ce qui a laissé une partie de la légende hors champ ; légères
+                                        échancrures aux orifices du canal ; belle gravure.</p>
+                                    <p xml:lang="en">Regular blank, but too small, which has left part of the legend out of focus; slight indentations at the channel orifices; fine engraving.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIe siècle (troisième quart)</seg>
+                                <seg xml:lang="en">11th C. third quarter</seg>
+                            </origDate>       
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/837" xml:lang="fr">Asie Mineure</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/837" xml:lang="en">Asia Minor</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/298795/republic-of-turkey.html" xml:lang="fr">Turquie occidentale</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/298795/republic-of-turkey.html" xml:lang="en">West Turkey</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                                        <p xml:lang="en">Linear legend of 6 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang=""/>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">22</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 ou 6 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 or lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis ; au
+                                            sommet, un croisillon de perles accosté de tirets</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots; at the top, a cross of pearls flanked by dashes</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="kai">
+                    <mapping type="standard">ϗ</mapping>
+                    <mapping type="simplified">(kai)</mapping>
+                </glyph>
+                <!-- <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+ -->
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-16" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                   <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                       <ab>
+                            <lb n="1"/><supplied reason="lost">+</supplied> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
+                            <lb n="2" break="no"/><supplied reason="lost">ή</supplied>θει τῷ 
+                            <lb n="3"/><supplied reason="lost">σ</supplied>ῷ δούλῳ
+                            <lb n="4"/><supplied reason="lost">Θε</supplied>οδώρῳ 
+                            <lb n="5"/><supplied reason="lost">μα</supplied>γίσ
+                            <lb n="6" break="no"/><supplied reason="lost">τρῳ</supplied>
+                       </ab>
+                   </div>    
+                  
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                           <lb n="7"/>βέστῃ 
+                           <lb n="8"/>βεστάρ<supplied reason="lost">χῃ</supplied><!-- abbr. à ajoutér pour eta? --> 
+                           <lb n="9"/><supplied reason="lost"><expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan></supplied> δουκὶ Ἐδ<supplied reason="lost">έ</supplied>
+                           <lb n="10" break="no"/><supplied reason="lost">σσ</supplied>ης τῷ <supplied reason="lost" cert="low">Πη</supplied><!-- 2 sigma dans Edesse? -->
+                           <lb n="11" break="no"/><supplied reason="lost" cert="low">γονίτῃ</supplied>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                       <ab>
+                          <lb n="1"/>.Κ̅Ε̅Ο
+                          <lb n="2"/>.ΘΕΙΤ
+                          <lb n="3"/>.ΔΟΥΛ
+                          <lb n="4"/>..ΟΔΡ
+                          <lb n="5"/>..ΓΙΣ...              
+                       </ab>
+                   </div>   
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="0"/>
+                          <lb n="6"/>ΕΣΤΗ
+                          <lb n="7"/>ΕΣΤΑΡ.
+                          <lb n="8"/>.ΔΙΕΔ.
+                          <lb n="9"/>.ΗΣΤ..
+                          <lb n="10"/>....
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Θεοδώρῳ μαγίστρῳ / βέστῃ βεστάρχῃ καὶ δουκὶ Ἐδέσσης τῷ Πηγονίτῃ ?.</p>
+                  <p xml:lang="en">Lord help your servant Theodoros Pegonites (?), magistros, vestes, vestarches and doux of Edessa.</p>
+                  <p xml:lang="fr">Seigneur aide ton serviteur Théodore Pégônitès (?), magistre, vestès, vestarque et duc d'Edesse.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">La trop petite taille du flan nous a privé du nom de famille du duc. Il ne reste,
+                      pour la première lettre du nom, que la trace d’une haste verticale qui pourrait être celle d’un Π. La durée de
+                      l’occupation d’Edesse par les Byzantins n’excéda guère un demi-siècle et nous avons une liste assez dense de
+                      ducs ou catépans. Le titre élevé de magistre et le prénom de Théodore conduisent à penser que nous pouvons
+                      attribuer ce sceau à Théodore Pègônitès, connu par une autre bulle, également bilatérale, comme duc d’Edesse à
+                      la fin du règne de Constantin X Doukas, dont il était un parent par alliance [1].
+                      La carrière de Théodore Pègônitès est connue par ses sceaux, tous bilatéraux [2] :
+                      - patrice et stratège,
+                      - patrice, anthypatos, vestès, catépan des Paradounavites,
+                      - vestès, vestarque et duc d’Edesse (notre bulle),
+                      - magistre et duc d’Edesse.
+                      Théodore aura été promu à la dignité de magistre durant son séjour à Edesse [3]. Les Pégônitai fournirent de
+                      nombreux officiers à partir du règne de Basile II [4].</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. <hi rend="italic">DOSeals</hi> 4.73.2. Le frère de Constantin X, le césar Jean Doukas, avait épousé une Pègônitissa.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. Wassiliou-Seibt et Seibt, <hi rend="italic">Bleisiegel</hi> II, p. 278 et Seibt, <hi rend="italic">Kestner</hi> I, no 20.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3]. Pour une liste des ducs d’Edesse, cf. J.-Cl. Cheynet, <hi rend="italic">Sceaux de la collection Zacos (Bibliothèque nationale de France) se rapportant
+                      aux provinces orientales de l’Empire byzantin,</hi> Paris 2001, p. 59.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-4">
+                      [4]. Sur Théodore et les Pègônitai, cf. A.-K. Wassiliou-Seibt, <hi rend="italic">Der Familienname Pegonites</hi> auf byzantinischen Siegeln und in anderen
+                      schriftlichen Quellen, dans <hi rend="italic">Byzantina Realia</hi>, éd. S. Kotzabassi - G. Mavromatis, (Byzantinisches Archiv 22), Berlin - New York 2009,
+                      p. 303-320.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">136-137</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             

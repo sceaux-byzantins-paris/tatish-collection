@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Constantin Arsakidès, vestarque et catépan</title>
+                <title xml:lang="en">Seal of Constantine Arsakides, vestarches and katepano</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-05">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2024-11-23">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-54</idno>
+                <idno type="SigiDocID">s-y8ZeBC</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military">
+                        <persName xml:lang="grc">
+                            <forename>Κωνσταντίνος</forename>
+                            <surname>Ἀρσακίδης</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Constantin</forename>
+                            <surname>Arsakidès</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Constantine</forename>
+                            <surname>Arsakides</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
+                        </collection>
+                        <idno type="inv-nr-current">2635</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">24</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">11,24</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="crushed chipped worn-edge">
+                                    <p xml:lang="fr">Echancré aux orifices du canal; rogné sur le
+                                        pourtour; lettres un peu écrasées.</p>
+                                    <p xml:lang="en">Slightly indented at the channel openings;
+                                        trimmed around the edges; letters a little crushed.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-Vt0VuR</idno>
+                                        <idno type="PBW"/>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1051" notAfter="1100"
+                                evidence="epigraphy related-seal prosopography" cert="high"
+                                resp="#JCC">
+                                <seg xml:lang="fr">XIe siècle (seconde moitié).</seg>
+                                <seg xml:lang="en">11th C., second half.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot"
+                                ref="https://pleiades.stoa.org/places/629035" xml:lang="fr"> Césarée
+                                de Cappadoce</placeName>
+                            <placeName type="ancientFindspot"
+                                ref="https://pleiades.stoa.org/places/629035" xml:lang="en">
+                                Caesarea of Cappadocia</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/308464/kayseri.html" xml:lang="fr"
+                                >Kayseri</placeName>
+                            <placeName type="modernFindspot"
+                                ref="https://www.geonames.org/308464/kayseri.html" xml:lang="en"
+                                >Kayseri</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 4 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="r" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoR" xml:lang="fr">Bordure d’épais grènetis;
+                                            légende précédée d’une croisette; au sommet et à la base
+                                            du champ, une perle cantonnée de tirets.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of thick dots;
+                                            legend preceded by a crosslet; at the top and bottom of
+                                            the field, a pearl flanked by dashes.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Bordure d’épais
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr">Border of thick
+                                            dots.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-05" who="#SM">Filled in metadata in new template</change>
+            <change when="2024-04-13" who="#SM">Corrections on metadata</change>
+            <change when="2024-11-23" who="#AS">Revision and correction of the entire XML
+                file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
+                      <ab ana="dat"> 
+                         <lb n="1"/>+<rs type="invocation" ref="#inv004">Κύριε 
+                         <lb n="2"/>βοήθει 
+                         <lb n="3"/>τῷ σῷ δού
+                         <lb n="4" break="no"/>λῳ</rs> <forename><expan><abbr>Κων</abbr><ex>σταντίν</ex><abbr>ῳ</abbr></expan></forename>
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                        <lb n="5"/><rs type="dignity" ref="#d0017">βεστά<supplied reason="lost">ρ</supplied>
+                          <lb n="6" break="no"/>χῃ</rs> καὶ <rs type="office" subtype="military" ref="#of0263">κα
+                          <lb n="7" break="no"/>τεπάνω</rs> τῷ 
+                          <lb n="8"/><surname>Ἀρσακί
+                          <lb n="9" break="no"/>δῳ
+</surname>                               </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="0"/>̣
+                          <lb n="1"/>ΚΥΡΙΕ 
+                          <lb n="2"/>ΟΘΕΙ 
+                          <lb n="3"/>ΤΣΔ 
+                          <lb n="4"/>Λ̣Κ̅̅Ν̅ 
+                          <lb n="0"/>̣
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="5"/>ΕΣΤ̣Α̣.
+                          <lb n="6"/>ΧΑΙΑ̣
+                          <lb n="7"/>ΤΕΠΑΝΤ 
+                          <lb n="8"/>ΑΡΣΑΙ 
+                          <lb n="9"/>Δ̣̣
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app xml:lang=""/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Κωνσταντίνῳ / βεστάρχῃ καὶ κατεπάνω τῷ Ἀρσακίδῳ.</p>
+                <p xml:lang="en">Lord help your servant Constantine Arsakides, vestarches and
+                    katepano.</p>
+                <p xml:lang="fr">Seigneur aide ton servant Constantin Arsakidès, vestarque et
+                    catépan.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Une lignée de ce nom, d’origine arménienne, que Werner Seibt a
+                    étudiée, est bien connue à cette date [1]. Le sceau métrique d’un Constantin
+                    Arsakidès, qui ne fait mention d’aucune charge ou dignité, est daté par W. Seibt
+                    du tournant du XIe/XIIe siècle. Il n’y a pas d’impossibilité pour attribuer
+                    notre plomb à ce personnage, à une étape antérieure de sa carrière et, dans ce
+                    cas, l’identification avec Constantin de Karkar évoquée, sans insister, par
+                    l’éditeur de la bulle métrique, serait difficile. Mais il peut aussi s’agir de
+                    deux parents homonymes.</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. <bibl>
+                        <ptr target="Seibt1994"/></bibl>. Bulle métrique de Constantin Arsakidès,
+                    éd. dans <bibl>
+                        <ptr target="Seibt1994"/>, <citedRange unit="part">8</citedRange></bibl>; <bibl>
+                        <ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="entry"
+                            >1212</citedRange>; voir aussi <bibl>
+                            <ptr target="PBW"/>, <citedRange unit="entry"><ref
+                                    target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3499/"
+                                    >boulloterion 3499</ref></citedRange> avec les liens vers les
+                            éditions dans le catalogue en ligne de Dumbarton Oaks. </bibl>
+                    </bibl></p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.54</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

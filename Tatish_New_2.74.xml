@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Léon o tou Dépotatos, protospathaire et stratège</title>
+                <title xml:lang="en">Seal of Leon o tou Depotatos, protospatharios and strategos</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-09">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-74</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="military"> 
+                        <persName xml:lang="grc">
+                            <forename>Λέων</forename>
+                            <surname>Δεποτάτου</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Léon</forename>
+                            <surname>Dépotatos</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Leon</forename>
+                            <surname>Depotatos</surname>
+                        </persName> 
+                        </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2687</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">21</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">8,79</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="worn-edge blank-too-small"> 
+                                    <p xml:lang="fr">Echancré aux orifices du canal ; flan trop petit ; légèrement usé sur les deux faces.</p>
+                                    <p xml:lang="en">Notched at the canal orifices; blank too small; slightly worn on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy" cert="high" resp="#JCC"> 
+                                <seg xml:lang="fr">XIe siècle (première moitié)</seg>
+                                <seg xml:lang="en">11th C. first half</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609444" xml:lang="fr">Cotyaion, Opsikion</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609444" xml:lang="en">Kotiaeion, Opsikion </placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="fr">Kütahya</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="en">Kütahya</placeName>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">21</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p>                     
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Saint Michel de face en buste, revêtu du lôros droit bordé de deux
+                                            rangs de grosses perles, tenant un sceptre bouleté en main droite et un globe en main gauche</figDesc>
+                                        <figDesc n="r" xml:lang="en">Bust of Saint Michael, wearing the right loros bordered by two strands of 
+                                            large pearls, holding a sceptre in his right hand and a globe in his left</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of dots</figDesc> 
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">21</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                                        <p xml:lang="en">Linear legend of 4 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis ; légende précédée d’une croisette et surmontée d’une perle accostée de tirets</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots; legend preceded by a cross and surmounted by a pearl flanked by dashes</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>
+                <glyph xml:id="alpha">
+                    <mapping type="standard">A</mapping>
+                    <mapping type="simplified">(protos)</mapping>
+                </glyph>
+                <glyph xml:id="kai">
+                    <mapping type="standard">ϗ</mapping>
+                    <mapping type="simplified">(kai)</mapping>
+                </glyph>
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-09" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                   <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                       <cb n="a"/><expan><abbr>Μι
+                          <cb n="b"/>χ</abbr><ex>αήλ</ex></expan>
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                        <app type="alternative">
+                          <lem><lb n="1"/><expan><abbr>Λέον</abbr><ex>τι</ex></expan> 
+                          <lb n="2"/><expan><supplied reason="lost"><abbr><am><g ref="#alpha" cert="low"/></am></abbr><ex>πρωτο</ex></supplied><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> 
+                          <lb n="3"/><expan><abbr>στρατ</abbr><ex>ηγῷ</ex></expan> ὡ 
+                          <lb n="4"/><supplied reason="lost">τ</supplied>οῦ <expan><abbr>Δεπ</abbr><ex>οτάτου</ex></expan></lem>
+                          <rdg><lb n="1"/><expan><abbr>Λέον</abbr><ex>τι</ex></expan> 
+                          <lb n="2"/><expan><supplied reason="lost"><abbr><am><g ref="#alpha" cert="low"/></am></abbr><ex>πρωτο</ex></supplied><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> 
+                          <lb n="3"/><expan><abbr>στρατ</abbr><ex>ηγὸς</ex></expan> ὡ 
+                          <lb n="4"/><supplied reason="lost">τ</supplied>οῦ <expan><abbr>Δεπ</abbr><ex>οτάτου</ex></expan></rdg>
+                      </app>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                          <cb n="a"/>Μ|Ι
+                          <cb n="b"/>Χ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                          <lb n="0"/> 
+                          <lb n="1"/>ΛΕΟΝ 
+                          <lb n="2"/>.ΣΠΑΘ/ϗ 
+                          <lb n="3"/>ΣΤΡΑΤ/ 
+                          <lb n="4"/>.ΔΕΠ̅/ 
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Μιχαήλ / + Λέοντι πρωτοσπαθαρίῳ καὶ στρατηγῷ ὡ τοῦ Δεποτάτου <hi rend="italic">vel</hi> Λέων πρωτοσπαθαρίος καὶ στρατηγός ὡ τοῦ Δεποτάτου.</p>
+                  <p xml:lang="en">Michael. Leon o tou Depotatos protospatharios and strategos</p>
+                  <p xml:lang="fr">Michel. Léon o tou Dépotatos protospathaire et stratège.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">
+                      La formule finale est caractéristique d’une
+                      marque de dépendance par rapport à la personne nommée en fin de légende.
+                      Il peut s’agir soit d’un familier, soit d’un neveu. Le <hi rend="italic">dépotatos</hi> servait le
+                      patriarche à la Grande Eglise. Cet humble employé lui frayait le passage ou
+                      tenait le cierge à l’ambon [1]. Par ailleurs, Dépotatos semble être devenu un nom
+                      transmissible et on se gardera de croire qu’un stratège ait pu se vanter d’être le
+                      neveu ou le protégé d’un si humble personnage. Nikon de la Montagne Noire
+                      rapporte que, à l’époque du patriarcat de Théodore II d’Antioche (1034-1042),
+                      le kathigoumène du monastère de Saint-Syméon (du Mont Admirable) était
+                      Jean, surnommé Dépotatos [2].
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Cf le sceau de Michel, <hi rend="italic">dépotatos</hi> de la Grande Eglise (Laurent, <hi rend="italic">Corpus</hi> V/1, no 141.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. V. Grumel, Le patriarcat et les patriarches d’Antioche sous la seconde domination byzantine (969-1084), <hi rend="italic">Echos d’Orient</hi>, t. 33,
+                      1934, p. 138. <hi rend="italic">Das</hi> Taktikon des <hi rend="italic">Nikon vom Schwarzen Berg. Griechischer Text und kirchenslavische Übersetzung des 14. Jahrunderts</hi>,
+                      éd. Ch. Hannick <hi rend="italic">et al</hi>., 2 vol., Fribourg 2014, vol. 1, p. 824 et 904.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">91-92</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                  <p>
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+                  </p>
+              </div>
+          </body>
+      </text>
+</TEI>             

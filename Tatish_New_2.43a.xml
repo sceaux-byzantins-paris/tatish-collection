@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Constantin, notaire</title>
+                <title xml:lang="en">Seal of Constantine, notary</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-04">Sima Meziridou</editor>
+                <editor role="digital-editor" xml:id="AS" when="2024-11-19">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_2-43a</idno>
+                <idno type="SigiDocID">s-I1swA3</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Κωνσταντίνος</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Constantin</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Constantine</forename>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/>
+                        <repository/>
+                        <collection type="private">
+                            <rs type="collection-name" xml:lang="en"><persName role="collector"
+                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                                collection</rs>
+                            <rs type="collection-name" xml:lang="fr">Collection <persName
+                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                                    Tatış</persName></rs>
+                        </collection>
+                        <idno type="inv-nr-current">2865</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Central administration</seg>
+                            <seg xml:lang="fr">Administration centrale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">27</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">18,98</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="crushed pierced">
+                                    <p xml:lang="fr">Fortement rogné au sommet du champ; deux trous
+                                        dans le champ; points d’écrasement sur les deux faces.</p>
+                                    <p xml:lang="en">Heavily trimmed at the top of the field; two
+                                        holes in the field; crushing marks on both sides.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-cija7G</idno>
+                                        <idno type="PBW"/>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0701" notAfter="0900"
+                                evidence="epigraphy related-seal" cert="medium" resp="#JCC">
+                                <seg xml:lang="fr">VIIIe/IΧe siècle.</seg>
+                                <seg xml:lang="en">8th/9th C.</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/>
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">25</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Monogramme cruciforme invocatif au sommet
+                                            perdu, de type Laurent V ou VIII, complété dans les
+                                            cantons du tétragramme habituel.</p>
+                                        <p xml:lang="en">Cruciform invocative monogram lost at the
+                                            top, type Laurent V or VIII, completed in the quarters
+                                            with the usual syllables.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="fr">Les pièces Tatış 2865 (ici éditée) et 2942 comportent le même alignement
+                                        des caractères et, surtout, les mêmes particularités
+                                        épigraphiques: les lettres présentent de forts empattements,
+                                        avec des coins en biseau terminant les segments obliques (Κ,
+                                        , Δ, ). Au droit, ces caractères, de petit module, sont
+                                        placés au bout d’axes fins (ainsi, Β fait de deux petits
+                                        lobes tangents sur une large base). Ce plomb pourrait donc bien
+                                        être issu d’un même <hi rend="italic">boullôtèrion</hi> que
+                                        le sceau Tatış 2942<!-- internal link to be added -->, à première vue différent, mais qui est
+                                        beaucoup plus rogné et sa surface davantage érodée.</seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="r" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de
+                                            feuillage.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Wreath border.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">25</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes dont la
+                                            première est perdue.</p>
+                                        <p xml:lang="en">Linear legend of 4 lines, of which the
+                                            first one is lost.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang="fr">Les pièces Tatış 2865 (ici éditée) et 2942 comportent le même alignement
+                                        des caractères et, surtout, les mêmes particularités
+                                        épigraphiques: les lettres présentent de forts empattements,
+                                        avec des coins en biseau terminant les segments obliques (Κ,
+                                        , Δ, ). Au droit, ces caractères, de petit module, sont
+                                        placés au bout d’axes fins (ainsi, Β fait de deux petits
+                                        lobes tangents sur une large base). Ce plomb pourrait donc bien
+                                        être issu d’un même <hi rend="italic">boullôtèrion</hi> que
+                                        le sceau Tatış 2942<!-- internal link to be added -->, à première vue différent, mais qui est
+                                        beaucoup plus rogné et sa surface davantage érodée.</seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!--<figDesc n="v" ana="" xml:lang=""/>-->
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage;
+                                            légende suivie d’une croisette.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Wreath border; legend
+                                            followed by a crosslet.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-04" who="#SM">Filled in metadata, comments and bibliography in new
+                template</change>
+            <change when="2024-04-13" who="#SM">Corrections on metadata</change>
+            <change when="2024-11-19" who="#AS">Revision and correction of the entire XML
+                file</change>
+            <change when="2025-02-16" who="#AS">Encoding for indexing added</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the obverse (2019).</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="https://www.abcde.com" type="digital">
+                    <desc>Digital image of the reverse (2019).</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="face" rend="monogram-cross" xml:lang="grc"><!-- encoding for invocation? -->
+                      <ab ana="dat"> 
+                           <lb n="1"/><app type="alternative">
+                              <lem><rs type="invocation" ref="#inv002"><expan><ex>Θεοτόκε βοήθει</ex></expan></rs></lem> 
+                              <rdg><rs type="invocation" ref="#inv004"><expan><ex>Κύριε βοήθει</ex></expan></rs></rdg>                              
+                                   </app>
+                          <supplied reason="lost">τῷ</supplied> σῷ δούλῳ
+                  </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                        <lb n="2"/><forename><supplied reason="lost">Κωνστ</supplied>
+                           <lb n="3" break="no"/>αντίνῳ</forename>
+                           <lb n="4"/><rs type="office" subtype="civil" ref="#of0143">νοταρ
+                           <lb n="5" break="no"/>ίῳ</rs>+
+                               </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="monogram-cross" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>Κ–..––Β–Θ̣ ..– Σ̣Ω̣––ΛΩ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                          <lb n="2"/>..... 
+                          <lb n="3"/>̣ΝΤ̣Ι̣Ν̣Ω̣
+                          <lb n="4"/>ΝΟΤ̣Ρ  
+                          <lb n="5"/>ΙΩ 
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app xml:lang=""/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>Θεοτόκε <hi rend="italic">vel</hi> Κύριε βοήθει τῷ σῷ δούλῳ / Κωνσταντίνῳ
+                    νοταρίῳ.</p>
+                <p xml:lang="en">Mother of God <hi rend="italic">or</hi> Lord help your servant
+                    Constantine, notary.</p>
+                <p xml:lang="fr">Mère de Dieu <hi rend="italic">ou</hi> Seigneur aide ton serviteur
+                    Constantin, notaire.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">On connaît de nombreux homonymes à peu près contemporains, mais la
+                    légende de leurs plombs ne présente jamais la même distribution [1].</p>
+            </div>
+            <div type="commentary" subtype="footnotes">
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. Avec le même avers et une répartition
+                    différente, <bibl>
+                        <ptr target="BBÖ2"/>, <citedRange unit="part">62</citedRange>
+                    </bibl> ou <bibl>
+                        <ptr target="Seyrig"/>, <citedRange unit="part">110</citedRange>.
+                    </bibl></p>
+            </div>
+            <div type="bibliography" subtype="edition">
+                <p>
+                    <bibl>
+                        <ptr target="CheynetTatış"/>, <citedRange unit="part">2.43a</citedRange>.
+                    </bibl>
+                </p>
+            </div>
+            <div type="bibliography" subtype="parallels">
+                <p>
+                    Collection Yavuz Tatış, 2942: <bibl>
+                    <ptr target="CheynetTatış"/>, <citedRange unit="part">2.43b</citedRange>
+                    </bibl> = SigiDoc ID s-Kf15mm <!-- link to be added -->
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

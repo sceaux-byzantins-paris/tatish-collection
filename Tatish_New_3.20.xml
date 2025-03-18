@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- last changed before 1.0 version release 2021-08-02 -->
+<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
+<!-- ongoing changes to 2.0: march 2024 -->
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Grégoire, spathaire impérial (?), protonotaire des Manganes et anagrapheus des Cibyrrhéotes</title>
+                <title xml:lang="en">Seal of Gregory, imperial spatharios (?), protonotarios of the Mangana and anagrapheus of the Cibyrrhaeots</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-04-15">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatış_3-20</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Γρηγόριος</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Grégoire</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Gregorios</forename>
+                        </persName>
+                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/153060/">Gregorios 20169</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ24612/html">Gregorios 22459</idno>
+                    </person>                     
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </collection>
+                        <collection type="private"/> 
+                        <idno type="inv-nr-current">2559</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <collection type="private"/> 
+                            <collection type="private"/> 
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">23</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">7,20</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="broken"> 
+                                    <p xml:lang="fr">Nettes échancrures aux orifices du canal ; flan rogné et partiellement cassé ; belle gravure à l’origine.</p>
+                                    <p xml:lang="en">Clear indentations at the channel orifices; blank trimmed and partially broken; fine original engraving.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1026" notAfter="1050" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIe siècle (second quart)</seg>
+                                <seg xml:lang="en">11th C. second quarter</seg>
+                            </origDate>       
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc" otherLangs="">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">23</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende circulaire et en colonnes</p>
+                                        <p xml:lang="en">Iconography with circular legend and legend in columns</p>                     
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"></seg>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Buste de saint Jean Prodrome, de face,
+                                            doté d’une longue barbe et d’une abondante chevelure aux mèches soignées, la
+                                            main droite ramenée sur la poitrine dans le geste de l’allocution</figDesc>
+                                        <figDesc n="r" xml:lang="en">Bust of Saint John Prodrome with a long beard and hair with neat locks,
+                                            his right hand brought to his chest in the gesture of an allocution</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure de grènetis</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">23</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Bordure de grènetis</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="kai">
+                    <mapping type="standard">ϗ</mapping>
+                    <mapping type="simplified">(kai)</mapping>
+                </glyph>
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+                <glyph xml:id="ho_hagios">
+                    <mapping type="standard"></mapping>
+                    <mapping type="simplified">(ho_hagios)</mapping>
+                </glyph>
+                <glyph xml:id="alpha">
+                    <mapping type="standard">A</mapping>
+                    <mapping type="simplified">(protos)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-04-15" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                            <cb n="a"/><expan><ex>Ὁ ἅγιος</ex></expan> <expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> ὁ
+                           <cb n="b"/><expan><abbr>Πρ</abbr><ex>ό</ex><supplied reason="lost"><abbr>δρομος</abbr></supplied></expan>
+                      </ab>
+                   </div>          
+                  <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                          <lb n="1"/>+ <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σῷ</supplied> <supplied reason="lost">δούλῳ</supplied>                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                           <lb n="2"/><supplied reason="lost">+</supplied> <expan><supplied reason="lost"><abbr>Γ</abbr></supplied><abbr>ριγορ</abbr><ex>ίῳ</ex></expan>
+                           <lb n="3"/><supplied reason="lost"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan></supplied> <expan><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan> <expan><abbr><am><g ref="#alpha"/></am></abbr><ex>πρωτο</ex><abbr>ν</abbr><ex>οταρίῳ</ex></expan>
+                           <lb n="4"/><supplied reason="lost">τῶ</supplied>ν <expan><abbr>Μ</abbr><ex>α</ex><abbr>γγά</abbr><ex>νων</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan>
+                           <lb n="5"/><expan><supplied reason="lost"><abbr>ἀν</abbr><ex>α</ex></supplied><abbr>γρ</abbr><ex>αφεῖ</ex></expan> τῶν 
+                           <lb n="6"/><expan><supplied reason="lost"><abbr>Κι</abbr></supplied><abbr>βυρ</abbr><ex>ραιω</ex><abbr>τ</abbr><ex>ῶν</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+             <ab>
+                 <cb n="a"/>|Ι̅̅|Ο
+                 <cb n="b"/>
+             </ab>
+                </div>
+                  <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                           <lb n="1"/>ΚΕΒΘ/..
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>  
+                          <lb n="2"/>.ΡΙΓΟΡ/
+                          <lb n="3"/>.ΣΠΘ/ΑΝ/
+                          <lb n="4"/>..Γ/Αϗ
+                          <lb n="5"/>..ΓΡΤΝ
+                          <lb n="6"/>..ΥΡΤ
+                      </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος. Κύριε βοήθει τῷ σῷ δούλῳ / + Γριγορίῳ βασιλικῷ σπαθαρίῳ πρωτονοταρίῳ τῶν Μαγγάνων
+                      καὶ ἀναγραφεῖ τῶν Κιβυρραιωτῶν.</p>
+                  <p xml:lang="en">Saint John Prodromos. Lord help your servant Gregory, imperial spatharios, protonotarios of the Mangana and anagrapheus of the Cibyrrhaeots.</p>
+                  <p xml:lang="fr">Saint Jean Prodrome. Seigneur aide ton serviteur Grégoire, spathaire impérial, protonotaire des Manganes et <hi rend="italic">anagrapheus</hi> des Cibyrrhéotes.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Les abréviations de la légende sont rudes et
+                      inhabituelles comme le ΜΓΓΑ pour Μ(α)γγά(νων). Cependant l’interprétation
+                      de ces abréviations est confortée par l’existence d’un sceau qu’on peut très
+                      probablement attribuer au même personnage (IFEB 742) [1]. La légende
+                      comprend les deux mêmes fonctions qui, pourtant, sont rarement associées, et la même iconographie : ....ΡΙΓΟΡ/|.ΠΑΘ/ΑΝ..|ΜΑΓΓΑ |SΑΝΑΓΡ |T/ΚVR|..Ω. Pour notre sceau, on peut hésiter
+                      entre deux restitutions pour la dignité, soit spathaire impérial, soit protospathaire. Le plomb de l’IFEB ne permet
+                      pas non plus de trancher.
+                      Grégoire est sans doute le signataire de trois autres sceaux, également au buste de saint Jean Prodrome,
+                      où il ne mentionne que sa charge de protonotaire des Manganes. Sur un plomb conservé à Istanbul, il est
+                      spatharocandidat [2] ; sur deux autres bulles des collections de Dumbarton Oaks, dans un cas, il ne mentionne
+                      pas de dignité et dans l’autre il serait protospathaire [3]. On pourrait donc reconstituer ainsi son cursus honorum :
+                      – spatharocandidat et protonotaire des Manganes,
+                      – spatharocandidat, protonotaire des Manganes et anagrapheus des Cibyrrhéotes,
+                      – protospathaire, protonotaire des Manganes et anagrapheus des Cibyrrhéotes,
+                      – protospathaire et protonotaire des Manganes.
+                      Une telle carrière implique que Grégoire ait occupé longtemps la charge de protonotaire des Manganes
+                      et qu’il ait été promu de spatharocandidat à protospathaire pendant qu’il cumulait cette charge avec celle
+                      d’anagrapheus des Cibyrrhéotes. Les éditeurs des sceaux précédemment cités les ont datés des Χe/ΧΙe siècles.
+                      Cependant, les lettres de notre bulle sont un peu plus tardives et la remarquable effigie du droit rappelle celle
+                      d’un saint gravé à l’avers d’un plomb qu’on peut dater du règne de Monomaque, celui d’Adrien Dalassènos,
+                      stratège de l’Opsikion [4]. Supposer l’existence, à un intervalle de quelques décennies au plus, de deux
+                      fonctionnaires homonymes, exerçant les mêmes fonctions, et choisissant tous deux un motif iconographique
+                      peu approprié pour un membre de l’administration des Manganes, paraît peu probable.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Mentionné dans Cheynet – Bulgurlu – Gökyildirim, <hi rend="italic">Istanbul</hi>, no 2.155, p. 182, n. 114.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. Ist. 726, éd. Cheynet – Bulgurlu – Gökyildirim, <hi rend="italic">Istanbul</hi>, no 2.155.      
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-3">
+                      [3]. a) DO 58.106.4702, éd. <hi rend="italic">DOSeals</hi> 5.25.13 ; b) DO 51.1.2368, éd. DOSeals 5.25.12.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-4">
+                      [4]. Vente aux enchères St Paul Antique, 9 (5 août 2017), no 467. Il ne peut s’agir du général de Basile II, car l’inscription porte un OY en fer à cheval et le règne de Monomaque serait le meilleur choix pour la datation, car les Dalassènoi étaient auparavant pourchassés
+                      sous Michel IV.
+                  </p>                 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">126-127</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>             
