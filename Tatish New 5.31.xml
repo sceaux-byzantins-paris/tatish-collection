@@ -138,7 +138,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1059" evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1059" notAfter="1088" evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">post 1059</seg>
                                 <seg xml:lang="en">post 1059</seg>
                             </origDate>       
