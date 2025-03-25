@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -58,21 +53,15 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >Izmir</placeName></seg>
-                            <seg xml:lang="en"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >İzmir</placeName></seg>
+                            <seg xml:lang="fr"><placeName ref="https://www.geonames.org/311046/izmir.html">Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName ref="https://www.geonames.org/311046/izmir.html">İzmir</placeName></seg>
                         </settlement>
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="owner"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2928</idno>
@@ -148,8 +137,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0851" notAfter="0900"
-                                evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0851" notAfter="0900" evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">IXe siècle (seconde moitié)</seg>
                                 <seg xml:lang="en">9th C. second half</seg>
                             </origDate>
@@ -363,9 +351,7 @@
             <div type="bibliography" subtype="parallels">
                 <p>
                     <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2286/view"
-                                >BZS.1958.106.2286</ref></citedRange>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.2286/view">BZS.1958.106.2286</ref></citedRange>
                     </bibl>
                 </p>
             </div>

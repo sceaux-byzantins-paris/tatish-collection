@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -51,12 +46,8 @@
                         <persName xml:lang="en">
                             <forename>John</forename>
                         </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ25214/html"
-                            >23060</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ25028/html"
-                            >22874</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ25214/html">23060</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ25028/html">22874</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -72,11 +63,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private" ref="URI">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr"> Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr"> Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName>.</rs>
                         </collection>
                         <idno type="inv-nr-current">2695</idno>
@@ -150,31 +139,19 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0867" notAfter="0900"
-                                evidence="epigraphy parallel" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0867" notAfter="0900" evidence="epigraphy parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">IXe siècle (dernier tiers)</seg>
                                 <seg xml:lang="en">9th C., last third</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/609444" xml:lang="fr">Kotyaion
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609444" xml:lang="fr">Kotyaion
                                 (Opsikion)</placeName>
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/609444" xml:lang="en"
-                                >Kotiaeion (Opsikion)</placeName>
-                            <placeName type="ancientFindspot"
-                                ref="https://tib.oeaw.ac.at/static/reader/TIB/tib7.html#page/312/mode/2up"
-                                xml:lang="fr">Kotyaeion</placeName>
-                            <placeName type="ancientFindspot"
-                                ref="https://tib.oeaw.ac.at/static/reader/TIB/tib7.html#page/312/mode/2up"
-                                xml:lang="en">Kotyaeion</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="fr"
-                                >Kütahya</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="en"
-                                >Kütahya</placeName>
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/609444" xml:lang="en">Kotiaeion (Opsikion)</placeName>
+                            <placeName type="ancientFindspot" ref="https://tib.oeaw.ac.at/static/reader/TIB/tib7.html#page/312/mode/2up" xml:lang="fr">Kotyaeion</placeName>
+                            <placeName type="ancientFindspot" ref="https://tib.oeaw.ac.at/static/reader/TIB/tib7.html#page/312/mode/2up" xml:lang="en">Kotyaeion</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="fr">Kütahya</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/305268/kuetahya.html" xml:lang="en">Kütahya</placeName>
                             <rs type="circumstances" xml:lang=""/>
                         </provenance>
                         <provenance type="observed" subtype="seen">
@@ -223,12 +200,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="cross patriarchal on-steps"
-                                            xml:lang="fr">Petite croix patriarcale dépourvue
+                                        <figDesc n="r" ana="cross patriarchal on-steps" xml:lang="fr">Petite croix patriarcale dépourvue
                                             d’ornement, élevée sur quatre degrés gravés hors du
                                             nimbe limitant la croix.</figDesc>
-                                        <figDesc n="r" ana="cross patriarchal on-steps"
-                                            xml:lang="en">Small, unadorned patriarchal cross, on
+                                        <figDesc n="r" ana="cross patriarchal on-steps" xml:lang="en">Small, unadorned patriarchal cross, on
                                             four steps engraved outside the nimbus surrounding the
                                             cross.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Une couronne de perles

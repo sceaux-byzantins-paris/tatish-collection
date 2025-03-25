@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Constantin, primicier et grand <hi rend="italic"
-                        >trapézitès</hi> du proèdre</title>
+                <title xml:lang="fr">Sceau de Constantin, primicier et grand <hi rend="italic">trapézitès</hi> du proèdre</title>
                 <title xml:lang="en">Seal of Constantine, primikirios and grand trapezites of the
                     proedros</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -34,8 +29,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -66,11 +60,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2923</idno>
@@ -145,9 +137,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000"
-                                evidence="epigraphy prosopography titulature" cert="high"
-                                resp="#JCC">
+                            <origDate type="analysis" notBefore="0951" notAfter="1000" evidence="epigraphy prosopography titulature" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe siècle (seconde moitié)</seg>
                                 <seg xml:lang="en">10th C., second half</seg>
                             </origDate>
@@ -345,8 +335,7 @@
                     προέδρου.</p>
                 <p xml:lang="en">Lord help your servant Constantine, primikirios and grand
                     trapezites of the proedros.</p>
-                <p xml:lang="fr">Seigneur aide ton serviteur Constantin, primicier et grand <hi
-                        rend="italic">trapézitès</hi> du proèdre.</p>
+                <p xml:lang="fr">Seigneur aide ton serviteur Constantin, primicier et grand <hi rend="italic">trapézitès</hi> du proèdre.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Constantin, eunuque comme l’indique sa charge de primicier,
@@ -365,9 +354,7 @@
             <div type="commentary" subtype="footnotes">
                 <p xml:lang="fr" xml:id="footnote-1"> [1]. Sur ce personnage, voir en dernier lieu
                     la notice détaillée de la <bibl>
-                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ23078/html"
-                                >20925</ref></citedRange>.
+                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ23078/html">20925</ref></citedRange>.
                     </bibl></p>
             </div>
             <div type="bibliography" subtype="edition">

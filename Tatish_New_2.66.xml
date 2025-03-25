@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Arsabir, protospathaire impérial et <hi rend="italic"
-                        >épi tès mégalès hétaireias</hi></title>
+                <title xml:lang="fr">Sceau de Arsabir, protospathaire impérial et <hi rend="italic">épi tès mégalès hétaireias</hi></title>
                 <title xml:lang="en">Seal of Arsabir, imperial protospatharios and epi tes megales
                     hetaireias</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -34,8 +29,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -66,11 +60,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2852</idno>
@@ -144,8 +136,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000"
-                                evidence="epigraphy iconography" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0951" notAfter="1000" evidence="epigraphy iconography" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe siècle (seconde moitié)</seg>
                                 <seg xml:lang="en">10th C., second half</seg>
                             </origDate>
@@ -201,15 +192,11 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r"
-                                            ana="cross patriarchal fleurons on-globe on-steps"
-                                            xml:lang="fr">Croix patriarcale recroisetée à la plus
+                                        <figDesc n="r" ana="cross patriarchal fleurons on-globe on-steps" xml:lang="fr">Croix patriarcale recroisetée à la plus
                                             grande traverse, élevée sur un globule surmonté de deux
                                             degrés et ornée de riches fleurons issant depuis la base
                                             jusqu’au sommet.</figDesc>
-                                        <figDesc n="r"
-                                            ana="cross patriarchal fleurons on-globe on-steps"
-                                            xml:lang="en">Patriarchal cross with X at the first
+                                        <figDesc n="r" ana="cross patriarchal fleurons on-globe on-steps" xml:lang="en">Patriarchal cross with X at the first
                                             crossbar, raised on a globe surmounted by two steps
                                             and adorned with rich fleurons issuing from the base to
                                             the top.</figDesc>

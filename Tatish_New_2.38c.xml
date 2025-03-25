@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -56,12 +51,8 @@
                         </persName>
                         <idno type="PBE" ana="https://pbe.kcl.ac.uk/data/D54/F71.htm">Michael
                             5</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ16226/html"
-                            >5049</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ16204/html"
-                            >5027</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ16226/html">5049</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ16204/html">5027</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -77,11 +68,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                 Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2702</idno>
@@ -155,25 +144,18 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0751" notAfter="0800"
-                                evidence="epigraphy prosopography titulature parallel" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0751" notAfter="0800" evidence="epigraphy prosopography titulature parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">VIIIe siècle (seconde moitié)</seg>
                                 <seg xml:lang="en">8th C., second half</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/550706" xml:lang="fr">Magnésie
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/550706" xml:lang="fr">Magnésie
                                 du Sipyle</placeName>
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/550706" xml:lang="en">
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/550706" xml:lang="en">
                                 Magnesia ad Sipylum</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/304827/manisa.html" xml:lang="fr"
-                                >Manisa</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/304827/manisa.html" xml:lang="en"
-                                >Manisa</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/304827/manisa.html" xml:lang="fr">Manisa</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/304827/manisa.html" xml:lang="en">Manisa</placeName>
                             <rs type="circumstances" xml:lang=""/>
                         </provenance>
                         <provenance type="observed" subtype="seen">
@@ -425,8 +407,7 @@
                 <p>Dumbarton Oaks, Shaw 689:
                     <bibl>
                         <ptr target="Zacos1"/>, <citedRange unit="part">3145</citedRange>
-                    </bibl> = <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part"
-                        >1196</citedRange>.</bibl>
+                    </bibl> = <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part">1196</citedRange>.</bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="discussion">

@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -51,9 +46,7 @@
                         <persName xml:lang="en">
                             <forename>Theophylaktos</forename>
                         </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ19626/html"
-                            >8361</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ19626/html">8361</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -69,11 +62,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2899</idno>
@@ -150,8 +141,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0801" notAfter="0850"
-                                evidence="epigraphy parallel" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0801" notAfter="0850" evidence="epigraphy parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">IXe siècle (première moitié).</seg>
                                 <seg xml:lang="en">9th C., first half.</seg>
                             </origDate>
@@ -377,8 +367,7 @@
                         <ptr target="Zacos1"/>, <citedRange unit="part">2542</citedRange> = <bibl>
                             <ptr target="LaurentCorpus2"/>, <citedRange unit="part">753</citedRange>
                             = <bibl>
-                                <ptr target="DOsealsOnline"/>, <citedRange unit="part"
-                                    ><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5607/view">BZS.1958.106.5607</ref></citedRange>; </bibl>
+                                <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5607/view">BZS.1958.106.5607</ref></citedRange>; </bibl>
                         </bibl>
                     </bibl>
                 </p>
@@ -404,9 +393,7 @@
             </div>
             <div type="bibliography" subtype="discussion">
                 <bibl>
-                    <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                            target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19626/html"
-                            >8361</ref></citedRange>. </bibl>
+                    <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ19626/html">8361</ref></citedRange>. </bibl>
             </div>
         </body>
     </text>

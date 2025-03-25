@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Nicétas, sébastophore et drongaire des <hi
-                        rend="italic">ploïmôn</hi></title>
+                <title xml:lang="fr">Sceau de Nicétas, sébastophore et drongaire des <hi rend="italic">ploïmôn</hi></title>
                 <title xml:lang="en">Seal of Niketas, sebastophoros and droungarios of the
                     ploimon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -34,8 +29,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -51,12 +45,8 @@
                         <persName xml:lang="en">
                             <forename>Niketas</forename>
                         </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ27927/html"
-                            >25773</idno>
-                        <idno cert="low" type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ27938/html"
-                            >25784</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ27927/html">25773</idno>
+                        <idno cert="low" type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ27938/html">25784</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -72,11 +62,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2846</idno>
@@ -150,9 +138,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0967" notAfter="1000"
-                                evidence="epigraphy prosopography historical-context" cert="high"
-                                resp="#JCC">
+                            <origDate type="analysis" notBefore="0967" notAfter="1000" evidence="epigraphy prosopography historical-context" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe siècle (dernier tiers), sans doute entre 967
                                     et 969</seg>
                                 <seg xml:lang="en">10th C., last third (certainly between 967 and
@@ -382,18 +368,14 @@
             <div type="bibliography" subtype="parallels">
                 <p> Collection Fogg, 365 = Dumbarton Oaks, BZS.1951.31.5.365: <bibl>
                     <ptr target="LaurentCorpus2"/>, <citedRange unit="part">961</citedRange> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref
-                            target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.365/view"
-                            >BZS.1951.31.5.365</ref></citedRange>;
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.365/view">BZS.1951.31.5.365</ref></citedRange>;
                     </bibl>
                     </bibl>
                 </p>
                 <p> Collection Shaw (Dumarton Oaks), 857 = Collection Dumbarton Oaks,
                     BZS.1947.2.857: <bibl>
                         <ptr target="LaurentCorpus2"/>, <citedRange unit="part">961</citedRange> = <bibl>
-                            <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref
-                                    target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.857/view"
-                                    >BZS.1947.2.857</ref></citedRange>
+                            <ptr target="DOsealsOnline"/>, <citedRange unit="entry"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.857/view">BZS.1947.2.857</ref></citedRange>
                         </bibl>
                     </bibl>
                 </p>

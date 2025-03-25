@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -58,21 +53,15 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >Izmir</placeName></seg>
-                            <seg xml:lang="en"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >İzmir</placeName></seg>
+                            <seg xml:lang="fr"><placeName ref="https://www.geonames.org/311046/izmir.html">Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName ref="https://www.geonames.org/311046/izmir.html">İzmir</placeName></seg>
                         </settlement>
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="owner"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">470</idno>
@@ -145,8 +134,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0901" notAfter="0950"
-                                evidence="epigraphy iconography" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0901" notAfter="0950" evidence="epigraphy iconography" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe siècle (première moitié)</seg>
                                 <seg xml:lang="en">10th C. first half</seg>
                             </origDate>
@@ -202,12 +190,10 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons"
-                                            xml:lang="fr">Croix patriarcale aux extrémités
+                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons" xml:lang="fr">Croix patriarcale aux extrémités
                                             légèrement pattées, élevée sur trois degrés et ornée de
                                             fleurons stylisés jusqu’à mi-champ.</figDesc>
-                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons"
-                                            xml:lang="en">Patriarchal cross with slightly pattéed
+                                        <figDesc n="r" ana="cross patriarchal on-steps fleurons" xml:lang="en">Patriarchal cross with slightly pattéed
                                             ends, raised on three steps and decorated with stylised
                                             fleurons up to the mid-point of the cross.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
@@ -348,8 +334,7 @@
                     <app loc="4-5">
                         <lem>ἐπισ[κ]επ(τί)τῃ</lem>
                         <rdg>
-                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
-                                        >2.27</citedRange></bibl> ἐπισκεπ(τί)τῃ.</note>
+                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">2.27</citedRange></bibl> ἐπισκεπ(τί)τῃ.</note>
                         </rdg>
                     </app>
                 </listApp>
@@ -367,11 +352,8 @@
                     ancienne des épiskepseis dans le thème des Thracésiens.</p>
             </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1"> [1]. Sur les <hi rend="italic"
-                        >épikeptitai</hi>, J.-Cl. Cheynet, <hi rend="italic">Épiskeptitai</hi> et
-                    autres gestionnaires des biens publics (d’après les sceaux de l’IFEB), <hi
-                        rend="italic">SBS</hi> 7, 2002, p. 87-117, repris dans IDEM, <hi
-                        rend="italic">Société byzantine</hi>, vol. I, no 9, p. 237-272. </p>
+                <p xml:lang="fr" xml:id="footnote-1"> [1]. Sur les <hi rend="italic">épikeptitai</hi>, J.-Cl. Cheynet, <hi rend="italic">Épiskeptitai</hi> et
+                    autres gestionnaires des biens publics (d’après les sceaux de l’IFEB), <hi rend="italic">SBS</hi> 7, 2002, p. 87-117, repris dans IDEM, <hi rend="italic">Société byzantine</hi>, vol. I, no 9, p. 237-272. </p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>

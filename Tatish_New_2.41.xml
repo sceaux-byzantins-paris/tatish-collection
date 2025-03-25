@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -49,11 +44,8 @@
                         <persName xml:lang="en">
                             <forename>Azarias</forename>
                         </persName>
-                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Azarias/20101/"
-                            >Azarias 20101</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ22863/html"
-                            >20710</idno>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Azarias/20101/">Azarias 20101</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ22863/html">20710</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -69,11 +61,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2841</idno>
@@ -134,9 +124,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-Xu7x5I</idno>
-                                        <idno type="PBW"
-                                            corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/2253/"
-                                            >2253</idno>
+                                        <idno type="PBW" corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/2253/">2253</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -149,8 +137,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1050"
-                                evidence="epigraphy parallel" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (première moitié)</seg>
                                 <seg xml:lang="en">11th C., first half</seg>
                             </origDate>
@@ -210,13 +197,11 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person female Virgin bust child"
-                                            xml:lang="fr">Vierge en buste de face, tenant des deux
+                                        <figDesc n="r" ana="person female Virgin bust child" xml:lang="fr">Vierge en buste de face, tenant des deux
                                             mains le médaillon montrant la tête de l’Enfant, au
                                             nimbe crucigère orné d’une perle en chaque
                                             bras.</figDesc>
-                                        <figDesc n="r" ana="person female Virgin bust child"
-                                            xml:lang="en">Bust of Virgin, holding in both hands the
+                                        <figDesc n="r" ana="person female Virgin bust child" xml:lang="en">Bust of Virgin, holding in both hands the
                                             medallion showing the head of the Child, with a crucifer
                                             nimbus decorated with a pearl on each arm.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Bordure non
@@ -385,20 +370,14 @@
                 <p>Collection Dumbarton Oaks, BZS.1958.106.4686: <bibl>
                     <ptr target="LaurentCorpus2"/>, <citedRange unit="part">194</citedRange>
                 </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4686"
-                                >BZS.1958.106.4686</ref></citedRange>. </bibl>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.4686">BZS.1958.106.4686</ref></citedRange>. </bibl>
                 </p>
             </div>
             <div type="bibliography" subtype="discussion">
                 <p>la pièce parallèle est mentionnée dans <bibl>
-                        <ptr target="PBW"/>, <citedRange unit="entry"><ref
-                                target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2253/"
-                                >boulloterion 2253</ref></citedRange>
+                        <ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2253/">boulloterion 2253</ref></citedRange>
                     </bibl>; <bibl>
-                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ22863/html"
-                                >20710</ref></citedRange>
+                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ22863/html">20710</ref></citedRange>
                     </bibl>
                 </p>
             </div>

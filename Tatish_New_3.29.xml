@@ -1,12 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- last changed before 1.0 version release 2021-08-02 -->
-<!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 -->
-<!-- ongoing changes to 2.0: march 2024 -->
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><!-- last changed before 1.0 version release 2021-08-02 --><!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 --><!-- ongoing changes to 2.0: march 2024 --><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -67,15 +59,15 @@
                         </settlement>
                         <institution/> 
                         <repository/> 
-                        <collection type="private" xml:lang="en" ref="URI">
+                        <collection type="private" xml:lang="en" ref="URI"><rs type="collection-name" xml:lang="en">
                             <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
-                        </collection>
-                        <collection type="private"/> 
+                        </rs></collection>
+                         
                         <idno type="inv-nr-current">3040</idno>
                         <altIdentifier>
                             <repository/>
-                            <collection type="private"/> 
-                            <collection type="private"/> 
+                             
+                             
                             <idno type="inv-nr-former"/>
                         </altIdentifier>
                     </msIdentifier>
@@ -189,7 +181,7 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="r">
-                                    <seg xml:lang="en"></seg>
+                                    <seg xml:lang="en"/>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
@@ -393,4 +385,4 @@
               </div>
           </body>
       </text>
-</TEI>             
+</TEI>

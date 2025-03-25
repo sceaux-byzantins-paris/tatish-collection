@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -66,11 +61,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2337</idno>
@@ -131,9 +124,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-eb8Xml</idno>
-                                        <idno type="PBW"
-                                            corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/1117/"
-                                            >1117</idno>
+                                        <idno type="PBW" corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/1117/">1117</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -146,8 +137,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1041" notAfter="1060"
-                                evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (milieu), après 1057</seg>
                                 <seg xml:lang="en">11th C., middle, after 1057</seg>
                             </origDate>
@@ -201,16 +191,12 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" xml:lang="fr"
-                                            ana="person male saint St-Theodore standing military spear shield"
-                                            >Saint Théodore de face, en pied, en sa tenue militaire
+                                        <figDesc n="r" xml:lang="fr" ana="person male saint St-Theodore standing military spear shield">Saint Théodore de face, en pied, en sa tenue militaire
                                             accoutumée, tenant une haute lance en main droite, la
                                             gauche appuyée sur un bouclier triangulaire; de part et
                                             d’autre de l'effigie, épigraphe en colonne, conservée à
                                             droite seulement.</figDesc>
-                                        <figDesc n="r" xml:lang="en"
-                                            ana="person male saint St-Theodore standing military spear shield"
-                                            >Saint Theodore facing, standing, in his customary
+                                        <figDesc n="r" xml:lang="en" ana="person male saint St-Theodore standing military spear shield">Saint Theodore facing, standing, in his customary
                                             military garb, holding a long spear in his right hand,
                                             with his left hand resting on a triangular shield; on
                                             either side of the image, inscription in columns,
@@ -378,11 +364,8 @@
                     connues de sa carrière sont données dans <bibl><ptr target="ZacosGenève"/>, nos
                             <citedRange unit="part">91 et 92</citedRange></bibl>.</p>
                 <p xml:lang="fr" xml:id="footnote-2"> [2]. Sceau connu en plusieurs exemplaires:
-                    Dumbarton Oaks, <ref
-                        target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5616/view"
-                        >BZS.1958.106.5616</ref>; Ermitage M-2827, éd.
-                    Sandrovskaja, <hi rend="italic">Aarona</hi>, p. 61, no 2 (repris dans les <hi
-                        rend="italic">SBS</hi> 5, 1998, p. 109) ; Zacos (BnF) 3491, éd. ZACos II, no
+                    Dumbarton Oaks, <ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1958.106.5616/view">BZS.1958.106.5616</ref>; Ermitage M-2827, éd.
+                    Sandrovskaja, <hi rend="italic">Aarona</hi>, p. 61, no 2 (repris dans les <hi rend="italic">SBS</hi> 5, 1998, p. 109) ; Zacos (BnF) 3491, éd. ZACos II, no
                     353c (non reproduit) ; coll. Kofopoulos, inv. 2201, inédit. </p>
                 <p xml:lang="fr" xml:id="footnote-3"> [3]. Sceau connu en plusieurs exemplaires :
                     deux sceaux de l’anc coll. Zacos, l’un conservé à Paris, Zacos (BnF) 3492,

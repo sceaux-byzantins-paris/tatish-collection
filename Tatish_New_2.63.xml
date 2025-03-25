@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -52,8 +47,7 @@
                             <forename>Nikephoros</forename>
                             <surname>Botaneiates</surname>
                         </persName>
-                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/107947/"
-                            >Nikephoros 3</idno>
+                        <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/107947/">Nikephoros 3</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -69,11 +63,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">1037</idno>
@@ -134,9 +126,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-himU7m</idno>
-                                        <idno type="PBW"
-                                            corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/3006/"
-                                            >3006</idno>
+                                        <idno type="PBW" corresp="https://pbw2016.kdl.kcl.ac.uk/boulloterion/3006/">3006</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -149,8 +139,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1062" notAfter="1068"
-                                evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1062" notAfter="1068" evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (vers 1062-1068)</seg>
                                 <seg xml:lang="en">11th C., 1062-1068</seg>
                             </origDate>
@@ -204,15 +193,11 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r"
-                                            ana="person male saint St-Demetrios standing military spear shield"
-                                            xml:lang="fr">Saint Dèmètrios de face, en pied, en sa
+                                        <figDesc n="r" ana="person male saint St-Demetrios standing military spear shield" xml:lang="fr">Saint Dèmètrios de face, en pied, en sa
                                             tenue militaire accoutumée, armé de la lance en main
                                             droite et du petit bouclier rond bordé de
                                             perles.</figDesc>
-                                        <figDesc n="r"
-                                            ana="person male saint St-Demetrios standing military spear shield"
-                                            xml:lang="en">Saint Demetrios standing, in his customary
+                                        <figDesc n="r" ana="person male saint St-Demetrios standing military spear shield" xml:lang="en">Saint Demetrios standing, in his customary
                                             military garb, armed with a spear in his right hand and
                                             a small round shield adorned with pearls.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de perles.</figDesc>
@@ -369,8 +354,7 @@
                     pour notre sceau.</p>
             </div>
             <div type="commentary" subtype="footnotes">
-                <p xml:lang="fr" xml:id="footnote-1">[1]. <bibl><ptr target="Karagiorgou2008"
-                        /></bibl>; <bibl><ptr target="Karagiorgou2008a"/></bibl>.</p>
+                <p xml:lang="fr" xml:id="footnote-1">[1]. <bibl><ptr target="Karagiorgou2008"/></bibl>; <bibl><ptr target="Karagiorgou2008a"/></bibl>.</p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>
@@ -380,12 +364,10 @@
                 </p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>Ancienne collection Zacos: <bibl><ptr target="Zacos1"/>, no. <citedRange
-                            unit="part">2687</citedRange></bibl>.</p>
+                <p>Ancienne collection Zacos: <bibl><ptr target="Zacos1"/>, no. <citedRange unit="part">2687</citedRange></bibl>.</p>
             </div>
             <div type="bibliography" subtype="discussion">
-                <p>Le parallèle de la collection Zacos est mentionné dans <bibl><ptr
-                            target="Karagiorgou2008a"/>, p. <citedRange unit="page">82,
+                <p>Le parallèle de la collection Zacos est mentionné dans <bibl><ptr target="Karagiorgou2008a"/>, p. <citedRange unit="page">82,
                             109, no. 8</citedRange></bibl></p>
             </div>
         </body>

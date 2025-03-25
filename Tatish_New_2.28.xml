@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,8 +28,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -58,21 +53,15 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr"><placeName
-                                ref="https://www.geonames.org/311046/izmir.html"
-                                >Izmir</placeName></seg>
-                            <seg xml:lang="en"><placeName
-                                ref="https://www.geonames.org/311046/izmir.html"
-                                >İzmir</placeName></seg>
+                            <seg xml:lang="fr"><placeName ref="https://www.geonames.org/311046/izmir.html">Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName ref="https://www.geonames.org/311046/izmir.html">İzmir</placeName></seg>
                         </settlement>
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="owner"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2353</idno>
@@ -145,8 +134,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1050"
-                                evidence="epigraphy" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (première moitié)</seg>
                                 <seg xml:lang="en">11th C., first half</seg>
                             </origDate>
@@ -338,8 +326,7 @@
                     <app loc="3">
                         <lem>ὁριαρ(ίῳ)</lem>
                         <rdg>
-                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
-                                >2.28</citedRange></bibl> ὁρ(ε)ιαρ(ίῳ).</note>
+                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">2.28</citedRange></bibl> ὁρ(ε)ιαρ(ίῳ).</note>
                         </rdg>
                     </app>
                 </listApp>
@@ -358,9 +345,7 @@
                 <p xml:lang="fr" xml:id="footnote-1"> [1]. Un <hi rend="italic">hôrreiarios</hi>
                     était établi à Smyrne. Plusieurs d’entre eux nous ont laissé des sceaux (J.-Cl.
                     Cheynet, Un aspect du ravitaillement de Constantinople aux Xe/XIe siècles
-                    d’après quelques sceaux d’<hi rend="italic">hôrreiarioi</hi>, dans <hi
-                        rend="italic">SBS</hi> 6, 1999, p. 15-16, repris dans ID., <hi rend="italic"
-                        >Société byzantine</hi> I, p. 224-226). </p>
+                    d’après quelques sceaux d’<hi rend="italic">hôrreiarioi</hi>, dans <hi rend="italic">SBS</hi> 6, 1999, p. 15-16, repris dans ID., <hi rend="italic">Société byzantine</hi> I, p. 224-226). </p>
             </div>
             <div type="bibliography" subtype="edition">
                 <p>

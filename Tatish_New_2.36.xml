@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fr">Sceau de Paul, protospathaire, <hi rend="italic">épi tou
-                        Chrysotriklinou</hi>, juge de l’Hippodrome et logothète du <hi rend="italic"
-                        >stratiôtikon</hi></title>
+                        Chrysotriklinou</hi>, juge de l’Hippodrome et logothète du <hi rend="italic">stratiôtikon</hi></title>
                 <title xml:lang="en">Seal of Paul, protospatharios, epi tou Chrysotriklinou, judge
                     of the Hippodrome and logothete of the stratiotikon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -35,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -54,9 +48,7 @@
                         </persName>
                         <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/155387/">Paulos
                             20111</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ28529/html"
-                            >26375</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ28529/html">26375</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -72,11 +64,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2786</idno>
@@ -137,9 +127,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-bXH706</idno>
-                                        <idno type="PBW"
-                                            corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2368/"
-                                            >2368</idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2368/">2368</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -152,8 +140,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0901" notAfter="1100"
-                                evidence="epigraphy titulature parallel" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0901" notAfter="1100" evidence="epigraphy titulature parallel" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe/XIe siècle</seg>
                                 <seg xml:lang="en">10th/11th C.</seg>
                             </origDate>
@@ -369,9 +356,7 @@
                     τοῦ Ἱπποδρόμου καὶ στρατιωτικῷ λογοθέτῃ.</p>
                 <p xml:lang="en">Lord help your servant Paul, protospatharios, epi tou
                     Chrysotriklinou, judge of the Hippodrome and logothete of the stratiotikon.</p>
-                <p xml:lang="fr">Seigneur aide ton serviteur Paul, protospathaire, <hi rend="italic"
-                        >épi tou Chrysotriklinou</hi>, juge de l’Hippodrome et logothète du <hi
-                        rend="italic">stratiôtikon</hi>.</p>
+                <p xml:lang="fr">Seigneur aide ton serviteur Paul, protospathaire, <hi rend="italic">épi tou Chrysotriklinou</hi>, juge de l’Hippodrome et logothète du <hi rend="italic">stratiôtikon</hi>.</p>
             </div>
 
             <div type="commentary" subtype="text">
@@ -392,15 +377,10 @@
             </div>
             <div type="bibliography" subtype="parallels">
                 <p>Musée Numismatique d'Athènes: <bibl>
-                        <ptr target="Schlumberger1884"/>, p. <citedRange unit="page"
-                            >352-353</citedRange> (avec dessin) </bibl> = <bibl><ptr
-                            target="Athens1917"/>, <citedRange unit="part">208</citedRange></bibl> =
-                            <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part"
-                            >545</citedRange></bibl>;</p>
-                <p>Dumbarton Oaks, ancienne collection Shaw 585: <bibl><ptr target="LaurentCorpus2"
-                        />, <citedRange unit="part">545</citedRange></bibl>;</p>
-                <p>vente Gorny 152 (octobre 2006), lot 2701: mentionné dans <bibl><ptr
-                            target="SBS_Auctions2002-2006"/>, p. <citedRange unit="page">166</citedRange></bibl>.</p>
+                        <ptr target="Schlumberger1884"/>, p. <citedRange unit="page">352-353</citedRange> (avec dessin) </bibl> = <bibl><ptr target="Athens1917"/>, <citedRange unit="part">208</citedRange></bibl> =
+                            <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part">545</citedRange></bibl>;</p>
+                <p>Dumbarton Oaks, ancienne collection Shaw 585: <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="part">545</citedRange></bibl>;</p>
+                <p>vente Gorny 152 (octobre 2006), lot 2701: mentionné dans <bibl><ptr target="SBS_Auctions2002-2006"/>, p. <citedRange unit="page">166</citedRange></bibl>.</p>
             </div>
         </body>
     </text>

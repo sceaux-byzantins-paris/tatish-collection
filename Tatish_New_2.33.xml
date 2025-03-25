@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -51,12 +46,8 @@
                         <persName xml:lang="en">
                             <forename>Thomas</forename>
                         </persName>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ30467/html"
-                            >Thomas 28312</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ30464/html"
-                            >Thomas 28309</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ30467/html">Thomas 28312</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ30464/html">Thomas 28309</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -66,21 +57,15 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >Izmir</placeName></seg>
-                            <seg xml:lang="en"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >İzmir</placeName></seg>
+                            <seg xml:lang="fr"><placeName ref="https://www.geonames.org/311046/izmir.html">Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName ref="https://www.geonames.org/311046/izmir.html">İzmir</placeName></seg>
                         </settlement>
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2792</idno>
@@ -155,8 +140,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0951" notAfter="1000"
-                                evidence="epigraphy prosopography" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0951" notAfter="1000" evidence="epigraphy prosopography" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">Xe siècle (seconde moitié)</seg>
                                 <seg xml:lang="en">10th C., second half</seg>
                             </origDate>
@@ -218,8 +202,7 @@
                                             s’enroulant sous la traverse inférieure puis s’élevant
                                             jusqu’au sommet, surmontés d’une fleur de part et
                                             d’autre du bras supérieur.</figDesc>
-                                        <figDesc n="r" ana="cross patriarchal ornated on-steps fleurons"
-                                            xml:lang="en">Fine patriarchal cross, recrossed at the
+                                        <figDesc n="r" ana="cross patriarchal ornated on-steps fleurons" xml:lang="en">Fine patriarchal cross, recrossed at the
                                             largest crossbar, raised on a globe and three steps,
                                             adorned with elegant fleurons stemming from the base,
                                             winding under the lower crossbar then rising to the top,
@@ -393,20 +376,16 @@
                     +ΘΩΜΑ.|ΑΤΡΙΚΚ/ΠΡ|ΕΠΟΣΙΤ/ΑΣ|ΠΑΘ/ΛΟΓΟ|ΘΕΤΤΟΥΔ|ΡΟΜΟΥ. Les trois plombs, trouvés
                     en territoire bulgare (musées de Varna, Preslav, Sofia), ont été récemment
                     réédités (<bibl>
-                        <ptr target="JordanovCorpus3"/>, <citedRange unit="part"
-                            >840-842</citedRange>
+                        <ptr target="JordanovCorpus3"/>, <citedRange unit="part">840-842</citedRange>
                     </bibl>). Deux pièces parallèles de ces dernières sont encore à mentionner,
                     l’une dans la coll. Kofopoulos, no 1342 (<bibl><ptr target="Kofopoulos2022"/>,
                             <citedRange unit="part">2.123</citedRange></bibl>), l’autre signalée
                     dans <bibl>
-                        <ptr target="SBS_Auctions2002-2006"/>, p. <citedRange unit="page"
-                            >157</citedRange></bibl> (vente Classical Numismatic Group, Mail Bid
+                        <ptr target="SBS_Auctions2002-2006"/>, p. <citedRange unit="page">157</citedRange></bibl> (vente Classical Numismatic Group, Mail Bid
                     Sale 69 (8 juin 2005), lot no 2271, no 4). </p>
                 <p xml:lang="fr" xml:id="footnote-2"> [2]. Toutes les références et commentaires
                     dans <bibl>
-                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref
-                                target="https://www.degruyter.com/database/PMBZ/entry/PMBZ30467/html"
-                                >Thomas 28312</ref></citedRange>
+                        <ptr target="PmbZOnline"/>, <citedRange unit="entry"><ref target="https://www.degruyter.com/database/PMBZ/entry/PMBZ30467/html">Thomas 28312</ref></citedRange>
                     </bibl>
                 </p>
             </div>

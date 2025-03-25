@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,8 +30,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -62,21 +57,15 @@
                             <seg xml:lang="en">Turkey</seg>
                         </country>
                         <settlement>
-                            <seg xml:lang="fr"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >Izmir</placeName></seg>
-                            <seg xml:lang="en"><placeName
-                                    ref="https://www.geonames.org/311046/izmir.html"
-                                    >İzmir</placeName></seg>
+                            <seg xml:lang="fr"><placeName ref="https://www.geonames.org/311046/izmir.html">Izmir</placeName></seg>
+                            <seg xml:lang="en"><placeName ref="https://www.geonames.org/311046/izmir.html">İzmir</placeName></seg>
                         </settlement>
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="owner"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="owner" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2630</idno>
@@ -151,25 +140,18 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1050"
-                                evidence="epigraphy related-seal" cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy related-seal" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">XIe siècle (première moitié)</seg>
                                 <seg xml:lang="en">11th C., first half</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/629035" xml:lang="fr">Césarée
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/629035" xml:lang="fr">Césarée
                                 (Cappadoce)</placeName>
-                            <placeName type="ancientFindspot"
-                                ref="https://pleiades.stoa.org/places/629035" xml:lang="en">Caesarea
+                            <placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/629035" xml:lang="en">Caesarea
                                 (Cappadocia)</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/308464/kayseri.html" xml:lang="fr"
-                                >Kayseri</placeName>
-                            <placeName type="modernFindspot"
-                                ref="https://www.geonames.org/308464/kayseri.html" xml:lang="en"
-                                >Kayseri</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/308464/kayseri.html" xml:lang="fr">Kayseri</placeName>
+                            <placeName type="modernFindspot" ref="https://www.geonames.org/308464/kayseri.html" xml:lang="en">Kayseri</placeName>
                             <rs type="circumstances" xml:lang=""/>
                         </provenance>
                         <provenance type="observed" subtype="seen">
@@ -218,15 +200,13 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="female Virgin bust child"
-                                            xml:lang="fr">Vierge à mi-corps, tournée vers l’Enfant
+                                        <figDesc n="r" ana="female Virgin bust child" xml:lang="fr">Vierge à mi-corps, tournée vers l’Enfant
                                             qu’elle tient sur le bras gauche, tête inclinée, sa joue
                                             touchant presque le nimbe crucigère. Le Christ, à
                                             mi-corps, de belle taille, bénit et tient le Livre. Dans
                                             le champ, à gauche, les sigles sont disposés en colonne
                                             et inversés.</figDesc>
-                                        <figDesc n="r" ana="female Virgin bust child"
-                                            xml:lang="en">The Virgin, half-body, turned towards the
+                                        <figDesc n="r" ana="female Virgin bust child" xml:lang="en">The Virgin, half-body, turned towards the
                                             Child whom she is holding on her left arm, head bowed,
                                             her cheek almost touching the cruciferous nimbus; the
                                             Christ, half-body, of good size, blesses and holds the
@@ -392,8 +372,7 @@
                     <app loc="1">
                         <lem>[Θ(εοτό)κ]ε βο[ήθει(?)] τῷ σῷ δ(ού)λ(ῳ)</lem>
                         <rdg>
-                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
-                                        >2.30</citedRange></bibl> [Θ(εοτό)κε βοήθει] τῷ σῷ
+                            <note><bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">2.30</citedRange></bibl> [Θ(εοτό)κε βοήθει] τῷ σῷ
                                 δ[ούλ(ῳ)]. Dans le verbe de l'invocation l'incertitude concerne le
                                 nombre de caractères initialement visibles et l'éventuelle présence
                                 d'une abréviation.</note>
@@ -406,8 +385,7 @@
                     <app loc="5-6">
                         <lem>Ἰ[ππ-]|[οδρ(όμου)]</lem>
                         <rdg>
-                            <note>dans <bibl><ptr target="CheynetTatış"/>, <citedRange unit="part"
-                                        >2.30</citedRange></bibl> Ἰ[ππ(ο)δρ(όμου)]</note>
+                            <note>dans <bibl><ptr target="CheynetTatış"/>, <citedRange unit="part">2.30</citedRange></bibl> Ἰ[ππ(ο)δρ(όμου)]</note>
                         </rdg>
                     </app>
                 </listApp>
@@ -430,13 +408,10 @@
             <div type="commentary" subtype="footnotes">
                 <p xml:lang="fr" xml:id="footnote-1"> [1].Sceau Fogg 733, publié dans <bibl>
                         <ptr target="LaurentCorpus2"/>, <citedRange unit="part">873</citedRange></bibl>, et dans <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.733/view"
-                                >BZS.1951.31.5.733</ref></citedRange>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.733/view">BZS.1951.31.5.733</ref></citedRange>
                     </bibl>. Au droit, la Vierge en buste, tenant le médaillon, et au revers: .εοντ
                     | .ˊσπθ, | .π,τουχρυσο | ...ι,κρι | ..ουιππˊ | .ρο.. Voir aussi <bibl>
-                        <ptr target="PBW"/>, <citedRange unit="entry"><ref
-                                target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20225/">Leon
+                        <ptr target="PBW"/>, <citedRange unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/20225/">Leon
                                 20225</ref></citedRange>
                     </bibl>.</p>
             </div>

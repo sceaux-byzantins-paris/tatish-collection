@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau d'Eulampios, patrice et logothète du <hi rend="italic"
-                        >sakellion</hi> et du <hi rend="italic">stratiôtikon</hi></title>
+                <title xml:lang="fr">Sceau d'Eulampios, patrice et logothète du <hi rend="italic">sakellion</hi> et du <hi rend="italic">stratiôtikon</hi></title>
                 <title xml:lang="en">Seal of Eulampios, patrikios and logothete of the sakellion and
                     of the stratiotikon</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -34,8 +29,7 @@
                 <idno type="sequence"/>
                 <date/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
                         4.0</licence>
                 </availability>
             </publicationStmt>
@@ -53,9 +47,7 @@
                         </persName>
                         <idno type="PBE" ana="https://pbe.kcl.ac.uk/data/D24/F90.htm">Eulampios
                             3</idno>
-                        <idno type="PmbZ"
-                            ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ12774/html"
-                            >1670</idno>
+                        <idno type="PmbZ" ana="https://www.degruyter.com/database/PMBZ/entry/PMBZ12774/html">1670</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -71,11 +63,9 @@
                         <institution/>
                         <repository/>
                         <collection type="private">
-                            <rs type="collection-name" xml:lang="en"><persName role="collector"
-                                    ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
+                            <rs type="collection-name" xml:lang="en"><persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName>
                                 collection</rs>
-                            <rs type="collection-name" xml:lang="fr">Collection <persName
-                                    role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
+                            <rs type="collection-name" xml:lang="fr">Collection <persName role="collector" ref="https://viaf.org/viaf/48683064/">Yavuz
                                     Tatış</persName></rs>
                         </collection>
                         <idno type="inv-nr-current">2915</idno>
@@ -149,9 +139,7 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="0601" notAfter="0900"
-                                evidence="epigraphy parallel related-seal linguistic-features"
-                                cert="high" resp="#JCC">
+                            <origDate type="analysis" notBefore="0601" notAfter="0900" evidence="epigraphy parallel related-seal linguistic-features" cert="high" resp="#JCC">
                                 <seg xml:lang="fr">VIIe/VIIIe siècle</seg>
                                 <seg xml:lang="en">7th/8th C.</seg>
                             </origDate>
@@ -362,8 +350,7 @@
                 <p>+ Εὐλαμπίου πατρικίου καὶ λογοθέτου / + τοῦ σακελλίου καὶ τοῦ στρατιωτικοῦ.</p>
                 <p xml:lang="en">(Seal of) Eulampios, patrikios and logothete of the sakellion and
                     of the stratiotikon.</p>
-                <p xml:lang="fr">(Sceau d') Eulampios, patrice et logothète du <hi rend="italic"
-                        >sakellion</hi> et du <hi rend="italic">stratiôtikon</hi>.</p>
+                <p xml:lang="fr">(Sceau d') Eulampios, patrice et logothète du <hi rend="italic">sakellion</hi> et du <hi rend="italic">stratiôtikon</hi>.</p>
             </div>
 
             <div type="commentary" subtype="text">
@@ -382,8 +369,7 @@
             </div>
             <div type="commentary" subtype="footnotes">
                 <p xml:lang="fr" xml:id="footnote-1"> [1]. Signalé dans <bibl>
-                        <ptr target="SBS_Auctions1991-1996"/>, p. <citedRange unit="page"
-                            >136</citedRange>
+                        <ptr target="SBS_Auctions1991-1996"/>, p. <citedRange unit="page">136</citedRange>
                     </bibl>; <bibl>
                         <ptr target="BBÖ2"/>, p. <citedRange unit="page">100</citedRange>
                     </bibl>.</p>
@@ -399,18 +385,14 @@
                 <p>Collection Dumbarton Oaks, BZS.1951.31.5.826 (Fogg 826): <bibl>
                         <ptr target="Zacos1"/>, <citedRange unit="part">801a</citedRange>
                     </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.826/view"
-                                >BZS.1951.31.5.826</ref></citedRange>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.826/view">BZS.1951.31.5.826</ref></citedRange>
                     </bibl>;</p>
                 <p> Collection Dumbarton Oaks, BZS.1951.31.5.1017 (Fogg 1017): <bibl>
                         <ptr target="Zacos1"/>, <citedRange unit="part">801b</citedRange>
                     </bibl> = <bibl>
                         <ptr target="LaurentCorpus2"/>, <citedRange unit="part">533</citedRange>.
                     </bibl> = <bibl>
-                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref
-                                target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1017/view"
-                                >BZS.1951.31.5.1017</ref></citedRange>
+                        <ptr target="DOsealsOnline"/>, <citedRange unit="part"><ref target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1951.31.5.1017/view">BZS.1951.31.5.1017</ref></citedRange>
                     </bibl>
                 </p>
             </div>
