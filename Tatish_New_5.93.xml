@@ -34,15 +34,15 @@
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
                             <forename>Ἰωάννης</forename> 
-                            <surname>Ζαπρηνὸς (?)</surname>
+                            <surname cert="low">Ζαπρηνὸς</surname>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>Jean</forename>
-                            <surname>Zaprènos (?)</surname>
+                            <surname cert="low">Zaprènos</surname>
                         </persName>
                         <persName xml:lang="en">
                             <forename>John</forename>
-                            <surname>Zaprenos (?)</surname>
+                            <surname cert="low">Zaprenos</surname>
                         </persName>
                     </person>
                 </listPerson>

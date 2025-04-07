@@ -33,13 +33,13 @@
                 <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
-                            <forename>Νικηφόρος (?)</forename> 
+                            <forename cert="low">Νικηφόρος</forename> 
                         </persName>
                         <persName xml:lang="fr">
-                            <forename>Nicéphore (?)</forename>
+                            <forename cert="low">Nicéphore</forename>
                         </persName>
                         <persName xml:lang="en">
-                            <forename>Nikephore (?)</forename>
+                            <forename cert="low">Nikephore</forename>
                         </persName>
                     </person>
                 </listPerson>
