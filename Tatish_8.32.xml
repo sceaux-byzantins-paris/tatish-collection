@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- last changed before 1.0 version release 2021-08-02 --><!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 --><!-- ongoing changes to 2.0: march 2024 --><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Justinien</title>
+                <title xml:lang="en">Seal of Justinian</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="SM" when="2024-06-10">Sima Meziridou</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatish_8.32</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="private">
+                        <persName xml:lang="la">
+                            <forename>Iustinianus</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Justinien</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Justinian</forename>
+                        </persName>  
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI"><rs type="collection-name" xml:lang="en">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </rs></collection>
+                         
+                        <idno type="inv-nr-current">472</idno>
+                        <altIdentifier>
+                            <repository/>
+                             
+                             
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Private</seg>
+                            <seg xml:lang="fr">Privée</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">24</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">12,09</measure> 
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend=" crushed"> 
+                                    <p xml:lang="fr">Echancré aux orifices du canal ; partiellement écrasé au droit.</p>
+                                    <p xml:lang="en">Indented at the canal orifices; partially crushed on the right.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/> 
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0601" notAfter="0700" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">VIe siècle</seg>
+                                <seg xml:lang="en">6th C. </seg>
+                            </origDate>       
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="la" otherLangs="">
+                                <seg xml:lang="fr">Latin</seg>
+                                <seg xml:lang="en">Latin</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">24</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 3 lignes</p>
+                                        <p xml:lang="en">Linear legend of 3 lines</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage ; légende précédée d’une croisette</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of foliage; legend preceded by a cross</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">24</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Monogramme, autres formes</p>
+                                        <p xml:lang="en">Monogram, other forms</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de feuillage</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of foliage</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+            </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-06-10" who="#SM">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="la">
+                      <ab>
+                          <lb n="1"/>+ Ius
+                          <lb n="2" break="no"/>tinia
+                          <lb n="3" break="no"/>nus 
+                      </ab>
+                  </div>
+                <div type="textpart" subtype="face" n="rev" rend=" monogram-other" xml:lang="grc">
+                     <ab>
+                          <lb n="4"/><expan><ex>Ἰουστινιανοῦ</ex></expan>
+                     </ab>
+                  </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">                  
+                    <div type="textpart" subtype="face" n="obv" rend="linear" xml:lang="la">
+                     <ab>
+                         <lb n="1"/>IS
+                         <lb n="2"/>INI
+                         <lb n="3"/>NS
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="obv" rend=" monogram-other" xml:lang="grc">
+                       <ab>   
+                           <lb n="4"/>Ο–Υ–Τ–––Ν <!-- uncertain about the order of letters -->
+                       </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>+ Iustinianus / Ἰουστινιανοῦ.</p>
+                  <p xml:lang="en">Justinian. Justinian.</p>
+                  <p xml:lang="fr">Justinien. Justinien.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">L’inscription du droit confirme la lecture du monogramme
+                      du revers. Les précédents éditeurs des pièces parallèles ont attribué ce type
+                      de plomb à l’empereur Justinien Ier (527-565), car ce monogramme ornait
+                      en effet certains chapiteaux et colonnes de Sainte-Sophie. Cependant,
+                      G. Zacos émet une objection majeure : l’absence de portrait impérial, à la
+                      différence des autres sceaux du même empereur [1]. Pour cette raison, il est
+                      classé dans ce catalogue au chapitre des prénoms.
+                      Or, le monogramme est exprimé à cette date au génitif, alors que
+                      l’inscription du revers est au nominatif. On pourrait alors interpréter ce sceau
+                      comme celui de Justinien, (fils de) Justinien. Il est vrai, comme le remarque
+                      W. Seibt, que ce monogramme peut aussi être transcrit au nominatif,
+                      Ἰουστινιανός. Il y a donc plusieurs possibilités d’interprétation [2]. Notons
+                      que le monogramme peut aussi se lire Ἀναστασίου, mais le droit incite à
+                      retenir l’autre solution. Le nom de Justinien, qui est rare, est seulement
+                      présent dans la famille de l’empereur homonyme.</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]. Ainsi, Zacos – Veglery, nos 3 et 4 ; Seibt, <hi rend="italic">Bleisiegel</hi> I, no 6 ; sokolovA, Imperial Seals, nos 8-14 ; Cheynet – Bulgurlu – Gökyildirim,
+                      <hi rend="italic">Istanbul</hi>, nos 1.3-1.5.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]. Seibt, Early Monograms, p. 4.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">353</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels">  <!-- // : (α) anc. coll. Zacos ; (β) CM, Paris ; (γ) Musée archéologique d’Istanbul ; (δ) Vatican ; (ε) Vienne, ΜΚ 636 et 640.
+Éd. des // : (α) ZACos – veglery, nos 2a-c ; (β) sChluMberger, Sigillographie, p. 418, n° 3 ; (γ) Mention dans ebersolt, Sceaux, p.
+210, n° 128 ; (δ) lAurent, Vatican, n° 8 ; (ε) seibt, Bleisiegel I, nos 7 a et b. -->
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>

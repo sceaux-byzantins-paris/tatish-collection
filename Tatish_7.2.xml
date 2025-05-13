@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- last changed before 1.0 version release 2021-08-02 --><!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 --><!-- ongoing changes to 2.0: march 2024 --><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Michel (?) Diogène</title>
+                <title xml:lang="en">Seal of Michael (?) Diogenes</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-23">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatish_7.2</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Μιχαήλ</forename><surname>Διογένης</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Michel</forename><surname>Diogène</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Michael</forename><surname>Diogenes</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI"><rs type="collection-name" xml:lang="en">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </rs></collection>
+                         
+                        <idno type="inv-nr-current">2866</idno>
+                        <altIdentifier>
+                            <repository/>
+                             
+                             
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Private</seg>
+                            <seg xml:lang="fr">Privée</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">26</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">14,19</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="not-centered"> 
+                                    <p xml:lang="fr">Echancré aux orifices du canal ; frappe légèrement décentrée ; nettement rogné au sommet du champ</p>
+                                    <p xml:lang="en">Notched at the orifices of the canal; slightly off-centre strike; clearly trimmed at the top of the field</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="epigraphy onomastics parallel" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIe siècle (seconde moitié)</seg>
+                                <seg xml:lang="en">11th C. (second half)</seg>
+                            </origDate>    
+                        </origin> 
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">25</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Saint Michel de face, en pied, les ailes largement éployées, revêtu du
+                                            lôros droit orné de grosses perles, dont le pan retombe sur le bras gauche, tenant en main droite un long sceptre
+                                            posé au sol et, de l’autre, un globe non crucigère.</figDesc>
+                                        <figDesc n="r" xml:lang="en">Saint Michael, full-length, wings spread wide, wearing a right loros decorated with large pearls, 
+                                            the flap of which falls over his left arm, holding a long sceptre in his right hand, which is resting on the ground, 
+                                            and an uncruciform globe in the other.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">25</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 lines</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="fr">Légende précédée et suivie d'une croisette ; au sommet et à la base du champ,
+                                            une perle accostée de tirets</figDesc>
+                                        <figDesc n="v" xml:lang="en">Legend preceded and followed by a cross; at the top and base of the field, a pearl between dashes</figDesc>
+                                        <figDesc n="decoV" xml:lang="fr"/>
+                                        <figDesc n="decoV" xml:lang="en"/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-23" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+   <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <cb n="a"/>Μι
+                        <cb n="b"/>χ<supplied reason="lost">α</supplied>ίλ
+                      </ab>
+                  </div>
+                
+             
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllabic" ana="metrical.xml#dodecasyllabicTrue">
+                              <l>
+                          <lb n="1"/>+ Γρα
+                           <lb n="2" break="no"/>φὰς σφρα
+                           <lb n="3" break="no"/>γίζει Μι
+                            <lb n="4" break="no"/>χαὴλ Διο
+                    <lb n="5" break="no"/>γένους
+                        </l>
+                      </lg>
+                          </div>
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="sigla" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                      <lb n="0"/>Μ|ΙΧ|Α|Ι|Λ
+ 
+                       </ab>
+                   </div>   
+                  
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                           <lb n="1"/>
+                           <lb n="2"/>ΓΡΑ
+                           <lb n="3"/>ΦΑΣΣΦΡΑ
+                           <lb n="4"/>ΓΙΕΙΜΙ
+                           <lb n="5"/>ΧΑΗΛΔΙΟ
+                           <lb n="6"/>ΓΕΝΣ
+                          <lb n="7"/>
+                            
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Μιχαίλ. / + Γραφὰς σφραγίζει Μιχαὴλ Διογένους.</p>
+                  <p xml:lang="en">Michael seals the writings for Diogenes.</p>
+                  <p xml:lang="fr">Michel scelle les écrits pour Diogène.</p>
+              </div>
+         
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Al. Wassiliou-Seibt estime que Diogène n’est pas nécessairement un nom de
+                      famille, car il est aussi employé comme nom unique ; il faudrait comprendre que Michel, représenté au droit,
+                      scelle les écrits de Diogène. Cependant, l’absence d’article peut aussi s’expliquer par la nécessité de la métrique.
+                      Les Diogénai atteignirent leur apogée avec la venue au pouvoir de Romain IV en 1068. Le règne fut bref et se
+                      termina tragiquement, mais la famille resta au premier plan durant les décennies suivantes avant de se perdre dans
+                      l’anonymat relatif de l’administration civile[1] .</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]  Sur les Diogène, cf. J.-Cl. Cheynet, Du prénom au patronyme : les étrangers à Byzance (XIe-XIIe siècles), <hi rend="italic">SBS</hi> 1, 1987, p. 57-66
+                      (repris et augmenté dans id., <hi rend="italic">Société byzantine</hi>, p. 133-144).
+                  </p> 
+                 
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">323</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                          
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>

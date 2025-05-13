@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- last changed before 1.0 version release 2021-08-02 --><!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 --><!-- ongoing changes to 2.0: march 2024 --><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de André, spathaire impérial, <hi rend="acute">xénodochos</hi>, <hi rend="acute">bardarios</hi> et commerciaire de Thessalonique</title>
+                <title xml:lang="en">Seal of Andreas, imperial spatharios, <hi rend="italic">xenodochos</hi>, <hi rend="acute">bardarios</hi> and kommerkiarios of Thessaloniki</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-13">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatish_3.49</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Ἀνδρέας</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>André</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Andreas</forename>
+                        </persName>                 
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI"><rs type="collection-name" xml:lang="en">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </rs></collection>
+                         
+                        <idno type="inv-nr-current">2920</idno>
+                        <altIdentifier>
+                            <repository/>
+                             
+                             
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Provincial administration</seg>
+                            <seg xml:lang="fr">Administration provinciale</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">26</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">9,25</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="broken"> 
+                                    <p xml:lang="fr">Echancré aux orifices du canal et à gauche au revers ; flan cassé d’un côté et écrasé sur l’autre.</p>
+                                    <p xml:lang="en">Indented at the channel orifices and on the left on the reverse; flank broken on one side and crushed on the other.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0941" notAfter="0960" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">Xe s. (milieu)</seg>
+                                <seg xml:lang="en">10th C. (middle)</seg>
+                            </origDate>    
+                            
+                        </origin>
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">26</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende circulaire</p>
+                                        <p xml:lang="en">Iconography with circular legend</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Croix patriarcale élancée, élevée sur trois degrés et ornée d’un fl euron
+                                            à trois branches jusqu’à mi-champ et d’une étoile de part et d’autre de la traverse supérieure. A la circonférence,
+                                            entre le cercle de perles enfermant la croix et celui limitant le champ tout entier, légende invocative commençant
+                                            au sommet par une croisette.</figDesc>
+                                        <figDesc n="r" xml:lang="en">A slender patriarchal cross, raised on three steps and adorned with a three-pointed finial up to mid-field 
+                                            and a star on either side of the upper crosspiece. At the circumference,  between the circle of pearls enclosing the cross and that delimiting 
+                                            the entire field, an invocative legend beginning with a cross at the top.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Couronne de perles</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Crown of pearls</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">26</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang=""/>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-13" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+                 <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                        <lb n="1"/>+ <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο<supplied reason="lost">ήθει</supplied> <supplied reason="lost">τῷ</supplied> <supplied reason="lost">σ</supplied>ῷ δού<supplied reason="lost">λῳ</supplied> <expan><supplied reason="lost"><abbr>Ἀ</abbr></supplied><abbr>νδρ</abbr><ex>έᾳ</ex></expan>
+                      </ab>
+                  </div>
+
+
+                    <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="2"/>+ Ἁνδρέ<supplied reason="lost">ας</supplied> 
+                          <lb n="3"/><expan><abbr>β</abbr><ex>ασιλικὸς</ex></expan> <expan><abbr>σπαθ</abbr><ex>άριος</ex></expan> ξ<supplied reason="lost">εν</supplied>
+                          <lb n="4" break="no"/>ωδώχος <supplied reason="lost">καὶ</supplied>
+                          <lb n="5"/><expan><abbr>βαρδ</abbr><ex>άριος</ex></expan> <expan><abbr><am><g ref="#kai"/></am></abbr><ex>καὶ</ex></expan> <expan><abbr>κου</abbr><supplied reason="lost"><abbr>μ</abbr><ex>μερκιάριος</ex></supplied></expan> <expan><supplied reason="lost"><abbr>Θ</abbr></supplied>
+                          <lb n="6" break="no"/><abbr>εσ</abbr><ex>σ</ex><abbr>αλο</abbr><supplied reason="lost"><abbr>ν</abbr><ex>ίκης</ex></supplied></expan><!-- deuxième sigma pas forcément nécessaire -->
+                               </ab>
+                  </div>
+
+
+
+              </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="face" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <lb n="0"/>ΚΕΟ......ΝΡ
+                       </ab>
+                   </div>   
+                 
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                          <lb n="1"/>ΑΝΡΕ..
+                          <lb n="2"/>ΣΠΑΘ..
+                          <lb n="3"/>ΧΟΣ...
+                          <lb n="4"/>ΑΡϗΚ..
+                         <lb n="5"/>ΕΣΑΛΟ.
+                        
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>Κύριε βοήθει τῷ σῷ δούλῳ Ἀνδρέᾳ / + Ἀνδρέας βασιλικὸς σπαθάριος ξενωδώχος καὶ βαρδάριος καὶ κουμμερκιάριος Θεσσαλονίκης.</p>
+                  <p xml:lang="en">Lord help your servant Andreas. Andreas, imperial spatharios, <hi rend="italic">xenodochos</hi>, <hi rend="italic">bardarios</hi> and kommerkiarios of Thessaloniki.</p>
+                  <p xml:lang="fr">Seigneur aide ton serviteur André. André, spathaire impérial, <hi rend="italic">xénodochos</hi>, <hi rend="italic">bardarios</hi> et commerciaire de Thessalonique.</p>
+              </div>
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Thessalonique fut la seule
+                      grande ville de l’Illyricum à ne pas succomber aux
+                      invasions avares, slaves ou bulgares. Elle devint un
+                      thème au début du IXe siècle, sans doute en raison
+                      de la menace bulgare consécutive à la défaite et à
+                      la mort de l’empereur Nicéphore Ier en 811. Sa
+                      situation au débouché du Vardar en fit un port très
+                      bien placé pour les relations commerciales avec
+                      les Slaves et surtout les Bulgares. C’est pour cette
+                      raison que Thessalonique abritait non seulement un
+                      commerciaire, mais un <hi rend="italic">abydikos</hi>, un <hi rend="italic">bardarios</hi> et un
+                      <hi rend="italic">paraphylax</hi> pour garder la forteresse.
+                      Le seul André, commerciaire de Thessalonique, que nous connaissons, est beaucoup plus ancien et donc
+                      sans lien avec le nôtre. André cumulait plusieurs fonctions, celle classique de commerciaire, celle plus rarement
+                      attestée à Thessalonique de <hi rend="italic">xénodochos</hi>, celle enfin de <hi rend="italic">bardarios</hi>. Cette dernière fonction est attestée sur des
+                      sceaux datant principalement du Xe siècle, sans doute de l’époque de paix avec les Bulgares, entre la mort de
+                      Syméon et l’arrivée des Russes dans les Balkans. Nous connaissons deux autres <hi rend="italic">bardarioi</hi> de Thessalonique,
+                      Pardos et Kosmas[1], et deux <hi rend="italic">bardarioi</hi> qui ne sont pas liés à un toponyme, mais qu’on supposera en relation avec
+                      Thessalonique, Pèsôtas et Andronic[2]. André levait donc le <hi rend="italic">kommerkion</hi> dans le port de Thessalonique, recevait
+                      dans son <hi rend="italic">xénodocheion</hi> les hôtes officiels et surveillait le commerce avec les Bulgares.
+                  </p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1]  Pour Pardos, G. Schlumberger, Sceaux byzantins inédits (Cinquième série), <hi rend="italic">Revue numismatique</hi> IV, sér. 9, 1905, no 204. Pour
+                      Kosmas, Wassiliou-Seibt et Seibt, <hi rend="italic">Bleisiegel</hi> II, no 224.
+                  </p> 
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2]  Pour Pisôtas, Jordanov, <hi rend="italic">Corpus</hi> III, nos 324-347. La plupart des nombreux sceaux de Pisôtas ont été trouvés sur le sol bulgare, ce
+                      qui prouve le rôle de ce fonctionnaire dans le commerce avec les Bulgares, qui empruntaient la voie fluviale du Vardar. Pour Andronic,
+                      Cheynet – Bulgurlu – Gökyildirim, <hi rend="italic">Istanbul</hi>, no 4.34.
+                  </p> 
+                  
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">159</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                         
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>

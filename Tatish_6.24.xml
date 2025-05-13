@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- last changed before 1.0 version release 2021-08-02 --><!-- last changed before 1.1 release: 2023-03-12 / 2023-04-17 --><!-- ongoing changes to 2.0: march 2024 --><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Basile, évêque de Magnésie</title>
+                <title xml:lang="en">Seal of Basil, bishop of Magnesia</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche Forschungsgemeinschaft (DFG)</orgName>, Deutschland
+                </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Amélioration digitale</seg>
+                    <seg xml:lang="en">Digital enhancement</seg>
+                </edition>
+                <editor role="digital-editor" xml:id="NB" when="2024-05-28">Numa Buchs</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Tatish_6.24</idno>
+                <idno type="SigiDocID"/>
+                <idno type="sequence"/>
+                <date when="2024-03-03"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="secular-church">
+                        <persName xml:lang="grc">
+                            <forename>Βασίλειος</forename>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Basile</forename>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Basil</forename>
+                        </persName>                 
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">Turquie</seg>
+                            <seg xml:lang="en">Turkey</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">Izmir</seg>
+                            <seg xml:lang="en">Izmir</seg>
+                        </settlement>
+                        <institution/> 
+                        <repository/> 
+                        <collection type="private" xml:lang="en" ref="URI"><rs type="collection-name" xml:lang="en">
+                            <persName role="issuer" ref="https://viaf.org/viaf/48683064/">Yavuz Tatış</persName> collection
+                        </rs></collection>
+                         
+                        <idno type="inv-nr-current">2104</idno>
+                        <altIdentifier>
+                            <repository/>
+                             
+                             
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="en">Secular Church</seg>
+                            <seg xml:lang="fr">Église séculière</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                                        <interp type="workType" xml:lang="en">Original impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter">21</dim>
+                                    </dimensions>
+                                    <measure type="weight" unit="g">6,68</measure>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="blank-too-small"> 
+                                    <p xml:lang="fr">Echancré à l’orifice supérieur du canal placé à l’horizontale ; flan trop petit ; usure sur les deux faces</p>
+                                    <p xml:lang="en">Notched at the top of the horizontal channel; blank too small; wear on both sides</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc"/>
+                                        <idno type="PBW"/>
+                                    </rs>                                     
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1001" notAfter="1050" evidence="epigraphy" cert="high" resp="#JCC">
+                                <seg xml:lang="fr">XIe siècle (première moitié)</seg>
+                                <seg xml:lang="en">11th C. (first half)</seg>
+                            </origDate>  
+                        </origin> 
+                        <provenance type="found" subtype="discovered"> 
+                            <placeName type="ancientFindspot" ref="URI" xml:lang=""/> 
+                            <placeName type="modernFindspot" ref="URI" xml:lang=""/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="" otherLangs="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">21</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec légende en colonnes</p>
+                                        <p xml:lang="en">Iconography with legend in columns</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" xml:lang="fr">Buste d’un saint de face, aux traits peu nets, chevelure ramassée au sommet du crâne, tenant
+                                            en main droite la croisette des martyrs</figDesc>
+                                        <figDesc n="r" xml:lang="en">Bust of a frontal saint, with unclear features, hair gathered at the top of the skull, holding the martyrs' cross in his right hand</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Bordure</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Border</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="">
+                                <seg xml:lang=""/>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter">21</dim>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                                        <p xml:lang="en">Linear legend of 5 lines</p> 
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="v" xml:lang="fr"/>
+                                        <figDesc n="v" xml:lang="en"/>
+                                        <figDesc n="decoV" xml:lang=""/>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p/></editorialDecl>
+            <charDecl>     
+                <glyph xml:id="cross">
+                    <mapping type="standard">+</mapping>
+                    <mapping type="simplified">(cross)</mapping>
+                </glyph>
+           </charDecl> 
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script: Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-06-23" who="#AS"/>
+            <change when="2024-05-28" who="#NB">Filled in metadata in new template</change>
+        </revisionDesc>
+      </teiHeader>
+      <facsimile>
+          <surfaceGrp>
+              <surface n="r">
+                  <desc>Obverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the obverse (2019).</desc>
+                  </graphic>
+              </surface>
+              <surface n="v">
+                  <desc>Reverse</desc>
+                  <graphic url="https://www.abcde.com" type="digital">
+                      <desc>Digital image of the reverse (2019).</desc>
+                  </graphic>
+              </surface>
+          </surfaceGrp>
+      </facsimile>
+      <text>
+          <body>
+              <div type="edition" subtype="editorial" xml:space="preserve">
+   <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                          <cb n="a"/><gap reason="lost" quantity="1" unit="character"/><orig>κοδ</orig>
+                        <cb n="b"/><gap reason="lost" extent="unknown" unit="character"/>
+                      </ab>
+                  </div>
+                 
+             
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                           <lb n="1"/><supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></supplied> <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied> 
+                          <lb n="2"/><supplied reason="lost">τ</supplied>ῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan>
+                          <lb n="3"/><expan><supplied reason="lost"><abbr>Β</abbr></supplied><abbr>ασιλ</abbr><ex>ε</ex><abbr>ίῳ</abbr></expan><!-- epsilon nécessaire? -->
+                          <lb n="4"/><expan><supplied reason="lost"><abbr>ἐ</abbr></supplied><abbr>πισκόπ</abbr><ex>ῳ</ex></expan> 
+                          <lb n="5"/><expan><abbr>Μαγν</abbr><ex>η</ex><abbr>σ</abbr>
+                          <lb n="6" break="no"/><supplied reason="lost"><ex>ε</ex><abbr>ί</abbr></supplied><abbr>α</abbr><ex>ς</ex></expan><!-- epsilon nécessaire? -->
+                               </ab>
+                          </div>
+
+            </div>
+              <div type="edition" subtype="diplomatic" xml:space="preserve">
+                 <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                       <ab>
+                      <lb n="0"/>.|Κ̣Ο|Δ̣
+                       </ab>
+                     </div>   
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                     <ab>
+                          
+                           <lb n="1"/>....
+                           <lb n="2"/>.Σ̣Δ
+                         <lb n="3"/>.ΑΣΙΛΙ
+                         <lb n="4"/>.ΠΙΣΚΟΠ
+                         <lb n="5"/>Μ̣ΑΓΝΣ
+                         <lb n="6"/>.Α̣
+                     </ab>
+                  </div>
+              </div>
+              <div type="apparatus">
+                  <listApp>
+                      <app xml:lang=""/>
+                  </listApp>
+              </div>
+              <div type="translation">
+                  <p>... Κοδ  / Κύριε βοήθει τῷ σῷ δούλῳ Βασιλείῳ ἐπισκόπῳ Μαγνησείας.</p>
+                  <p xml:lang="en">Lord help your servant Basil, bishop of Magnesia.</p>
+                  <p xml:lang="fr">Seigneur aide ton serviteur Basile, évêque de Magnésie.</p>
+              </div>
+         
+              <div type="commentary" subtype="text">
+                  <p xml:lang="fr">Des évêques de Magnésie ont placé au droit de leur sceau l’effi gie de saint
+                      Kodratos en buste, en tenue épiscopale[1].
+                      Notre sceau semble correspondre à la pièce signalée par G. Schlumberger dans sa collection personnelle,
+                      éditée avec les mêmes abréviations, mais sans fac-similé, dans G. Schlumberger, Sceaux byzantins inédits,
+                      <hi rend="italic">Revue des études grecques</hi> 13, 1900, no 151, p. 469 et reproduite dans lAurent, Corpus V/1, no 271, mais
+                      l’effi gie au droit serait saint Nicolas, sans autre précision.
+                      Une autre bulle bilatérale d’un évêque de Magnésie lui aussi appelé Basile, se trouve dans une collection
+                      privée à Moscou. Il est un peu plus jeune que notre sigillant. On ignore dans quelle Magnésie il siégeait, mais
+                      il est à différencier du nôtre[2].</p>
+              </div>
+              <div type="commentary" subtype="footnotes">
+                  <p xml:lang="fr" xml:id="footnote-1">
+                      [1] Athènes, éd. Konstantopoulos, <hi rend="italic">Μολυβδοβούλλα</hi>, no 131α ; lAurent, Corpus V/I, no 270 ; coll. Seyrig, éd. Cheynet – Morrisson
+                      – seibt, <hi rend="italic">Seyrig</hi>, no 257.
+                  </p>
+                  <p xml:lang="fr" xml:id="footnote-2">
+                      [2] Alekséenko, « I carve… » , p. 24.
+                  </p>
+              </div>
+              <div type="bibliography" subtype="edition">
+                  <p>
+                      <bibl>
+                          <ptr target="CheynetTatış"/>, <citedRange unit="page">299</citedRange>
+                      </bibl>
+                  </p>
+              </div>
+              <div type="bibliography" subtype="parallels"> 
+                      <bibl>
+                          <ptr target="xxx"/>, <citedRange unit="page"/>
+                          
+                      </bibl>
+              </div>
+          </body>
+      </text>
+</TEI>
